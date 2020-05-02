@@ -1,0 +1,38 @@
+baseURL = "www.apiobuild.com"
+languageCode = "en-us"
+title = "apio"
+themesDir = "themes"
+theme = "custom-theme"
+relativeURLs = true
+
+[params]
+  google_analytics_id="UA-71133003-2"
+
+[params.meta]
+  meta_description = "apio is a solution marketplace that connects developers to impactful projects and business to build projects of any size"
+  meta_og_type = "services"
+  og_image = "images/logo.png"
+  meta_twitter_card = "summary"
+  meta_twitter_site = "@l1990790120"
+
+[[menu.main]]
+	name = "WHY US"
+	url = "#why-us"
+    weight = 1
+
+[[menu.main]]
+    name = "CONTACT US"
+    url = "#businesses"
+    weight = 2
+
+[[menu.main]]
+    name = "TEAM"
+    url = "#team"
+    weight = 3
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
+
+[markup.goldmark.renderer]
+  unsafe= true

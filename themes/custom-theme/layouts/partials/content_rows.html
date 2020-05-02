@@ -1,0 +1,31 @@
+<a class="anchor" id="{{ .contentName }}"></a>
+<div class="container-fluid p-0 m-0">
+  {{ $headless := .Site.GetPage .contentName }}
+  {{ $reusablePages := $headless.Resources.ByType "page" }}
+  {{ $reusablePages := sort $reusablePages ".Params.weight" }}
+  {{ range $reusablePages }}
+  <div
+    id="{{ .Params.Anchor }}"
+    class="strip"
+    style="background-image: url('{{ .Params.background | relURL }}');"
+  >
+    <div class="container py-5 mx-1">
+      <div class="row py-5">
+        <div
+          class="col-12 col-md-{{ .Params.width }} offset-md-{{ .Params.offset }}"
+        >
+          <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+          <p>{{ .Content }}</p>
+          {{ if .Params.button }}
+          <button type="button" class="btn btn-light">
+            <a class="button" href="{{ .Params.buttonLink | relURL }}"
+              >{{ .Params.button }}</a
+            >
+          </button>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
