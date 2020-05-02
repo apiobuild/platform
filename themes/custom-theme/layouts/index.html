@@ -1,0 +1,7 @@
+{{ define "main" }}
+
+{{ partial "content_rows.html" (dict "Site" .Site "contentName" "why-us") . }}
+{{ partial "content_rows.html" (dict "Site" .Site "contentName" "contact") . }}
+{{ partial "team" .}}
+
+{{ end }}

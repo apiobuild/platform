@@ -1,0 +1,17 @@
+{
+  "name": "custom-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path node_modules theme.scss static/css/theme.css",
+    "watch": "node-sass --watch --include-path node_modules theme.scss static/css/theme.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.14.0"
+  }
+}
