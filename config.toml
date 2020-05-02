@@ -1,15 +1,17 @@
 baseURL = "www.apiobuild.com"
-languageCode = "en-us"
 title = "apio"
+languageCode = "en-us"
 themesDir = "themes"
 theme = "custom-theme"
 relativeURLs = true
+googleAnalytics = "UA-71133003-2"
+
 
 [params]
-  google_analytics_id="UA-71133003-2"
+  footer = "Made by Lulu in her free time."
 
 [params.meta]
-  meta_description = "apio is a solution marketplace that connects developers to impactful projects and business to build projects of any size"
+  meta_description = "apio is a platform connecting developers to impactful projects and business to partners to build solutions of any size"
   meta_og_type = "services"
   og_image = "images/logo.png"
   meta_twitter_card = "summary"
@@ -21,8 +23,8 @@ relativeURLs = true
     weight = 1
 
 [[menu.main]]
-    name = "CONTACT US"
-    url = "#businesses"
+    name = "CONTACT"
+    url = "#contact"
     weight = 2
 
 [[menu.main]]
