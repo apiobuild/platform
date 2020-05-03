@@ -11,7 +11,7 @@ googleAnalytics = "UA-71133003-2"
   footer = "Made by Lulu in her free time."
 
 [params.meta]
-  meta_description = "apio is a platform connecting developers and businesses to impactful software solutions of any size"
+  meta_description = "apio is a platform connecting developers and businesses to build impactful software solutions of any size"
   meta_og_type = "services"
   og_image = "images/favicon.png"
   meta_twitter_card = "summary"
