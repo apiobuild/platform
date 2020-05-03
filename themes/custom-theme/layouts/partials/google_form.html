@@ -1,7 +1,7 @@
 <div id="form-container" class="container-fluid">
   <iframe
     id="business-form"
-    onload="setIframeSize();"
+    onload="setIframeSize()"
     src="https://docs.google.com/forms/d/e/1FAIpQLSdZ3_LKgWJOloE0SKP7GuHNNXkR2lu5BDTnl_AxmIG_v6Sx7Q/viewform?embedded=true"
     width="100%"
     frameborder="0"
@@ -14,26 +14,16 @@
 </div>
 
 <script type="text/javascript">
+  let form = document.getElementById("business-form");
+  let formDiv = document.getElementById("form-container");
+
   function setIframeSize() {
-    function getAndSetSize() {
-      let form = document.getElementById("business-form");
-      window.postMessage(form.scrollHeight, "/");
-      let formDiv = document.getElementById("form-container");
-      formDiv.style.height = form.scrollHeight + "pt";
-      console.log("set form div height: ", formDiv.style.height);
-    }
-    getAndSetSize();
-
-    if ($(window).width() <= 480) {
-      getAndSetSize();
-    }
-
-    if ($(window).width() <= 420) {
-      getAndSetSize();
-    }
-
-    if ($(window).width() <= 360) {
-      getAndSetSize();
-    }
+    formDiv.style.height = "";
+    // just use 1200
+    // impossible to detect iframe content height on cross-origin
+    // yes it's possible if you have control over the iframe, but I don't
+    formDiv.style.height = 1200 + "pt";
+    // debugging log
+    // console.log("set form div height: ", formDiv.style.height);
   }
 </script>

@@ -23,8 +23,8 @@ googleAnalytics = "UA-71133003-2"
     weight = 1
 
 [[menu.main]]
-    name = "CONTACT"
-    url = "#contact"
+    name = "SIGN UP"
+    url = "#sign-up"
     weight = 2
 
 [[menu.main]]
