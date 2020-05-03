@@ -1,9 +1,8 @@
 ---
-title: 'Businesses Partners'
-anchor: 'businesses'
+title: 'Business Partners'
+anchor: 'business'
 weight: 1
 offset: 2
-width: 8
 background: 'images/business.png'
 button: 'Contact Us'
 buttonLink: 'forms/business'

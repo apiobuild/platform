@@ -1,12 +1,10 @@
 ---
-title: "Developers"
-anchor: "developers"
+title: "Developer"
+anchor: "developer"
 weight: 2
-offset: 6
-width: 6
+offset: 2
 background: "images/developers.jpg"
-button: "Sign Up For Waitlist"
-buttonLink: "explore"
+signup: true
 ---
 
 Build impactful solutions. Get paid by contribution.

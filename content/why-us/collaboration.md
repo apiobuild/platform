@@ -4,7 +4,6 @@ title: 'Collaboration'
 anchor: 'collaboration'
 weight: 2
 offset: 2
-width: 8
 ---
 
 ## Find Partners with Shared Visions
