@@ -1,14 +1,6 @@
 $body-bg: #fefefe;
 $body-color: #111;
 
-$theme-colors: (
-  "primary": #ffd700,
-  "danger": #ff4136,
-);
-
-$primary: #ffd700;
-$secondary: #4682b4;
-
 $enable-rounded: false;
 $enable-shadows: true;
 $enable-gradients: true;
@@ -23,10 +15,14 @@ body {
 
 // full screen banner mask
 .banner {
-  background-color: $primary;
+  background-color: $yellow;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.banner-404 {
+  background-color: $secondary
 }
 
 .strip {
@@ -70,4 +66,9 @@ a.anchor {
   min-height: 250pt;
   min-width: 200pt;
   max-width: 300pt;
+}
+
+// info-card
+.info-card {
+  background-color: rgba(245, 245, 245, 0.6) !important;
 }

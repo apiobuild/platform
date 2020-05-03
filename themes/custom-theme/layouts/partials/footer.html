@@ -1,7 +1,18 @@
 <footer class="footer">
   <nav class="navbar sticky-bottom bg-dark">
-    <div class="container text-light">
-      {{ .Site.Params.footer }}
+    <div class="container-fluid text-light">
+      <div class="row container-fluid">
+        <div class="col">
+          {{ .Site.Params.footer }}
+        </div>
+      </div>
+      <div class="row container-fluid">
+        <div class="col text-right">
+          <a class="text-secondary" href="https://stories.freepik.com/)"
+            >Illustration by Stories by Freepik</a
+          >
+        </div>
+      </div>
     </div>
   </nav>
 </footer>
