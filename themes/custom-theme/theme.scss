@@ -30,9 +30,23 @@ body {
 }
 
 .strip {
-  background-color: lightslategray;
-  background-blend-mode: overlay;
+  background-color: $body-bg;
   background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
+
+.strip-overlay {
+  background-blend-mode: overlay;
+}
+
+.strip-contain {
+  background-size: contain;
+}
+
+.strip-cover {
+  background-color: lightgray;
+  background-blend-mode: overlay;  
   background-size: cover;
 }
 

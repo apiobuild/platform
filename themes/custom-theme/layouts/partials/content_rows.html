@@ -4,19 +4,11 @@
   {{ $reusablePages := $headless.Resources.ByType "page" }}
   {{ $reusablePages := sort $reusablePages ".Params.weight" }}
   {{ range $reusablePages }}
-  {{ if .Params.background }}
   <div
     id="{{ .Params.Anchor }}"
-    class="strip"
-    style="background-image: url('{{ .Params.background | relURL }}');"
+    class="strip {{ if .Params.backgroundSize  }}strip-{{ .Params.backgroundSize }}{{ else }}strip-contain{{ end }}"
+    style="background-image: {{ if .Params.background }} url('{{ .Params.background | relURL }}') {{ else }} unset {{ end }}"
   >
-  {{ else }}
-  <div
-    id="{{ .Params.Anchor }}"
-    class="strip"
-    style="background-color: unset"
-  >
-  {{ end }}
     <div class="container py-5 mx-0">
       <div class="row py-5">
         <div
