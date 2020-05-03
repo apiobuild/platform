@@ -4,6 +4,7 @@ title: 'Built for Any Size'
 anchor: 'flexibility'
 weight: 3
 offset: 2
+background: 'images/flexibility.png'
 ---
 
 ## The à la carte vendor solution that suits your budget and need

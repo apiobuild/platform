@@ -1,14 +1,20 @@
-{{ define "empty_navbar" }}
-{{ partial "empty_navbar.html" . }}
-{{ end }}
-
-{{ define "main"}}
-<div class="container text-center align-items-center py-5">
-  <h1><i class="far fa-sad-tear"></i> 404</h1>
-  <h3>
-    <a href="{{ "/" | relURL }}">
-      Let's to go home!
-    </a>
-  </h3>
+{{ define "banner"}}
+<div
+  class="banner container-fluid h-100"
+  style="background-image: url('/images/404.png')"
+>
+  <div 
+    class="row text-center align-middle align-items-center justify-content-center"
+    style="height: 100%;"
+  >
+    <span>
+    <h1><i class="far fa-sad-tear"></i> 404 </h1>
+    <h3>
+      <a href="{{ "/" | relURL }}">
+        <button type="button" class="btn btn-lg btn-secondary">go home</button>
+      </a>
+    </h3>
+    </span>
+  </div>
 </div>
 {{ end }}
