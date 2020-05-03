@@ -6,4 +6,7 @@ background: 'images/ideas.jpg'
   
 # Reimagined
 
-Connecting developers to building impactful software solutions.
+<br>
+
+### Connecting developers to building impactful softwares.
+

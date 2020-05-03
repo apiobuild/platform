@@ -5,6 +5,9 @@ $enable-rounded: false;
 $enable-shadows: true;
 $enable-gradients: true;
 
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+$font-family-base: 'Lato', sans-serif;
+
 @import "bootstrap/scss/bootstrap";
 
 // full screen banner
@@ -15,7 +18,7 @@ body {
 
 // full screen banner mask
 .banner {
-  background-color: $yellow;
+  background-color: rgba($yellow, 1);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,14 +29,11 @@ body {
 }
 
 .strip {
-  background-color: $body-bg;
+  background-color: rgba($white, 0.8);
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: right center;
   background-size: contain;
-}
-
-.strip-overlay {
-  background-blend-mode: overlay;
 }
 
 .strip-contain {
@@ -41,8 +41,6 @@ body {
 }
 
 .strip-cover {
-  background-color: lightgray;
-  background-blend-mode: overlay;  
   background-size: cover;
 }
 
