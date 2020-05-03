@@ -7,7 +7,7 @@
   <div
     id="{{ .Params.Anchor }}"
     class="strip {{ if .Params.backgroundSize  }}strip-{{ .Params.backgroundSize }}{{ else }}strip-contain{{ end }}"
-    style="background-image: {{ if .Params.background }} url('{{ .Params.background | relURL }}') {{ else }} unset {{ end }}"
+    style="background-image: {{ if .Params.background }} url('{{ .Params.background | absURL }}') {{ else }} unset {{ end }}"
   >
     <div class="container py-5 mx-0">
       <div class="row py-5">
@@ -18,7 +18,7 @@
           <p>{{ .Content }}</p>
           {{ if .Params.button }}
           <button type="button" class="btn btn-light">
-            <a class="button" href="{{ .Params.buttonLink | relURL }}"
+            <a class="button" href="{{ .Params.buttonLink | absURL }}"
               >{{ .Params.button }}</a
             >
           </button>
