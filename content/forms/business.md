@@ -1,5 +1,6 @@
 ---
-title: "Contact Us"
+title: "Tell Us About Your Project!"
+layout: "form"
 ---
 
-Tell us more details the solution you need help with!
+We'd love to learn more details about your project.

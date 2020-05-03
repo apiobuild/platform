@@ -1,4 +1,4 @@
-<div id="form-container">
+<div id="form-container" class="container-fluid">
   <iframe
     id="business-form"
     onload="setIframeSize();"
@@ -18,17 +18,22 @@
     function getAndSetSize() {
       let form = document.getElementById("business-form");
       window.postMessage(form.scrollHeight, "/");
-      window.addEventListener(
-        "message",
-        function (event) {
-          formDiv = document.getElementById("form-container");
-          formDiv.style.height = event.data * 1.15 + "pt";
-          console.log("set", formDiv.style.height, new Date().getTime());
-        },
-        false
-      );
+      let formDiv = document.getElementById("form-container");
+      formDiv.style.height = form.scrollHeight + "pt";
+      console.log("set form div height: ", formDiv.style.height);
     }
     getAndSetSize();
-    setTimeout(getAndSetSize, 50);
+
+    if ($(window).width() <= 480) {
+      getAndSetSize();
+    }
+
+    if ($(window).width() <= 420) {
+      getAndSetSize();
+    }
+
+    if ($(window).width() <= 360) {
+      getAndSetSize();
+    }
   }
 </script>

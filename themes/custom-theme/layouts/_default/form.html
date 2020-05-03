@@ -1,0 +1,15 @@
+{{ define "empty_navbar" }}
+{{ partial "empty_navbar.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container py-5 px-sm-3">
+    <div class="row py-5 px-3">
+      <h1>{{ .Title }}</h1>
+    </div>
+    <div class="row pb-5 px-3">
+    {{ .Content }}
+    </div>
+    {{ partial "google_form.html" . }}
+</div>
+{{ end }}
