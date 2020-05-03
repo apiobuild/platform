@@ -3,7 +3,6 @@ title: 'Sustainability'
 anchor: 'sustainability'
 weight: 1
 offset: 2
-width: 8
 ---
 
 ## Long Lasting Custom Technology Solutions

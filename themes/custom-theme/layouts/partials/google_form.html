@@ -1,0 +1,29 @@
+<div id="form-container" class="container-fluid" style="min-width: 200pt;">
+  <iframe
+    id="business-form"
+    onload="setIframeSize()"
+    src="https://docs.google.com/forms/d/e/1FAIpQLSdZ3_LKgWJOloE0SKP7GuHNNXkR2lu5BDTnl_AxmIG_v6Sx7Q/viewform?embedded=true"
+    width="100%"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    style="height: -webkit-fill-available;"
+  >
+    Loading…
+  </iframe>
+</div>
+
+<script type="text/javascript">
+  let form = document.getElementById("business-form");
+  let formDiv = document.getElementById("form-container");
+
+  function setIframeSize() {
+    formDiv.style.height = "";
+    // just use 1200
+    // impossible to detect iframe content height on cross-origin
+    // yes it's possible if you have control over the iframe, but I don't
+    formDiv.style.height = 1200 + "pt";
+    // debugging log
+    // console.log("set form div height: ", formDiv.style.height);
+  }
+</script>

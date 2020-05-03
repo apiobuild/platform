@@ -1,0 +1,14 @@
+{{ define "empty_navbar" }}
+{{ partial "empty_navbar.html" . }}
+{{ end }}
+
+{{ define "main"}}
+<div class="container text-center align-items-center py-5">
+  <h1><i class="far fa-sad-tear"></i> 404</h1>
+  <h3>
+    <a href="{{ "/" | relURL }}">
+      Let's to go home!
+    </a>
+  </h3>
+</div>
+{{ end }}

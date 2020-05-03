@@ -4,17 +4,25 @@
   {{ $reusablePages := $headless.Resources.ByType "page" }}
   {{ $reusablePages := sort $reusablePages ".Params.weight" }}
   {{ range $reusablePages }}
+  {{ if .Params.background }}
   <div
     id="{{ .Params.Anchor }}"
     class="strip"
     style="background-image: url('{{ .Params.background | relURL }}');"
   >
-    <div class="container py-5 mx-1">
+  {{ else }}
+  <div
+    id="{{ .Params.Anchor }}"
+    class="strip"
+    style="background-color: unset"
+  >
+  {{ end }}
+    <div class="container py-5 mx-0">
       <div class="row py-5">
         <div
-          class="col-12 col-md-{{ .Params.width }} offset-md-{{ .Params.offset }}"
+          class="col offset-md-{{ .Params.offset }}"
         >
-          <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+          <h1 class="text-capitalize">{{ .Title }}</h1>
           <p>{{ .Content }}</p>
           {{ if .Params.button }}
           <button type="button" class="btn btn-light">
@@ -24,8 +32,13 @@
           </button>
           {{ end }}
         </div>
+        {{ if .Params.signup }}
+        <div class="col">
+        {{ partial "email_signup.html" . }}
+        {{ end }}
+        </div>
       </div>
     </div>
-  </div>
   {{ end }}
+  </div>
 </div>

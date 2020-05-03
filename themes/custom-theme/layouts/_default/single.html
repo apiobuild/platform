@@ -1,5 +1,12 @@
+{{ define "empty_navbar" }}
+{{ partial "empty_navbar.html" . }}
+{{ end }} 
+
 {{ define "main" }}
-<div class="container">
-    <p>This from the single page template</p>
+<div class="container py-5">
+  <div class="row py-5">
+    <h1>{{ .Title }}</h1>
+  </div>
+  {{ .Content }}
 </div>
 {{ end }}
