@@ -18,17 +18,17 @@ googleAnalytics = "UA-71133003-2"
   meta_twitter_site = "@l1990790120"
 
 [[menu.main]]
-	name = "WHY US"
+	name = "why us"
 	url = "#why-us"
     weight = 1
 
 [[menu.main]]
-    name = "SIGN UP"
+    name = "sign up"
     url = "#sign-up"
     weight = 2
 
 [[menu.main]]
-    name = "TEAM"
+    name = "team"
     url = "#team"
     weight = 3
 
