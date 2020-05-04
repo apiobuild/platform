@@ -18,8 +18,6 @@ body {
 
 // full screen banner mask
 .banner {
-  background-color: rgba($yellow, 1);
-  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -29,7 +27,7 @@ body {
 }
 
 .strip {
-  background-color: rgba($white, 0.8);
+  background-color: rgba($white, 0.65);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: right center;
