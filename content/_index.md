@@ -1,5 +1,5 @@
 ---
-background: 'images/ideas.jpg'
+background: 'images/ideas.png'
 ---
 
 ## Custom Technology Solutions
