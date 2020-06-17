@@ -1,7 +1,7 @@
 ---
 title: Yu Chien Liu
 weight: 2
-profile_img: images/yuchien.jpeg
-description: Project manager who lost all her projects immediately after corona virus outbreak.
+profile_img: images/yuchien.png
+description: Project Manager who brings creative's idea to life
 linkedin: https://www.linkedin.com/in/yuchienliu/
 ---
