@@ -1,0 +1,44 @@
+{{ define "empty_navbar" }}
+{{ partial "empty_navbar.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="container py-5">
+  <div class="row">
+    <!-- <h1>
+        {{ .Title }}
+    </h1> -->
+  </div>
+</div>
+
+<div class="container pt-6 pb-md-12">
+  <div class="row">
+    {{ range .Pages }}
+    <div class="col-4">
+      <a href="{{.Permalink}}" style="text-decoration: none">
+        <div class="card">
+          <img class="card-img-top" src="{{ .Params.intro_image }}" style="max-width: 100%;"/>
+          <div class="card-body px-3 py-3">
+            <h5> {{.Title}} </h5>
+            <p style="color: black;"> {{.Date.Format "2006-01-02"}} • {{ .ReadingTime }} min read </p>
+          </div>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+.card {
+  transition: box-shadow .3s;
+  background: #fff;
+  float: left; 
+}
+.card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+</style>
+
+{{ end }}
