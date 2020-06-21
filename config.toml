@@ -41,5 +41,9 @@ googleAnalytics = "UA-71133003-2"
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
 
-[markup.goldmark.renderer]
-  unsafe= true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe= true
+  [markup.highlight]
+    style = "rainbow_dash"
