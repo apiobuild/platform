@@ -1,6 +1,6 @@
 ---
-title: "Introducing Waitress: A Google Sheet API Service for Email Sign Up and Beyond"
-intro_image: https://media.giphy.com/media/3o6vXV8xLaq2Dc1Mkg/giphy.gif
+title: "Collect Email Addresses without Email Marketing Tools"
+intro_image: /images/blog/email.png
 date: 2020-06-17
 tags: ["waitress", "telescope", "announcement", "email", "marketing", "google", "sheets"]
 ---
