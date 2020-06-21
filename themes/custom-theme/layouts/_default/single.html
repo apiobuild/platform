@@ -3,10 +3,17 @@
 {{ end }} 
 
 {{ define "main" }}
-<div class="container py-5">
-  <div class="row py-5">
+<div class="container offset-md-2 col-md-8 py-5">
+  <div class="container py-5">
     <h1>{{ .Title }}</h1>
   </div>
-  {{ .Content }}
+  <div class="container py-5">
+    {{ .Content }}
+  </div>
+  {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+    <div class="conatiner py-5">
+      {{ template "_internal/disqus.html" . }}
+    </div>
+	{{ end }}
 </div>
 {{ end }}

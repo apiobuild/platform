@@ -5,10 +5,13 @@ themesDir = "themes"
 theme = "custom-theme"
 relativeURLs = true
 googleAnalytics = "UA-71133003-2"
-
+disqusShortname = "l1990790120"
 
 [params]
   footer = "Made by Lulu in her free time."
+
+[taxonomies]
+  tag = "tags"
 
 [params.meta]
   meta_description = "apio is a platform connecting developers and businesses to build impactful software solutions of any size"
