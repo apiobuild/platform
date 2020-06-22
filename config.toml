@@ -1,4 +1,4 @@
-baseURL = "www.apiobuild.com"
+baseURL = "apiobuild.com"
 title = "apio"
 languageCode = "en-us"
 themesDir = "themes"
