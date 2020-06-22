@@ -19,7 +19,7 @@
     {{ range .Pages }}
     <div class="col-4">
       <div class="card">
-        <a href="/{{.Permalink}}" style="text-decoration: none">
+        <a href="{{ .Permalink }}" style="text-decoration: none">
           <img class="card-img-top" src="{{ .Params.intro_image }}" style="max-width: 100%;"/>
           <div class="card-body px-3 py-3">
             <h5> {{.Title}} </h5>
