@@ -19,7 +19,7 @@
     {{ range .Pages }}
     <div class="col-4">
       <div class="card">
-        <a href="{{.Permalink}}" style="text-decoration: none">
+        <a href="/{{.Permalink}}" style="text-decoration: none">
           <img class="card-img-top" src="{{ .Params.intro_image }}" style="max-width: 100%;"/>
           <div class="card-body px-3 py-3">
             <h5> {{.Title}} </h5>
@@ -32,7 +32,7 @@
           {{ if gt $tagsLen 0 -}}
               
               {{ range $k, $v := (sort .Params.tags) -}}
-              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower }}" class="badge badge-light">{{ . }}</a>
+              <a href="/tags/{{ . | urlize | lower }}" class="badge badge-light">{{ . }}</a>
               {{ if lt $k (sub $tagsLen 1) }} &nbsp; {{ end }}
               {{- end }}
           {{- end }}
