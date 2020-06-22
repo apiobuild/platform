@@ -37,7 +37,7 @@ disqusShortname = "l1990790120"
 
 [[menu.main]]
     name = "Blog"
-    url = "blog"
+    url = "/blog"
     weight = 4
 
 [permalinks]
