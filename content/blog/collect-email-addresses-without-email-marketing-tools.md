@@ -45,7 +45,8 @@ Feel free to play around here:
 </div>
 {{< /rawhtml >}}
 
-Which updates the [google sheet we set up here](https://docs.google.com/spreadsheets/d/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U):
+Which updates the 
+<a href="https://docs.google.com/spreadsheets/d/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U" target="_blank">google sheet we set up here</a>:
 
 {{< rawhtml >}}
 <div class="container py-2">
