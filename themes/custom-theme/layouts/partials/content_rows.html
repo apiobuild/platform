@@ -28,6 +28,10 @@
         <div class="col">
         {{ partial "email_signup.html" . }}
         {{ end }}
+        {{ if .Params.product }}
+        <div class="col">
+        {{ partial "product.html" . }}
+        {{ end }}
         </div>
       </div>
     </div>

@@ -79,7 +79,7 @@ Which updates the [google sheet we set up here](https://docs.google.com/spreadsh
 </div>
 
 <script type="text/javascript">
-  let token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhMDYwN2U1LWIzNzctMTFlYS1hNzA3LTRkYjY3ZDFhOWVkMSIsImF1ZCI6Imh0dHBzOi8vYXBpb2J1aWxkLmNvbSIsImlhdCI6MTU5Mjk0NTQ5NiwiaXNzIjoiZ29vZ2xlLW9hdXRoMnwxMTcwOTA3MTM5NjIwMjgxOTMwMzUiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzA5MDcxMzk2MjAyODE5MzAzNSJ9.F2hEqMl2cTY0XHPc48_oHC8MTfKTiRESrMw4qWimTXU"
+  let token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIwZGVhODAxLWI1N2ItMTFlYS1hM2M0LTYzZDEwYzc2ODJkNyIsImF1ZCI6Imh0dHBzOi8vYXBpb2J1aWxkLmNvbSIsImlhdCI6MTU5Mjk0NzM4NSwiaXNzIjoiZ29vZ2xlLW9hdXRoMnwxMTcwOTA3MTM5NjIwMjgxOTMwMzUiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzA5MDcxMzk2MjAyODE5MzAzNSJ9.keyW_WpSS2oPQIo6vIH50S9vi3cwNEOlbCYnkf_FCnU"
   let url =
   "https://trampoline.apiobuild.com/router/waitress/gsheets/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U";
 
