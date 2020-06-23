@@ -12,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "markdown-styles": "^3.1.10",
-    "node-sass": "^4.14.0"
+    "node-sass": "^4.14.1"
   }
 }

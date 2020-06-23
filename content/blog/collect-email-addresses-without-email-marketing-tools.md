@@ -1,6 +1,6 @@
 ---
 title: "Collect Email Addresses without Email Marketing Tools"
-intro_image: /images/blog/email.png
+image: /images/blog/email.png
 date: 2020-06-17
 tags: ["waitress", "telescope", "announcement", "email", "marketing", "google", "sheets"]
 ---
@@ -19,48 +19,108 @@ We've found the answer is actually... quite complicated.
 
 It's a straight-forward tool for small businesses or new blogger to start collecting leads.
 
-#### Live Demo
+### Live Demo
+
 Feel free to play around here:
 
-<div class="card">
-  <div class="card-body">
-    <form>
-      <div class="row">
-        <div class="form-group col-4">
-          <input type="text" class="form-control" id="vname" placeholder="Enter name">  
+{{< rawhtml >}}
+<div class="container py-3">
+  <div class="card">
+    <div class="card-body">
+      <form>
+        <div class="row">
+          <div class="form-group col-4">
+            <input type="text" class="form-control" id="fname" placeholder="Enter name">  
+          </div>
+          <div class="form-group col-6">
+            <input type="text" class="form-control" id="femail" placeholder="Enter email">  
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-primary" onclick="submitForm()">Sign Up</button>
+          </div>
         </div>
-        <div class="form-group col-4">
-          <input type="text" class="form-control" id="vemail" placeholder="Enter email">  
-        </div>
-        <div class="col">
-          <button type="button" class="btn btn-primary" onclick="submitForm()">Sign Up</button>
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
 </div>
-<script>
-function submitForm() {
-let name = document.getElementById('vname').value;
-let email = document.getElementById('vemail').value;
-var http = new XMLHttpRequest();
-var url =
-"https://trampoline.apiobuild.com/router/waitress/gsheets/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U";
-http.open("POST", url, true);
-http.setRequestHeader(
-"Authorization",
-"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhMDYwN2U1LWIzNzctMTFlYS1hNzA3LTRkYjY3ZDFhOWVkMSIsImF1ZCI6Imh0dHBzOi8vYXBpb2J1aWxkLmNvbSIsImlhdCI6MTU5Mjc5MDk5MCwiaXNzIjoiZ29vZ2xlLW9hdXRoMnwxMTcwOTA3MTM5NjIwMjgxOTMwMzUiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzA5MDcxMzk2MjAyODE5MzAzNSJ9.gkeT7JNuwgLp9rf8qlEExl_iwawZx1rK-lFSz8hZKX8"
-);
-http.setRequestHeader("Content-type", "application/json");
-let payload = [
-{
-    Name: name,
-    Email: email,
-},
-];
-http.send(JSON.stringify(payload));
-}
+{{< /rawhtml >}}
+
+Which updates the [google sheet we set up here](https://docs.google.com/spreadsheets/d/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U):
+
+{{< rawhtml >}}
+<div class="container py-2">
+    <div class="card">
+      <div class="card-body">
+        <div class="row py-2">
+          <div class="col-10">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Email</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Created</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="tname">Jane Doe</td>
+                  <td id="temail">janedoe@apiobuild.com</td>
+                  <td id="tcreated">some day in the future ...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-primary" onclick="updateTable()">Update</button>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  let token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIwZGVhODAxLWI1N2ItMTFlYS1hM2M0LTYzZDEwYzc2ODJkNyIsImF1ZCI6Imh0dHBzOi8vYXBpb2J1aWxkLmNvbSIsImlhdCI6MTU5Mjk0NzM4NSwiaXNzIjoiZ29vZ2xlLW9hdXRoMnwxMTcwOTA3MTM5NjIwMjgxOTMwMzUiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzA5MDcxMzk2MjAyODE5MzAzNSJ9.keyW_WpSS2oPQIo6vIH50S9vi3cwNEOlbCYnkf_FCnU"
+  let url =
+  "https://trampoline.apiobuild.com/router/waitress/gsheets/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U";
+
+  function submitForm() {
+    var http = new XMLHttpRequest();
+    http.open("POST", url, true);
+    http.setRequestHeader("Authorization", token);
+    http.setRequestHeader("Content-type", "application/json");
+
+    let name = document.getElementById('fname').value;
+    let email = document.getElementById('femail').value;
+    let created = new Date().toISOString();
+    let payload = [
+    {
+      Name: name,
+      Email: email,
+      Created: created
+    },
+    ];
+    http.send(JSON.stringify(payload));
+  }
+  function updateTable() {
+    let http = new XMLHttpRequest();
+    http.onreadystatechange = function() {
+      if (http.readyState === 4) {
+        let resp = http.response.data;
+        let data = resp[resp.length - 1]
+        document.getElementById('tname').innerHTML = data["Name"];
+        document.getElementById('temail').innerHTML = data["Email"];
+        document.getElementById('tcreated').innerHTML = data["Created"];
+      }
+    }
+    http.responseType = 'json';
+    http.open("GET", url, true);
+
+    http.setRequestHeader("Authorization", token);
+    http.setRequestHeader("Content-type", "application/json");
+    http.send();
+  }
 </script>
+{{< /rawhtml >}}
 
 ## Existing Email List Services Are Complicated
 
@@ -86,7 +146,7 @@ In order to focus on perfecting your product or service, you might not want to p
 
 ## Benefits
 
-#### Waitress is Simple, Easy, and Low-cost
+### Waitress is Simple, Easy, and Low-cost
 
 No need to be overwhelmed by how to make different services talk to each other. **You just need to put a snippet of html code to your website. All the subscription entry will be sent to the Google Sheet automatically.**
 
@@ -94,15 +154,15 @@ Especially you get to use the interface that everyone is already familiar with -
 
 Comparing with market solutions' different pricing tiers, Waitress is billed by request. The first 5000 requests are free, which means **you can collect up to 5000 emails for free!**
 
-#### You Manage Your Own Data
+### You Manage Your Own Data
 
 Remembering the time when you have to download the csv file from your email marketing provider, then struggle with matching the format to another digital tool.
 
 With **[Waitress](https://telescope.apiobuild.com/app/waitress)**, the freedom to manage your own data makes it easier to integrate with any third-party software. **Data is available through API.** It's easily customizable and integrable with other third-party marketing solutions. You can easily connect the subscriber data to ticketing platform, Google Analytics, and more!
 
-#### Make Team Collaboration Smoother
+### Make Team Collaboration Smoother
 
-With the built-in features of Google Sheet, it’s straightforward to manage team members’ sharing permission and collaboration. 
+With the built-in features of Google Sheet, it’s straightforward to manage team members’ sharing permission and collaboration.
 
 There will be no mistakenly deleted contacts anymore. You can also access your list from everywhere, which is great for remote working environments.
 
@@ -116,4 +176,3 @@ Happy emailing.
     max-width: 40%;
 }
 </style>
-
