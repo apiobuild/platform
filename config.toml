@@ -9,6 +9,7 @@ disqusShortname = "l1990790120"
 
 [params]
   footer = "Made by Lulu in her free time."
+  image = "/images/logo_square.png"
 
 [taxonomies]
   tag = "tags"
