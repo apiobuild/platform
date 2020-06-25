@@ -159,7 +159,7 @@ Comparing with market solutions' different pricing tiers, Waitress is billed by 
 
 Remembering the time when you have to download the csv file from your email marketing provider, then struggle with matching the format to another digital tool.
 
-With **<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress</a>**, the freedom to manage your own data makes it easier to integrate with any third-party software. **Data is available through API.** It's easily customizable and integrable with other third-party marketing solutions. You can easily connect the subscriber data to ticketing platform, Google Analytics, and more!
+With **<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress</a>**, you have the freedom to manage your own data makes it easier to integrate with any third-party software. **Data is available through API.** It's easily customizable and integrable with other third-party marketing solutions. You can easily connect the subscriber data to ticketing platform, Google Analytics, and more!
 
 Visit **<a href="https://telescope.apiobuild.com/" target="_blank">Telescope</a>** to view our service offering portfolio .
 
