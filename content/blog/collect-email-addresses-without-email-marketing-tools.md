@@ -7,7 +7,7 @@ tags: ["waitress", "telescope", "announcement", "email", "marketing", "google", 
 
 Collecting emails from website visitors is one of the most crucial ways to grow your audience, whether you’re looking to convert subscribers to customers or to directly communicate to your clients. Like you, we thought this is easy.
 
-However, days looking into various platforms ([MailChimp](https://mailchimp.com/), [Constant Contacts](https://www.constantcontact.com/), [OmniSend](https://www.omnisend.com/), etc.), comparing their tiers/plans, and reading through those articles titled "[Five Best Free Email Marketing Services](https://themeisle.com/blog/best-free-email-marketing-services/)."
+However, days looking into various platforms (<a href="https://mailchimp.com/" target="_blank">MailChimp</a>, <a href="https://www.constantcontact.com/" target="_blank">Constant Contacts</a>, <a href="https://www.omnisend.com/" target="_blank">OmniSend</a>, etc.), comparing their tiers/plans, and reading through those articles titled <a href="https://themeisle.com/blog/best-free-email-marketing-services/" target="_blank">"Five Best Free Email Marketing Services"</a>.
 
 We've found the answer is actually... quite complicated.
 
@@ -15,7 +15,7 @@ We've found the answer is actually... quite complicated.
 
 <img src="/images/blog/sheet.png" class="post-img">
 
-[Waitress](https://telescope.apiobuild.com/app/waitress) is a lightweight API to use Google Sheet as data store for backend applications, sends subscribers’ data from sign-up form to Google Sheet.
+**<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress by apio</a>** is a lightweight API to use Google Sheet as data store for backend applications, sends subscribers’ data from sign-up form to Google Sheet.
 
 It's a straight-forward tool for small businesses or new blogger to start collecting leads.
 
@@ -159,7 +159,9 @@ Comparing with market solutions' different pricing tiers, Waitress is billed by 
 
 Remembering the time when you have to download the csv file from your email marketing provider, then struggle with matching the format to another digital tool.
 
-With **[Waitress](https://telescope.apiobuild.com/app/waitress)**, the freedom to manage your own data makes it easier to integrate with any third-party software. **Data is available through API.** It's easily customizable and integrable with other third-party marketing solutions. You can easily connect the subscriber data to ticketing platform, Google Analytics, and more!
+With **<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress</a>**, the freedom to manage your own data makes it easier to integrate with any third-party software. **Data is available through API.** It's easily customizable and integrable with other third-party marketing solutions. You can easily connect the subscriber data to ticketing platform, Google Analytics, and more!
+
+Visit **<a href="https://telescope.apiobuild.com/" target="_blank">Telescope</a>** to view our service offering portfolio .
 
 ### Make Team Collaboration Smoother
 
@@ -167,7 +169,7 @@ With the built-in features of Google Sheet, it’s straightforward to manage tea
 
 There will be no mistakenly deleted contacts anymore. You can also access your list from everywhere, which is great for remote working environments.
 
-Happy emailing.
+Happy emailing. 📧
 
 <style>
 .post-img {
