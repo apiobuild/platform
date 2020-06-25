@@ -21,6 +21,11 @@ disqusShortname = "l1990790120"
   meta_twitter_card = "summary"
   meta_twitter_site = "@l1990790120"
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [[menu.main]]
 	name = "product"
 	url = "#product"
