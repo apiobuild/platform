@@ -5,11 +5,11 @@ date: 2020-06-17
 tags: ["waitress", "telescope", "announcement", "email", "marketing", "google", "sheets"]
 ---
 
-Collecting emails from website visitors is one of the most crucial ways to grow your audience, whether you’re looking to convert subscribers to customers or to directly communicate to your clients. Like you, we thought this is easy.
+Email sign-ups from website visitors is one of the most crucial ways to grow your audience, whether you’re looking to convert subscribers to customers or to directly communicate to your clients. In this post we'll show how to setup easy email sign-up form for free on your website.
 
-However, days looking into various platforms (<a href="https://mailchimp.com/" target="_blank">MailChimp</a>, <a href="https://www.constantcontact.com/" target="_blank">Constant Contacts</a>, <a href="https://www.omnisend.com/" target="_blank">OmniSend</a>, etc.), comparing their tiers/plans, and reading through those articles titled <a href="https://themeisle.com/blog/best-free-email-marketing-services/" target="_blank">"Five Best Free Email Marketing Services"</a>.
+We built this because after looking into other email marketing platforms (<a href="https://mailchimp.com/" target="_blank">MailChimp</a>, <a href="https://www.constantcontact.com/" target="_blank">Constant Contacts</a>, <a href="https://www.omnisend.com/" target="_blank">OmniSend</a>, etc.), comparing their services, plans, and going through those articles titled <a href="https://themeisle.com/blog/best-free-email-marketing-services/" target="_blank">"Five Best Free Email Marketing Services"</a>.
 
-We've found the answer is actually... quite complicated.
+We've found a simple email sign-up form is actually ... quite complicated - but it doesn't have to be.
 
 ## Introducing Waitress
 
