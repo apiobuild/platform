@@ -123,7 +123,8 @@ Which updates the
 </script>
 {{< /rawhtml >}}
 
-Are you tempted to try this new tool? Click <a href="https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/" target="_blank">here</a> to follow the step-by-step tutorial and start collecting emails today!
+Are you tempted to try this new tool? 
+<a href="https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/" target="_blank">Click here to follow the step-by-step tutorial and start collecting emails today!</a> 
 
 ## Existing Email List Services Are Complicated
 

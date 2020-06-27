@@ -11,6 +11,10 @@
   <div class="container py-5">
     <h1>{{ .Title }}</h1>
   </div>
+  <div class="container">
+    <p style="color: black;"> {{.Date.Format "2006-01-02"}} • {{ .ReadingTime }} min read </p>
+  </div>
+  {{ partial "tags.html" . }}
   <div class="container py-5">
     {{ .Content }}
   </div>

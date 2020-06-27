@@ -1,0 +1,11 @@
+<div class="container py-1">
+{{ if isset .Params "tags" -}}
+{{ $tagsLen := len .Params.tags }}
+{{ if gt $tagsLen 0 -}}
+    {{ range $k, $v := (sort .Params.tags) -}}
+    <a href="/tags/{{ . | urlize | lower }}" class="badge badge-light">{{ . }}</a>
+    {{ if lt $k (sub $tagsLen 1) }} &nbsp; {{ end }}
+    {{- end }}
+{{- end }}
+{{- end }}
+</div>

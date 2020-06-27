@@ -14,6 +14,13 @@
     </div>
   </div>
 
+  <style>
+    .card-img-top{
+      max-width: 100%;
+      height: 100pt;
+      object-fit: contain; 
+    }
+  </style>
   <div class="container pt-6 pb-md-12">
     <div class="row">
       {{ range .Pages }}
@@ -21,27 +28,16 @@
         <div class="card">
           <a href="{{ .Permalink }}" style="text-decoration: none">
             {{ if isset .Params "image" }}
-            <img class="card-img-top" src="{{ .Params.image }}" style="max-width: 100%;"/>
+            <img class="card-img-top" src="{{ .Params.image }}"/>
             {{ else }}
-            <img class="card-img-top" src="{{ .Site.Params.image }}" style="max-width: 100%;" />
+            <img class="card-img-top" src="{{ .Site.Params.image }}" />
             {{ end }}
             <div class="card-body px-3 py-3">
               <h5> {{.Title}} </h5>
               <p style="color: black;"> {{.Date.Format "2006-01-02"}} • {{ .ReadingTime }} min read </p>
             </div>
           </a>
-          <div class="container py-3">
-            {{ if isset .Params "tags" -}}
-            {{ $tagsLen := len .Params.tags }}
-            {{ if gt $tagsLen 0 -}}
-                
-                {{ range $k, $v := (sort .Params.tags) -}}
-                <a href="/tags/{{ . | urlize | lower }}" class="badge badge-light">{{ . }}</a>
-                {{ if lt $k (sub $tagsLen 1) }} &nbsp; {{ end }}
-                {{- end }}
-            {{- end }}
-            {{- end }}
-          </div>
+          {{ partial "tags.html" . }}
         </div>
       </div>
       {{ end }}
