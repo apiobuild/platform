@@ -16,7 +16,7 @@ disqusShortname = "apiobuild-com"
 
 [params.meta]
   meta_description = "apio is a platform connecting developers and businesses to build impactful software solutions of any size"
-  meta_og_type = "services"
+  meta_og_type = "website"
   og_image = "images/favicon.png"
   meta_twitter_card = "summary"
   meta_twitter_site = "@l1990790120"
