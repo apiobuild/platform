@@ -60,4 +60,5 @@ disqusShortname = "l1990790120"
   [markup.goldmark.renderer]
     unsafe= true
   [markup.highlight]
+    noClasses = true
     style = "rainbow_dash"
