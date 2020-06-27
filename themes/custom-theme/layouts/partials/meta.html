@@ -22,6 +22,10 @@
   property="og:description"
   content="{{ .Site.Params.meta.meta_description }}"
 />
+<meta
+  property="og:image"
+  content="{{ .Site.BaseURL }}{{ .Site.Params.headerImage }}"
+/>
 <meta property="og:type" content="{{ .Site.Params.meta.meta_og_type }}" />
 
 {{ end }}
