@@ -7,9 +7,7 @@
     {{- block "banner" . }}{{- end }}
     {{- block "empty_navbar" . }}{{- end }}
 
-    <div id="content" style="min-height: 100%;">
-      {{- block "main" . }}{{- end }}
-    </div>
+    {{- block "main" . }}{{- end }}
     {{- partial "footer.html" . -}}
   </body>
 </html>

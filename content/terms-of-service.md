@@ -1,5 +1,6 @@
 ---
 title: Terms of Service
+disableComments: true
 ---
 
 1. Terms

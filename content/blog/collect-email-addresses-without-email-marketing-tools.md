@@ -5,9 +5,9 @@ date: 2020-06-17
 tags: ["waitress", "telescope", "announcement", "email", "marketing", "google", "sheets"]
 ---
 
-Email sign-ups from website visitors is one of the most crucial ways to grow your audience, whether you’re looking to convert subscribers to customers or to directly communicate to your clients. In this post we'll show how to setup easy email sign-up form for free on your website.
+Email sign-ups from website visitors is one of the most crucial ways to grow your audience, whether you’re looking to convert subscribers to customers or to directly communicate to your clients. In this post we'll show you how to setup easy email sign-up form for free on your website.
 
-We built this because after looking into other email marketing platforms (<a href="https://mailchimp.com/" target="_blank">MailChimp</a>, <a href="https://www.constantcontact.com/" target="_blank">Constant Contacts</a>, <a href="https://www.omnisend.com/" target="_blank">OmniSend</a>, etc.), comparing their services, plans, and going through those articles titled <a href="https://themeisle.com/blog/best-free-email-marketing-services/" target="_blank">"Five Best Free Email Marketing Services"</a>.
+We built this service after looking into other email marketing platforms (<a href="https://mailchimp.com/" target="_blank">MailChimp</a>, <a href="https://www.constantcontact.com/" target="_blank">Constant Contacts</a>, <a href="https://www.omnisend.com/" target="_blank">OmniSend</a>, etc.), comparing their services, plans, and going through those articles titled <a href="https://themeisle.com/blog/best-free-email-marketing-services/" target="_blank">"Five Best Free Email Marketing Services"</a>.
 
 We've found a simple email sign-up form is actually ... quite complicated - but it doesn't have to be.
 
@@ -122,6 +122,8 @@ Which updates the
   }
 </script>
 {{< /rawhtml >}}
+
+Are you tempted to try this new tool? Click <a href="https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/" target="_blank">here</a> to follow the step-by-step tutorial and start collecting emails today!
 
 ## Existing Email List Services Are Complicated
 

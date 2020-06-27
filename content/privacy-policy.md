@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+disableComments: true
 ---
 
 Your privacy is important to us. It is apio's policy to respect your privacy regarding any information we may collect from you through our app, apiobuild.
