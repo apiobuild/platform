@@ -23,7 +23,7 @@ This is probably the cheapest way to go into the world of eCommerce. You might a
 
 While product names with very long names can be beneficial for the search algorithm, they are too complicated to be easily scanned and understood by the customer.
 
-#### Website Builder: Seems Easy but Intimidating
+#### Website Builder: All the Customization You Don't Need
 
 There are just too many online store builders you can choose from. While the basic plan can be as low as $18 per month, these costs can add up and increase as your business grows due to scalable pricing. You’re already paying a lot of startup costs: web-hosting, domain name, email marketing, **why add more monthly fees to your overhead?**
 
