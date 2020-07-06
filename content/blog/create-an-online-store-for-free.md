@@ -35,7 +35,7 @@ While our out-of-box option allows you to set up your store with only a couple o
 
 ## <a id="chopin"></a>Introducing Chopin
 
-It’s hard to decide which approach suits you best, as there are many pros and cons. Why waste time on researching which platform to sell? You should’ve started selling your product!
+It’s hard to decide which approach suits you best, and there are many pros and cons. Why waste time on researching which platform to sell when you could've started selling your product already!
 
 **<a href="https://telescope.apiobuild.com/app/chopin" target="_blank">Chopin by apio </a> is a lightweight static online store generator.** After providing store information (name, logo), catalog (item/service description and price), and order form through API, it will generate a static website with a unique url.
 
