@@ -5,7 +5,7 @@ date: 2020-07-06
 tags: ["chopin", "waitress", "telescope", "announcement", "ecommerce", "online-store", "google", "sheets"]
 ---
 
-Are you looking for free and easy way to setup your online store? We have a solution for you. Introducing <a href="https://telescope.apiobuild.com/app/chopin" target="_blank">Chopin by apio </a>, a simple online store creator that allows you to configure your online store in a few clicks for free. Try today to start selling your products online.
+Are you looking for free and easy way to setup your online store? We have a solution for you - introducing <a href="https://telescope.apiobuild.com/app/chopin" target="_blank">Chopin by apio </a>: a simple online store creator that allows you to configure your online store in a few clicks for free. Try now to start selling your products online.
 
 ## Current Solutions for Online Store
 
@@ -14,14 +14,13 @@ When creating online stores, you have a couple of choices:
 - Use an eCommerce website builder (<a href="https://www.shopify.com/" target="_blank">Shopify</a>, <a href="https://www.squarespace.com/" target="_blank">Squarespace</a>, <a href="https://www.bigcommerce.com/" target="_blank">BigCommerce</a>, <a href="https://www.wix.com/" target="_blank">Wix</a>)
 - Build your own eCommerce website with open-source (<a href="https://www.opencart.com/" target="_blank">OpenCart</a>)
 
+**Or** ..................
 
-**Orrrrrrrrrrr** There's a free and easy way we created - <a href="#chopin">Learn how Chopin generates online stores for FREE with only a few clicks and google sheets now.</a>
+- We've created a free and easy way - <a href="#chopin">Learn how Chopin generates online stores for FREE with only a few clicks and google sheets now.</a>
 
 #### Online Marketplace: Customers Can’t Find You
 
-This is probably the cheapest way to go into the world of eCommerce. You might already have the experience selling second-hand items on eBay, Craiglist, or Facebook Marketplace and are familiar with the interface. At sites like Etsy, there are other sellers and customers who share the same market/interest with you. **However, it’s hard to stand out from your competitors.** 
-
-There are limited custom branding options, and the search results are based on product name relevancy. While product names with very long names can be beneficial for the search algorithm, they are too complicated to be easily scanned and understood by the customer.
+This is probably the cheapest way to start your online business. You might already have the experience selling second-hand items on eBay, Craiglist, or Facebook Marketplace and are familiar with the interface. At sites like Etsy, there are other sellers and customers who share the same market/interest with you. **However, it’s hard to stand out from your competitors.** 
 
 #### Website Builder: Seems Easy but Intimidating
 
