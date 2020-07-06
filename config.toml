@@ -62,3 +62,7 @@ disqusShortname = "apiobuild-com"
   [markup.highlight]
     noClasses = true
     style = "rainbow_dash"
+  [markup.goldmark.parser]
+    attribute = true
+    autoHeadingID = true  
+    autoHeadingIDType = "blackfriday"

@@ -12,7 +12,7 @@
   </div>
   {{ partial "tags.html" . }}
   <div class="container py-5">
-    {{ .Content }}
+    {{ partial "headline-hash.html" .Content }}
   </div>
   {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
     <div class="conatiner py-5">
