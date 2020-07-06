@@ -59,7 +59,7 @@ At <a href="https://apiobuild.com/" target="_blank">apio </a>, we believe that g
 
 We also welcome third-party integrations and don’t want to tie you down with only the services we offer. While we offer various microservices and APIs through <a href="https://telescope.apiobuild.com/" target="_blank">Telescope</a>, we’re more than happy to help you integrate other APIs to your store based on your use cases.
 
-#### Simple yet still Secured
+#### Simple yet Secured
 
 **All Chopin generated sites are SSL certified and meet industry security compliance**, which means your customers’ sensitive data (credit card numbers, CVV, email addresses, phone number, physical address etc.) get encrypted and will not be interpreted by unauthorized users. This feature doesn’t just protect store owners and their customers, is also the required element for implementing third-party payment gateways (i.e. <a href="https://stripe.com/" target="_blank">Stripe</a>, <a href="https://squareup.com/" target="_blank">Square</a>, <a href="https://www.paypal.com/" target="_blank">PayPal</a>).
 
