@@ -29,7 +29,7 @@ There are just too many online store builders you can choose from. While the bas
 
 To better serve different business models and needs, these services strive for developing as many features as possible. **The options available on the settings page and the enormous plug-ins sometimes can be quite intimidating to a new user.**
 
-#### Build Your Own Custom Store:
+#### Chopin: Enjoy both the Simplicity and Ultimate Freedom
 
 While our out-of-box option allows you to set up your store with only a couple of clicks. All templating options are available for you to customize by uploading html block. Let us take care of the security, deployment, monitoring so you can focus on the most important components that helps you grow your business - content and marketing.
 
