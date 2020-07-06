@@ -6,7 +6,6 @@ tags: ["chopin", "waitress", "telescope", "announcement", "ecommerce", "online-s
 ---
 
 Are you looking for free and easy way to setup your online store? We have a solution for you. Introducing <a href="https://telescope.apiobuild.com/app/chopin" target="_blank">Chopin by apio </a>, a simple online store creator that allows you to configure your online store in a few clicks for free. Try today to start selling your products online.
-The convenience of online shopping has changed consumers’ purchasing habits. According to  <a href="https://www.statista.com/statistics/242512/online-retail-visitors-in-the-us-by-age-group/)" target="_blank">statista</a>, 67% of millennials and 56% of gen-Xers prefer to shop online. The rising concerns of coronavirus transmission also open up new opportunities for online retailers. Whether you are expanding your brick and mortar store to eCommerce, or just starting your online business, **this post will show you how to build an online store in the most economical and easy way!**
 
 ## Current Solutions for Online Store
 
