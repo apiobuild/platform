@@ -9,7 +9,7 @@ Are you looking for free and easy way to setup your online store? We have a solu
 
 ## Current Solutions for Online Store
 
-When thinking of selling goods online, you have three choices:
+When creating online stores, you have a couple of choices:
 - List items on marketplace platforms (<a href="https://www.etsy.com/" target="_blank">Etsy</a>, <a href="https://www.ebay.com/" target="_blank">eBay</a>)
 - Use an eCommerce website builder (<a href="https://www.shopify.com/" target="_blank">Shopify</a>, <a href="https://www.squarespace.com/" target="_blank">Squarespace</a>, <a href="https://www.bigcommerce.com/" target="_blank">BigCommerce</a>, <a href="https://www.wix.com/" target="_blank">Wix</a>)
 - Build your own eCommerce website with open-source (<a href="https://www.opencart.com/" target="_blank">OpenCart</a>)
