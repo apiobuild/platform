@@ -39,7 +39,6 @@ It’s hard to decide which approach suits you best, and there are many pros and
 
 **<a href="https://telescope.apiobuild.com/app/chopin" target="_blank">Chopin by apio </a> is a lightweight static online store generator.** After providing store information (name, logo), catalog (item/service description and price), and order form through API, it will generate a static website with a unique url.
 
-
 ## Benefits
 
 #### Easy to Set Up
