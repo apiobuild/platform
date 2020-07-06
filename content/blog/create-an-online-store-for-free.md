@@ -61,7 +61,7 @@ We also welcome third-party integrations and don’t want to tie you down with o
 
 #### Simple yet Secured
 
-**All Chopin generated sites are SSL certified and meet industry security compliance**, which means your customers’ sensitive data (credit card numbers, CVV, email addresses, phone number, physical address etc.) get encrypted and will not be interpreted by unauthorized users. This feature doesn’t just protect store owners and their customers, is also the required element for implementing third-party payment gateways (i.e. <a href="https://stripe.com/" target="_blank">Stripe</a>, <a href="https://squareup.com/" target="_blank">Square</a>, <a href="https://www.paypal.com/" target="_blank">PayPal</a>).
+**All Chopin generated sites are SSL certified and meet the highest security standard**, which means your customers’ sensitive data (email addresses, phone number, names etc.) are encrypted and protected from unauthorized users. This feature doesn’t just protect store owners and their customers, is also the required element for implementing third-party payment gateways (i.e. <a href="https://stripe.com/" target="_blank">Stripe</a>, <a href="https://squareup.com/" target="_blank">Square</a>, <a href="https://www.paypal.com/" target="_blank">PayPal</a>).
 
 
 ## Summary
