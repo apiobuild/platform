@@ -21,7 +21,7 @@ When creating online stores, you have a couple of choices:
 
 This is probably the cheapest way to go into the world of eCommerce. You might already have the experience selling second-hand items on eBay, Craiglist, or Facebook Marketplace and are familiar with the interface. At sites like Etsy, there are other sellers and customers who share the same market/interest with you. **However, it’s hard to stand out from your competitors.** 
 
-There are limited custom branding options, and the search results are based on product name relevancy. While product names with very long names can be beneficial for the search algorithm, they are too complicated to be easily scanned and understood by the customer.
+While product names with very long names can be beneficial for the search algorithm, they are too complicated to be easily scanned and understood by the customer.
 
 #### Website Builder: Seems Easy but Intimidating
 
