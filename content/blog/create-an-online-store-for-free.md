@@ -15,7 +15,7 @@ When creating online stores, you have a couple of choices:
 - Build your own eCommerce website with open-source (<a href="https://www.opencart.com/" target="_blank">OpenCart</a>)
 
 
-**Spoiler Alert:** We found that there is an easier way to replace these existing options. <a href="#chopin">Jump to learn how Chopin generates an online store for FREE with only a few clicks and google sheets.</a>
+**Orrrrrrrrrrr** There's a free and easy way we created - <a href="#chopin">Learn how Chopin generates online stores for FREE with only a few clicks and google sheets now.</a>
 
 #### Online Marketplace: Customers Can’t Find You
 
