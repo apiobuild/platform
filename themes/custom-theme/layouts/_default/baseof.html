@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
-  {{- block "meta" . }}{{- end }}
+  <head>
+  {{ partial "meta.html" . }}
   {{- partial "head.html" . -}}
+  </head>
   <body>
-    {{- partial "header.html" . -}}
-    {{- block "banner" . }}{{- end }}
-    {{- block "empty_navbar" . }}{{- end }}
+  {{- partial "header.html" . -}}
+  {{- block "banner" . }}{{- end }}
+  {{- block "empty_navbar" . }}{{- end }}
 
-    {{- block "main" . }}{{- end }}
-    {{- partial "footer.html" . -}}
+  {{- block "main" . }}{{- end }}
+  {{- partial "footer.html" . -}}
   </body>
 </html>

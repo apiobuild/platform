@@ -1,5 +1,5 @@
 ---
-title: "How to Create a Simple Email Sign Up with Waitress (Step-by-Step)"
+title: "How to Create a Simple Email Sign Up with Waitress"
 image: /images/blog/mailbox.png
 date: 2020-06-26
 tags: ["waitress", "telescope", "tutorial", "email", "marketing", "google", "sheets", "website"]
@@ -113,9 +113,7 @@ This will create the form like this:
 </script>
 ```
 
-Ta da! There you have a simple sign-up form to collect emails of your website visitors! 
-
-Give it a try yourself. 🎉
+Ta da! There you have a simple sign-up form to collect emails of your website visitors! Give it a try yourself. 🎉
 
 <style>
 .post-img {
