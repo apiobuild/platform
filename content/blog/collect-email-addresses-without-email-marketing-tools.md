@@ -172,6 +172,10 @@ With the built-in features of Google Sheet, it’s straightforward to manage tea
 
 There will be no mistakenly deleted contacts anymore. You can also access your list from everywhere, which is great for remote working environments.
 
+## Summary
+
+**<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress</a> helps you to connect sign-up form with google sheets through API, and makes email collection easier.** When you are not in need of a powerful email marketing tool, this is a perfect solution for you to collecting leads. <a href="https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/" target="_blank">Click here to follow the step-by-step guide and start collecting emails today!</a> 
+
 Happy emailing. 📧
 
 <style>
