@@ -72,6 +72,6 @@ So how do you know if Chopin is right for you?
 - Are you just starting up an online business and **testing the water**?
 - Are you not sure what kind of website you want but **you already have something to sell**?
 
-If you answer **YES** to one of above questions, <a href="https://telescope.apiobuild.com/app/chopin" target="_blank"> Chopin </a> is the perfect solution for you to kickstart your eCommerce business! <a href="https://telescope.apiobuild.com/app/chopin" target="_blank">Click here to start generating your online store!</a>
+If you answer **YES** to one of above questions, <a href="https://telescope.apiobuild.com/app/chopin" target="_blank"> Chopin </a> is the perfect solution for you to kickstart your business! <a href="https://telescope.apiobuild.com/app/chopin" target="_blank">Click here to start generating your online store!</a>
 
 Happy “chopin”! 🛍️
