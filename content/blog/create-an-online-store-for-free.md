@@ -57,7 +57,7 @@ As much as we want to provide great user experiences for store owners, we also w
 
 At <a href="https://apiobuild.com/" target="_blank">apio </a>, we believe that good technology should be accessible and shareable. **Chopin is a FREE solution for small business owners.** We operate on revenue from ads that appeared on your store. If you’re looking for an ad-free store, feel free to <a href=" mailto: apiobuild@gmail.com" target="_blank"> contact us</a> for pricing plan.
 
-We also welcome third-party integrations and don’t want to tie you down with all the services we offer. While we offer various microservices and APIs through <a href="https://telescope.apiobuild.com/" target="_blank">Telescope</a>, we’re more than happy to help you link other APIs to your store based on your use cases.
+We also welcome third-party integrations and don’t want to tie you down with only the services we offer. While we offer various microservices and APIs through <a href="https://telescope.apiobuild.com/" target="_blank">Telescope</a>, we’re more than happy to help you integrate other APIs to your store based on your use cases.
 
 #### Simple yet still Secured
 
