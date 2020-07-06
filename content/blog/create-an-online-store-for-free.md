@@ -31,7 +31,7 @@ To better serve different business models and needs, these services strive for d
 
 #### Build Your Own Custom Store:
 
-If you are a technical person or have resources to hire a tech team, you might be looking into leveraging open-source solutions (Open Cart) to build your custom online shopping site. Despite the active developer community and user forum, there xxxxx
+While our out-of-box option allows you to set up your store with only a couple of clicks. All templating options are available for you to customize by uploading html block. Let us take care of the security, deployment, monitoring so you can focus on the most important components that helps you grow your business - content and marketing.
 
 ## <a id="chopin"></a>Introducing Chopin
 
