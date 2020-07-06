@@ -7,7 +7,7 @@ tags: ["waitress", "telescope", "announcement", "email", "marketing", "google", 
 
 Email sign-ups from website visitors is one of the most crucial ways to grow your audience, whether you’re looking to convert subscribers to customers or to directly communicate to your clients. In this post we'll show you how to setup easy email sign-up form for free on your website.
 
-We built this service after looking into other email marketing platforms (<a href="https://mailchimp.com/" target="_blank">MailChimp</a>, <a href="https://www.constantcontact.com/" target="_blank">Constant Contacts</a>, <a href="https://www.omnisend.com/" target="_blank">OmniSend</a>, etc.), comparing their services, plans, and going through those articles titled <a href="https://themeisle.com/blog/best-free-email-marketing-services/" target="_blank">"Five Best Free Email Marketing Services"</a>.
+We built this service after looking into other email marketing platforms ([MailChimp](https://mailchimp.com/), [Constant Contacts](https://www.constantcontact.com/), [OmniSend](https://www.omnisend.com/), etc.), comparing their services, plans, and going through those articles like [Five Best Free Email Marketing Services](https://themeisle.com/blog/best-free-email-marketing-services/).
 
 We've found a simple email sign-up form is actually ... quite complicated - but it doesn't have to be.
 
@@ -15,7 +15,7 @@ We've found a simple email sign-up form is actually ... quite complicated - but 
 
 <img src="/images/blog/sheet.png" class="post-img">
 
-**<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress by apio</a>** is a lightweight API to use Google Sheet as data store for backend applications, sends subscribers’ data from sign-up form to Google Sheet.
+**[Waitress by apio](https://telescope.apiobuild.com/app/waitress)** is a lightweight API to use Google Sheet as data store for backend applications, sends subscribers’ data from sign-up form to Google Sheet.
 
 It's a straight-forward tool for small businesses or new blogger to start collecting leads.
 
@@ -45,8 +45,7 @@ Feel free to play around here:
 </div>
 {{< /rawhtml >}}
 
-Which updates the 
-<a href="https://docs.google.com/spreadsheets/d/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U" target="_blank">google sheet we set up here</a>:
+Which updates the [google sheet we set up here](https://docs.google.com/spreadsheets/d/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U):
 
 {{< rawhtml >}}
 <div class="container py-2">
@@ -123,8 +122,7 @@ Which updates the
 </script>
 {{< /rawhtml >}}
 
-Are you tempted to try this new tool? 
-<a href="https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/" target="_blank">Click here to follow the step-by-step tutorial and start collecting emails today!</a> 
+Are you tempted to try this new tool? [Click here to follow the step-by-step tutorial and start collecting emails now!](https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/)
 
 ## Existing Email List Services Are Complicated
 
@@ -162,9 +160,9 @@ Comparing with market solutions' different pricing tiers, Waitress is billed by 
 
 Remembering the time when you have to download the csv file from your email marketing provider, then struggle with matching the format to another digital tool.
 
-With **<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress</a>**, you have the freedom to manage your own data makes it easier to integrate with any third-party software. **Data is available through API.** It's easily customizable and integrable with other third-party marketing solutions. You can easily connect the subscriber data to ticketing platform, Google Analytics, and more!
+With **[Waitress](https://telescope.apiobuild.com/app/waitress)**, you have the freedom to manage your own data makes it easier to integrate with any third-party software. **Data is available through API.** It's easily customizable and integrable with other third-party marketing solutions. You can easily connect the subscriber data to ticketing platform, Google Analytics, and more!
 
-Visit **<a href="https://telescope.apiobuild.com/" target="_blank">Telescope</a>** to check out more apio's microservices offerings.
+Visit **[Telescope](https://telescope.apiobuild.com/)** to check out more apio's microservices offerings.
 
 ### Make Team Collaboration Smoother
 
@@ -174,7 +172,7 @@ There will be no mistakenly deleted contacts anymore. You can also access your l
 
 ## Summary
 
-**<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress</a> helps you to connect sign-up form with google sheets through API, and makes email collection easier.** When you are not in need of a powerful email marketing tool, this is a perfect solution for you to collect emails. <a href="https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/" target="_blank">Click here to follow the step-by-step guide and start collecting emails today!</a> 
+**[Waitress](https://telescope.apiobuild.com/app/waitress) helps you to connect sign-up form with google sheets through API, and makes email collection easier.** When you are not in need of a powerful email marketing tool, this is a perfect solution for you to collect emails. [Click here to follow the step-by-step guide and start collecting emails now!](https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/)
 
 Happy emailing. 📧
 
