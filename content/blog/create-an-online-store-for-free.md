@@ -22,30 +22,29 @@ When creating online stores, you have a couple of choices:
 
 This is probably the cheapest way to start your online business. You might already have the experience selling second-hand items on eBay, Craiglist, or Facebook Marketplace and are familiar with the interface. At sites like Etsy, there are other sellers and customers who share the same market/interest with you. **However, it’s hard to stand out from your competitors.** 
 
-#### Website Builder: Seems Easy but Intimidating
+#### Website Builder: All the Customization You Don't Need
 
 There are just too many online store builders you can choose from. While the basic plan can be as low as $18 per month, these costs can add up and increase as your business grows due to scalable pricing. You’re already paying a lot of startup costs: web-hosting, domain name, email marketing, **why add more monthly fees to your overhead?**
 
 To better serve different business models and needs, these services strive for developing as many features as possible. **The options available on the settings page and the enormous plug-ins sometimes can be quite intimidating to a new user.**
 
-#### Build Your Own Custom Store:
+#### Chopin: Enjoy both the Simplicity and Ultimate Freedom
 
-If you are a technical person or have resources to hire a tech team, you might be looking into leveraging open-source solutions (Open Cart) to build your custom online shopping site. Despite the active developer community and user forum, there xxxxx
+While our out-of-box option allows you to set up your store with only a couple of clicks, all templating options are available for you to customize by uploading html block. Let us take care of the security, deployment, monitoring so you can focus on the most important components that helps you grow your business - content and marketing.
 
 ## <a id="chopin"></a>Introducing Chopin
 
-It’s hard to decide which approach suits you best, as there are many pros and cons. Why waste time on researching which platform to sell? You should’ve started selling your product!
+It’s hard to decide which approach suits you best, and there are many pros and cons. Why waste time on researching which platform to sell when you could've started selling your product already!
 
 **<a href="https://telescope.apiobuild.com/app/chopin" target="_blank">Chopin by apio </a> is a lightweight static online store generator.** After providing store information (name, logo), catalog (item/service description and price), and order form through API, it will generate a static website with a unique url.
-
 
 ## Benefits
 
 #### Easy to Set Up
 
-Chopin made creating your own store as easy as filling out a simple survey. You only need to provide your **logo and store information** as well as **google sheets** with the merchandise and order details respectively, then **your shopping site will be generated.**
+Chopin made creating your own store as easy as filling out a simple survey. You only need to provide your **logo and store information** as well as **google sheets** with the catalog and order data respectively, then **your shopping site will be generated.**
 
-To save even more of your time and energy, you can simply let <a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress </a> (our lightweight API to use Google Sheet as a data store for backend applications) extract merchandise information from your google sheets.
+To save even more of your time and energy, you can simply let <a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress </a> (our lightweight API to use Google Sheet as a data store for backend applications) extract catalog data from your google sheets.
 
 #### Responsive Design
 
