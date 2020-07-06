@@ -46,7 +46,7 @@ It’s hard to decide which approach suits you best, as there are many pros and 
 
 Chopin made creating your own store as easy as filling out a simple survey. You only need to provide your **logo and store information** as well as **google sheets** with the merchandise and order details respectively, then **your shopping site will be generated.**
 
-To save even more of your time and energy, you can simply let <a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress </a> (our lightweight API to use Google Sheet as a data store for backend applications) extract merchandise information from your google sheets.
+To save even more of your time and energy, you can simply let <a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress </a> (our lightweight API to use Google Sheet as a data store for backend applications) extract catalog data from your google sheets.
 
 #### Responsive Design
 
