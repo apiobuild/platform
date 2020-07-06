@@ -14,7 +14,6 @@ When creating online stores, you have a couple of choices:
 - Use an eCommerce website builder (<a href="https://www.shopify.com/" target="_blank">Shopify</a>, <a href="https://www.squarespace.com/" target="_blank">Squarespace</a>, <a href="https://www.bigcommerce.com/" target="_blank">BigCommerce</a>, <a href="https://www.wix.com/" target="_blank">Wix</a>)
 - Build your own eCommerce website with open-source (<a href="https://www.opencart.com/" target="_blank">OpenCart</a>)
 
-Let’s talk through each option.
 
 **Spoiler Alert:** We found that there is an easier way to replace these existing options. <a href="#chopin">Jump to learn how Chopin generates an online store for FREE with only a few clicks and google sheets.</a>
 
