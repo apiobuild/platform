@@ -10,7 +10,7 @@ enableRobotsTXT = true
 
 [params]
   footer = "Made by Lulu in her free time."
-  image = "/images/logo_square.png"
+  image = "images/logo_square.png"
 
 [taxonomies]
   tag = "tags"
