@@ -5,7 +5,7 @@ date: 2020-06-17
 tags: ["waitress", "telescope", "announcement", "email", "marketing", "google", "sheets"]
 ---
 
-Email sign-ups from website visitors is one of the most crucial ways to grow your audience, whether you’re looking to convert subscribers to customers or to directly communicate to your clients. In this post we'll show you how to setup easy email sign-up form for free on your website.
+Collect emails from website sign-ups is one of the most crucial ways to grow your audience, whether you’re looking to convert subscribers to customers or to directly communicate to your clients. In this post we'll show you how to setup easy email sign-up form with google sheet for free on your website.
 
 We built this service after looking into other email marketing platforms ([MailChimp](https://mailchimp.com/), [Constant Contacts](https://www.constantcontact.com/), [OmniSend](https://www.omnisend.com/), etc.), comparing their services, plans, and going through those articles like [Five Best Free Email Marketing Services](https://themeisle.com/blog/best-free-email-marketing-services/).
 
