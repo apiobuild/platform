@@ -7,13 +7,13 @@ tags: ["waitress", "telescope", "tutorial", "email", "marketing", "google", "she
 
 Are you struggling with finding a FREE service to collect emails? Are you overwhelmed by all those fancy features provided by email marketing solutions? In this post, we will show you how to set up subscription sign-up form for your website in **less than 10 minutes** and **without using email marketing platforms**. 
 
-It only takes five steps to set up email sign up form with **<a href="https://telescope.apiobuild.com/app/waitress" target="_blank">Waitress</a>**, the lightweight API enables you to use Google Sheet as a data store and send subscribers’ data from the sign-up form to Google Sheet.
+It only takes five steps to set up email sign up form with **[Waitress](https://telescope.apiobuild.com/app/waitress)**, the lightweight API enables you to use Google Sheet as a data store and send subscribers’ data from the sign-up form to Google Sheet.
 
-<a href="https://apiobuild.com/blog/collect-email-addresses-without-email-marketing-tools/" target="_blank">Read more: Why you don’t need email marketing tools (yet) to collect emails?</a>
+[Read more: Why you don’t need email marketing tools (yet) to collect emails?](https://apiobuild.com/blog/collect-email-addresses-without-email-marketing-tools/)
 
 ## Step 1
 
-Go to **<a href="https://telescope.apiobuild.com/" target="_blank">Telescope (telescope.apiobuild.com)</a>**, our app platform of microservices.
+Go to **[Telescope](https://telescope.apiobuild.com/)</a>**, our app platform of microservices.
 
 Log in through your **existing google account**.
 

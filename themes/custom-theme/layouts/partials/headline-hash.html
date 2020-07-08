@@ -1,0 +1,19 @@
+<div>
+  {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">   ¶</a> ${3}` | safeHTML }}
+</div>
+
+<style>
+  .hanchor {
+      font-size: 100%;
+      visibility: hidden;
+      color: silver;
+  }
+
+  h1:hover a,
+  h2:hover a,
+  h3:hover a,
+  h4:hover a {
+      visibility: visible;
+      text-decoration: none;
+  }
+</style>
