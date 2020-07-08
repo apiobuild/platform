@@ -1,11 +1,11 @@
 ---
 title: "Create an Online Store for FREE"
-image: /images/blog/email.png
+image: /images/blog/shoppingapp.png
 date: 2020-07-06
 tags: ["chopin", "waitress", "telescope", "announcement", "ecommerce", "online-store", "google", "sheets"]
 ---
 
-Are you looking for free and easy way to setup your online store? We have a solution for you - introducing [Chopin by apio](https://telescope.apiobuild.com/app/chopin): a simple online store creator that allows you to configure your online store in a few clicks for free. Try now to start selling your products online.
+Are you looking for free and easy way to setup your online store? We have a solution for you - introducing [Chopin by apio](https://telescope.apiobuild.com/app/chopin): a simple online store creator that allows you to configure your online store in a few clicks for free. Combined with [Waitress](https://telescope.apiobuild.com/app/waitress) (apio's google sheet as API microservice), you can setup a webstore with just two google sheets. Try now and start selling your products online.
 
 ## Current Solutions for Online Store
 
@@ -37,6 +37,16 @@ While our out-of-box option allows you to set up your store with only a couple o
 It’s hard to decide which approach suits you best, and there are many pros and cons. Why waste time on researching which platform to sell when you could've started selling your product already!
 
 **[Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a lightweight static online store generator.** After providing store information (name, logo), catalog (item/service description and price), and order form through API, it will generate a static website with a unique url.
+
+#### Demo
+
+In the [demo store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4), we've configured one google sheet to be catalog and another one to store order:
+
+<video width="100%" loop="true" autoplay="true" controls style="align: center">
+<source src="/video/chopin-quick-demo.mp4" type="video/mp4" />
+</video>
+
+You can easily update products to the catalog on google sheet and the store will update in real-time. On the other side, when user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4).
 
 ## Benefits
 
