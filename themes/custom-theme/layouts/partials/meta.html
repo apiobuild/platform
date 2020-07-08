@@ -7,7 +7,7 @@
 <meta name="twitter:card" content="{{ .Summary }}" />
 
 {{ if isset .Params "image" }}
-<meta property="og:image" content="{{ $.Params.image }}" />
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ $.Params.image }}" />
 {{ else }}
 <meta
   property="og:image"
