@@ -12,6 +12,12 @@
   </div>
   {{ partial "tags.html" . }}
   <div class="container py-5">
+    {{ if isset .Params "image" }}
+    <div class="text-center py-3">
+      <img src="{{ $.Params.image }}" style="width: 60%" />
+    </div>
+    {{ end }}
+
     {{ partial "headline-hash.html" .Content }}
   </div>
   {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}

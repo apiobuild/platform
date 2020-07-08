@@ -4,16 +4,16 @@
 <meta name="description" content="{{ .Summary }}" />
 <meta property="og:title" content="{{ $.Params.title }}" />
 
+<meta name="twitter:card" content="{{ .Summary }}" />
+
 {{ if isset .Params "image" }}
 <meta property="og:image" content="{{ $.Params.image }}" />
 {{ else }}
 <meta
   property="og:image"
-  content="{{ .Site.BaseURL }}{{ .Site.Params.headerImage }}"
+  content="{{ .Site.BaseURL }}{{ .Site.Params.image }}"
 />
 {{ end }}
-
-<meta property="og:title" content="{{ $.Params.title }}" />
 
 {{ else }}
 <meta property="og:title" content="{{ .Site.Title }}" />
@@ -24,8 +24,15 @@
 />
 <meta
   property="og:image"
-  content="{{ .Site.BaseURL }}{{ .Site.Params.headerImage }}"
+  content="{{ .Site.BaseURL }}{{ .Site.Params.image }}"
 />
 <meta property="og:type" content="{{ .Site.Params.meta.meta_og_type }}" />
 
 {{ end }}
+
+<meta name="twitter:card" content="{{ .Site.Params.meta.meta_twitter_card }}" />
+<meta name="twitter:site" content="{{ .Site.Params.meta.meta_twitter_site }}" />
+<meta
+  name="twitter:creator"
+  content="{{ .Site.Params.meta.meta_twitter_site }}"
+/>
