@@ -5,7 +5,7 @@ date: 2020-06-26
 tags: ["waitress", "telescope", "tutorial", "email", "marketing", "google", "sheets", "website"]
 ---
 
-Are you struggling with finding a FREE service to collect emails? Are you overwhelmed by all those fancy features provided by email marketing solutions? In this post, we will show you how to set up subscription sign-up form for your website in **less than 10 minutes** and **without using email marketing platforms**. 
+Are you struggling with finding a FREE service to collect emails? Are you overwhelmed by all those fancy features provided by email marketing solutions? In this post, we will show you how to set up subscription sign-up form for your website in **less than 10 minutes** and **without using email marketing platforms**.
 
 It only takes five steps to set up email sign up form with **[Waitress](https://telescope.apiobuild.com/app/waitress)**, the lightweight API enables you to use Google Sheet as a data store and send subscribers’ data from the sign-up form to Google Sheet.
 
@@ -123,4 +123,3 @@ Ta da! There you have a simple sign-up form to collect emails of your website vi
     max-width: 70%;
 }
 </style>
-
