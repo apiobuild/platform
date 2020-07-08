@@ -1,5 +1,5 @@
 baseURL = "https://apiobuild.com"
-title = "apio"
+title = "apio: microservices platform to create custom business softwares easily."
 languageCode = "en-us"
 themesDir = "themes"
 theme = "custom-theme"
@@ -15,7 +15,7 @@ disqusShortname = "apiobuild-com"
   tag = "tags"
 
 [params.meta]
-  meta_description = "apio is a platform connecting developers and businesses to build impactful software solutions of any size"
+  meta_description = "apio's portfolio microservices enable businesses to build secure, scalable, and cost-effective custom softwares to support your business needs, so you can focus on delivering business values to your customers. Our platform allows users to integrate various APIs with simple configuration with or without code. Our pay-as-you-use pricing model allows you to try out ideas without worrying about the costs. We believe quality softwares should be accessible to everyone, we pride ourselves in connecting developers and businesses to build impactful software solutions of any size."
   meta_og_type = "website"
   og_image = "images/favicon.png"
   meta_twitter_card = "summary"
