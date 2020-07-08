@@ -1,5 +1,5 @@
 baseURL = "https://apiobuild.com"
-title = "apio: microservices platform to create custom business softwares easily."
+title = "apio: microservices platform to create custom business softwares easily"
 languageCode = "en-us"
 themesDir = "themes"
 theme = "custom-theme"
