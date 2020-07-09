@@ -2,52 +2,78 @@
 title: "How to Create a Simple Email Sign Up with Waitress"
 image: /images/blog/mailbox.png
 date: 2020-06-26
-tags: ["waitress", "telescope", "tutorial", "email", "marketing", "google", "sheets", "website"]
+tags: ["waitress", "telescope", "tutorial", "email", "marketing", "google", "sheets", "website", "google-sheet"]
 ---
 
-Are you struggling with finding a FREE service to collect emails? Are you overwhelmed by all those fancy features provided by email marketing solutions? In this post, we will show you how to set up subscription sign-up form for your website in **less than 10 minutes** and **without using email marketing platforms**.
-
-It only takes five steps to set up email sign up form with **[Waitress](https://telescope.apiobuild.com/app/waitress)**, the lightweight API enables you to use Google Sheet as a data store and send subscribers’ data from the sign-up form to Google Sheet.
+Are you struggling with finding a FREE service to collect emails? Are you overwhelmed by all those fancy features provided by email marketing solutions? In this post, we will show you how to collect email from your website visitors with google sheet. [Waitress](https://telescope.apiobuild.com/app/waitress) - apio's google sheet API microservice will help you to build relationship with users in **less than 10 minutes** and **without using email marketing platforms**.
 
 [Read more: Why you don’t need email marketing tools (yet) to collect emails?](https://apiobuild.com/blog/collect-email-addresses-without-email-marketing-tools/)
 
-## Step 1
+## Step 1: Create Email List Google Sheet
 
-Go to **[Telescope](https://telescope.apiobuild.com/)**, our app platform of microservices.
+Create a google sheet that you'll be using as your **mailing list**. Copy and paste the following columns to the sheet:
 
-Log in through your **existing google account**.
+<div class="table-box table-warning table-responsive px-2 py-2">
+<table class="center">
+  <tbody>
+    <tr>
+      <td class="wide">name</td>
+      <td class="wide">email</td>
+      <td class="wide">created</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-<img src="/images/blog/login.png" class="post-img">
+<br><br>
 
-## Step 2
+<video width="100%" loop="true" autoplay="true" controls style="align: center">
+<source src="/video/mail-list-google-sheet.mp4" type="video/mp4" />
+</video>
 
-Create a Google Sheet or use an existing Google Sheet file.  
-Share editor permission with **Waitress (`waitress-dev@apio-277201.iam.gserviceaccount.com`)**.
+## Step 2: Authorize Catalog Google Sheet on Telescope
 
-<img src="/images/blog/permission.png" class="post-img">
+Go to **[Telescope(apio microservices platform)](https://telescope.apiobuild.com/)**. Log in into your **existing google account**. 
 
-## Step 3
+Then go to **[Waitress](https://telescope.apiobuild.com/app/waitress)** and follow the instruction in the **configure tab** to authorize your google sheet. This way, only you can access your sheet through our API.
 
-Go to your account in Telescope and click **View Token**, you will be asked to sign in again for security.  
-Add a new token:
+- Share editor permission with [Waitress](https://telescope.apiobuild.com/app/waitress/configure).
+- Copy and past the google sheet URL, hit Authorize
+- Copy the returned route URL 
 
-- **Alias**: nickname for the token
-- **Target Audience**: the domain you’ll be calling the API from. If you’re testing locally, you could use `http://localhost:8080` for example.
+<video width="100%" loop="true" autoplay="true" controls style="align: center">
+<source src="/video/authorize-email-google-sheet.mp4" type="video/mp4" />
+</video>
 
-<img src="/images/blog/addtoken.png" class="post-img">
+## Step 3: Add New Token
 
-## Step 4
+Go to your account in Telescope and click **View Token**, you will be asked to sign in again for security.
 
-Under **Access Policy**, put the following in the **Route** field: `waitress/gsheets/<your google sheet id>`.  
-You can find **your Google Sheet id** in the url, which is the number after `spreadsheet/d/` and before `/edit`.
+Then add a new token:
 
-<img src="/images/blog/gsheetid.png" class="post-img"><br>
+- Alias: nickname for the token
+- Target Audience: the domain you’ll be calling the API from. If you’re testing locally, you could use `http://localhost:8080` for example.
 
-In the **Request Method** dropdown, select **POST**.
+<video width="100%" loop="true" autoplay="true" controls style="align: center">
+<source src="/video/add-token.mp4" type="video/mp4" />
+</video>
 
-<img src="/images/blog/accesspolicy.png" class="post-img">
+## Step 4: Configure Token
 
-## Step 5
+Expand the token you just created, paste the **route URL from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope)** under Access Policy. In the Request Method dropdown, select **POST**.
+
+<video width="100%" loop="true" autoplay="true" controls style="align: center">
+<source src="/video/token-post.mp4" type="video/mp4" />
+</video>
+
+If you forget to copy the returned route URL from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope): 
+1. Simply go back and recreate it. You might need to delete the meta tab in google sheet in order to configure again.
+
+2. Put the following in route field `waitress/gsheets/<your google sheet id>`. You can find your Google Sheet id in the url, which is the number after `spreadsheet/d/` and before `/edit`.
+
+<img src="/images/blog/delete-meta.png" class="post-img">
+
+## Step 5: Add Sign-up Form to Website
 
 Copy and paste the html form to your website:
 
@@ -113,9 +139,20 @@ This will create the form like this:
 </script>
 ```
 
-Ta da! There you have a simple sign-up form to collect emails of your website visitors! Give it a try yourself. 🎉
+Ta da! There you have a simple sign-up form to collect emails from your website visitors! Give it a try yourself. 🎉
 
 <style>
+.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+.wide {
+  width: 5%;
+}
+.table-box{
+  color: black;
+  border-left: 6px solid #ffc107;
+}
 .post-img {
     display: block;
     margin-left: auto;

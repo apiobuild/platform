@@ -5,7 +5,9 @@ date: 2020-07-06
 tags: ["chopin", "waitress", "telescope", "announcement", "ecommerce", "online-store", "google", "sheets"]
 ---
 
-Are you looking for free and easy way to setup your online store? We have a solution for you - introducing [Chopin by apio](https://telescope.apiobuild.com/app/chopin): a simple online store creator that allows you to configure your online store in a few clicks for free. Combined with [Waitress](https://telescope.apiobuild.com/app/waitress) (apio's google sheet as API microservice), you can setup a webstore with just two google sheets. Try now and start selling your products online.
+Are you looking for free and easy way to setup your online store? We have a solution for you - introducing [Chopin by apio](https://telescope.apiobuild.com/app/chopin): a simple online store creator that allows you to configure your online store in a few clicks for free. Combined with [Waitress](https://telescope.apiobuild.com/app/waitress) (apio's google sheet as API microservice), you can setup a webstore with just two google sheets. Try now and start selling your products online!
+
+[Read more: a step-by-step guide on how to setup online store with Chopin](https://apiobuild.com/blog/how-to-create-web-store-with-apio)
 
 ## Current Solutions for Online Store
 
@@ -30,7 +32,7 @@ To better serve different business models and needs, these services strive for d
 
 #### Chopin: Enjoy both the Simplicity and Ultimate Freedom
 
-While our out-of-box option allows you to set up your store with only a couple of clicks, all templating options are available for you to customize by uploading html block. Let us take care of the security, deployment, monitoring so you can focus on the most important components that helps you grow your business - content and marketing.
+While our out-of-box option allows you to set up your store with only a couple of clicks, all templating options are available for you to customize by uploading html block. **Let us take care of the security, deployment, monitoring**, so you can focus on the most important components that helps you grow your business - content and marketing.
 
 ## Introducing Chopin
 
@@ -79,6 +81,6 @@ So how do you know if Chopin is right for you?
 - Are you just starting up an online business and **testing the water**?
 - Are you not sure what kind of website you want but **you already have something to sell**?
 
-If you answer **YES** to one of above questions, [Chopin](https://telescope.apiobuild.com/app/chopin) is the perfect solution for you to kickstart your business! [Click here to start generating your online store!]((https://telescope.apiobuild.com/app/chopin))
+If you answer **YES** to one of above questions, [Chopin](https://telescope.apiobuild.com/app/chopin) is the perfect solution for you to kickstart your business! [Click here to start creating your online store!]((https://telescope.apiobuild.com/app/chopin))
 
 Happy “chopin”! 🛍️
