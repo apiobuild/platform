@@ -13,7 +13,7 @@ It only takes five steps to set up email sign up form with **[Waitress](https://
 
 ## Step 1
 
-Go to **[Telescope](https://telescope.apiobuild.com/)</a>**, our app platform of microservices.
+Go to **[Telescope](https://telescope.apiobuild.com/)**, our app platform of microservices.
 
 Log in through your **existing google account**.
 
