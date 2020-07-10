@@ -75,6 +75,7 @@ Copy and paste the following columns to the sheet:
           <td class="wide">user_address</td>
           <td class="wide">order_created</td>
           <td class="wide">order_subtotal</td>
+          <td class="wide">order_shipping_option</td>
           <td class="wide">order_shipping</td>
           <td class="wide">order_tax_rate</td>
           <td class="wide">order_tax</td>
