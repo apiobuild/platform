@@ -1,16 +1,18 @@
-<div class="product">
-  <div class="card">
-    <div class="card">
-      <a
-        href="{{ .Params.product_url }}"
-        style="text-decoration: none;"
-        target="_blank"
-      >
-        <img class="card-img-top" src="{{ .Params.product_image }}" />
-        <div class="card-body" align="center">
-          Try Now
-        </div>
-      </a>
-    </div>
-  </div>
+<div class="row">
+  <h2>
+    Featured Apps
+  </h2>
+</div>
+<div class="row">
+  <h3>Chopin: Create Online Store with Google Sheet</h3>
+  <button type="button" class="btn btn-light">
+    <a
+      class="button"
+      href="https://telescope.apiobuild.com/app/chopin/configure"
+      target="_blank"
+    >
+      Try Now
+    </a>
+  </button>
+  {{ partial "product-chopin.html" . }}
 </div>

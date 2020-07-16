@@ -18,18 +18,21 @@
           <p>{{ .Content }}</p>
           {{ if .Params.button }}
           <button type="button" class="btn btn-light">
-            <a class="button" href="{{ .Params.buttonLink }}"
-              >{{ .Params.button }}</a
-            >
+            <a class="button" href="{{ .Params.buttonLink }}" target="_blank">
+              {{ .Params.button }}
+            </a>
           </button>
           {{ end }}
         </div>
+
         {{ if .Params.signup }}
         <div class="col">
         {{ partial "email_signup.html" . }}
         {{ end }}
+        </div>
+
         {{ if .Params.product }}
-        <div class="col">
+        <div class="col offset-md-2">
         {{ partial "product.html" . }}
         {{ end }}
         </div>
