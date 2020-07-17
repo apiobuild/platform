@@ -159,7 +159,7 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 
 #### Google Sheet Data
   - In catalog sheet, there should be no empty lines between rows.
-  - In catalog sheet, `name` of each product can not be empty nor can be characters other than numbers or alphabets. There should not be products shared the same `name`.
+  - In the catalog sheet, `name` of each product can not be empty nor can be characters other than numbers or alphabets. Product names must be unique.
 
 #### Browser
   - Pop-up blocker might disrupt the google sheet authorization process. Disable the plug-in, and try again from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope)
