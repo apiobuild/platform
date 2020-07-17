@@ -46,7 +46,7 @@ It’s hard to decide which approach suits you best, and there are many pros and
 
 In the [demo store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4), we've configured one google sheet to be catalog and another one to store order.
 
-You can easily update products to the catalog on google sheet and the store will update in real-time. On the other side, when user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4).
+You can easily update products to the catalog on google sheet and the store will update in real-time. When user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4).
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/gsheet-to-store.mp4" type="video/mp4" />
