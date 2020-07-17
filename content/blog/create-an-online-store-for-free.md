@@ -109,7 +109,7 @@ Set a maximum quantity (per customer) for products in the catalog google sheet. 
 
 #### Tax and Shipping Options
 
-Depending on where your business is registered, tax rate can be set by you. You can also setup shipping rules, including different destination with different amounts and free shipping minimum.
+Depending on where your business is registered, the tax rate can be set by you. You can also add shipping rules, including different destinations with different amounts and a free shipping minimum.
 
 ## Summary
 
