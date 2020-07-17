@@ -42,7 +42,7 @@ Here's an example:
 Fields are defined as the following:
 
 - name: unique name/id contains **only dashes, underscores, and alphanumeric are allowed** for each product
-- nickname: item names that will appear on the store page, they can be **any language and symbol, even emoji**
+- nickname: item names that will appear on the store page, they can be **any language, symbol, and even emoji**
 - description *(optional)*: more information of the product
 - product_url *(optional)*: link to the product website
 - image_url: url of the product image
