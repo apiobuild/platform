@@ -59,7 +59,7 @@ You can easily update products to the catalog on google sheet and the store will
 
 Chopin made creating your own store as easy as filling out a simple survey. You only need to provide your logo, simple information about your store, two google sheets: one with the catalog and one with order data. That's, it, your web store is ready to go!
 
-**No need to code**, just use the interface everyone’s familiar with - Google Sheet. You can add new items by simply pasting text in a google sheet. Have you ever thought updating a website can be this easy?
+**No code required**, just use the interface everyone’s familiar- Google Sheet. You can add new items by simply adding a new row in your google sheet. Have you ever thought updating a website can be so easy?
 
 #### Responsive Design
 
