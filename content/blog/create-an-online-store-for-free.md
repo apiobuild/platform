@@ -92,7 +92,7 @@ Chopin enables social plug-ins so your customers can easily reach you via **Emai
 
 #### Category
 
-You have the option to group your products in various categories or collections, and customers can go to a certain category directly from the menu. You can even setup a "Featured" collection to highlight certain items.
+You can group products in various categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers to locate any items easily. 
 
 <video width="75%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/jump-to.mp4" type="video/mp4" />
