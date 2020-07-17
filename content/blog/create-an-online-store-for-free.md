@@ -38,7 +38,7 @@ While our out-of-box option allows you to set up your store with only a couple o
 
 It’s hard to decide which approach suits you best, and there are many pros and cons. Why waste time on researching which platform to sell when you could've started selling your product already!
 
-**[Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a lightweight static online store generator.** After providing store information and two google sheets (catalog/order), Chopin will generate a static website with a unique url.
+**[Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a lightweight static online store generator.** After providing store information and two google sheets (one for catalog and one for order), Chopin will generate a static website with a unique url.
 
 <img src="/images/blog/chopin-architecture.png"  class="banner-img">
 
