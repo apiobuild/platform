@@ -124,7 +124,7 @@ After configuring both catalog and order in waitress app, we can head to [Chopin
 
 **Tax and Shipping Set-up**
 
-- Tax Rate *(optional)*: if Tax Rate = 0, it will not be shown in the store created
+- Tax Rate *(optional)*: if Tax Rate = 0, it will not be shown on the store page
 - Shipping Options *(optional)*: you can setup multiple options and free shipping minimum
 
 **Google Sheet API**
