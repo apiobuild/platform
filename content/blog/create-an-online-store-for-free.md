@@ -86,7 +86,7 @@ The website is fully customizable. You can provide **logo, store description, ba
 
 #### Communication 
 
-Chopin enables social plug-ins so your customers can easily contact you via **Email, Instagram, Facebook, and Line**. You also have the option to setup **announcement** to broadcast important updates or discount information. 
+Chopin enables social plug-ins so your customers can easily reach you via **Email, Instagram, Facebook, and Line**. You also have the option to add **announcement** to broadcast important updates or discount information. 
 
 <img src="/images/blog/social.png" class="post-img">
 
