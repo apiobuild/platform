@@ -150,7 +150,7 @@ Happy “chopin”! 🛍️
 
 # FAQs
 
-If you see error messages or Patrick Star crying (hopefully really rare), let us trouble-shoot together! <a href="mailto:apiobuild@gmail.com">Contact your favorite developer if you don't find answers here</a>!
+If you see error messages or Patrick Star crying (hopefully really rare), let us troubleshoot together! <a href="mailto:apiobuild@gmail.com">Contact us (your favorite developer) if you don't find answers here</a>!
 
 <img src="/images/blog/chopin-error.png" class="post-img">
 
