@@ -75,7 +75,7 @@ After authorization, only you can access your sheet through our API. Even us can
 
 Repeat [Step 1](#step-1-create-catalog-google-sheet) and [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope) to **create another google sheet** with different header. 
 
-This sheet will be storing **new order** that customers submitted on your store. So just copy and paste the following columns to the sheet, and you don't need to input other information:
+This sheet will be storing **new orders** that customers submitted to your store. Copy and paste the following columns to the sheet, no need to input additional information.
 
 <div class="row py-2">
   <div class="table-box table-warning table-responsive px-2 py-2">
