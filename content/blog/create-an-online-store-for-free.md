@@ -79,7 +79,7 @@ We also welcome third-party integrations and don’t want to tie you down with o
 
 #### Customization 
 
-The website is fully customizable. You can update **logo, store description, background color, and background image** within the [Chopin's configure tab](https://telescope.apiobuild.com/app/chopin/configure) to create a store aligned with your brand. More customization options are also available though simple HTML blocks.
+The website is fully customizable. You can provide **logo, store description, background color, and background image** on [Chopin's configure tab](https://telescope.apiobuild.com/app/chopin/configure) to create a store page that aligns with your brand. More customization options are also available through simple HTML blocks.
 
 <img src="/images/blog/store.png" class="post-img"> 
 
