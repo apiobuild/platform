@@ -50,7 +50,7 @@ Fields are defined as the following:
 - max_qty: maximum quantity that one customer can buy. **If max_qty = 0, it will show 'Out of Stock'**.
 - category *(optional)*: to allow customer to filter products
 
-*Note: There should not be empty line between rows.*
+*Note: There should not be empty line(s) between rows.*
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/copy-paste-catalog-google-sheet.mp4" type="video/mp4" />
