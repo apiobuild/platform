@@ -5,7 +5,7 @@ date: 2020-07-06
 tags: ["chopin", "waitress", "telescope", "announcement", "ecommerce", "online-store", "google", "sheets"]
 ---
 
-Are you looking for a free and easy way to create your online store? We have a solution for you - introducing [Chopin by apio](https://telescope.apiobuild.com/app/chopin): a simple online store creator that allows you to configure your online store with google sheet. It’s a FREE tool with flexibility to fully customize or integrate with third-party API and require no coding. Try now and start selling your products online!
+Are you looking for a free and easy way to create your online store? We have a solution for you - introducing [Chopin by apio](https://telescope.apiobuild.com/app/chopin): a simple online store creator that allows you to configure your online store with google sheet. It’s a FREE tool with flexibility to customize and integrate with third-party API. No code required - Try now and start selling your products online!
 
 [Read more: a step-by-step guide on how to setup online store with Chopin](https://apiobuild.com/blog/how-to-create-web-store-with-apio)
 
