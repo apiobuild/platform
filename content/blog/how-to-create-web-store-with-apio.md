@@ -110,7 +110,7 @@ This sheet will be storing **new order** that customers submitted on your store.
 
 ## Step 4: Create the Store
 
-After configuring both catalog and order in google sheet, now we can head to [Chopin](https://telescope.apiobuild.com/app/chopin) to setup our store. Enter the following information to the cooresponding fields. You can update this information anytime (except store name and google sheet urls) and the updates will be reflected in real time.
+After configuring both catalog and order in waitress app, we can head to [Chopin](https://telescope.apiobuild.com/app/chopin) to create our store. Enter the following information to the corresponding fields. You can update this information anytime (except store name and google sheet URLs) and the updates will be reflected in real-time.
 
 **Customize Your Store**
 
