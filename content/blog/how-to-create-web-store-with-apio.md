@@ -110,18 +110,27 @@ This sheet will be storing **new order** that customers submitted on your store.
 
 ## Step 4: Create the Store
 
-After configuring both catalog and order in google sheet, now we can head to [Chopin](https://telescope.apiobuild.com/app/chopin) to setup our store. Enter the following information to cooresponding fields:
+After configuring both catalog and order in google sheet, now we can head to [Chopin](https://telescope.apiobuild.com/app/chopin) to setup our store. Enter the following information to the cooresponding fields. You can update this information anytime (except store name and google sheet urls) and the updates will be reflected in real time.
+
+**Customize Your Store**
 
 - Store Name: name of your store
-- Store Description *(optional)*: any information you'd like to include
-- Tax Rate *(optional)*: if Tax Rate = 0, it will not show in the store created
 - Logo url *(optional)*: it can even be a gif
+- Announcement *(optional)*: it will show at the top of your store. You can update it anytime.
+- Store Description *(optional)*: any information you'd like to include. Up to 250 characters.
+- Store Background Image url  *(optional)*: add a background image
+- Store Background Color  *(optional)*: you can easily select color from swatch or [hex code](https://htmlcolorcodes.com/)
 - Contact and Social Plug-ins *(optional)*: currently we support email address, Facebook, Instagram, and Line
-- Shipping Options *(optional)*: you can setup multiple options and free shipping minimum
-- Catalog API: add catalog google sheet id after `https://trampoline.apiobuild.com/router/waitress/gsheets/`
-- Order API: add order google sheet id after `https://trampoline.apiobuild.com/router/waitress/gsheets/`
 
-*Google sheet id can be extracted from google sheet url: `https://docs.google.com/spreadsheets/d/<sheet-id>`.*
+**Tax and Shipping Set-up**
+
+- Tax Rate *(optional)*: if Tax Rate = 0, it will not be shown in the store created
+- Shipping Options *(optional)*: you can setup multiple options and free shipping minimum
+
+**Google Sheet API**
+
+- Catalog Google Sheet url: copy and paste the authorized catalog sheet URL from [Step 1](#step-1-create-catalog-google-sheet) 
+- Order Google Sheet url: copy and paste the authorized order sheet URL from [Step 3](#step-3-create-order-google-sheet)
 
 *Note: In this example, we use [Waitress google sheet API](https://telescope.apiobuild.com/app/waitress) as catalog and order API. We welcome you to bring your own API, <a href="mailto:apiobuild@gmail.com">let us know</a>!*
 
@@ -131,9 +140,9 @@ After configuring both catalog and order in google sheet, now we can head to [Ch
 
 ## Step 5: Start Selling
 
-Voila, the store is now available at: [tinyurl.com/iam-batman](https://tinyurl.com/iam-batman)!
+Voila, the store is now available at: [tinyurl.com/batmans-store](https://tinyurl.com/batmans-store)!
 
-💡You can use services like [tinyurl.com](https://tinyurl.com/) to make the raw url easier to share on facebook, instagram, and you friends.
+💡You can use services like [tinyurl.com](https://tinyurl.com/) to make the raw url easier to share on facebook, instagram, and among you friends.
 
 💡Any new order will be updated on the order google sheet you created in [Step 3](#step-3-create-order-google-sheet). You can also setup [google sheet notification](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en) to get real-time updates on new order submission.
 
@@ -146,12 +155,11 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 <img src="/images/blog/chopin-error.png" class="post-img">
 
 #### Chopin
-  - Check API fields, don't delete `https://trampoline.apiobuild.com/router/waitress/gsheets/`, just paste google sheet id after.
-  - Check if you copy the full google sheet id. You can find your sheet id in the url, which is the number after `spreadsheet/d/` and before `/edit`.
+  - Go to [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope), check if you authorize both of your google sheets
 
 #### Google Sheet Data
   - In catalog sheet, there should be no empty lines between rows.
-  - In catalog sheet, `name` of each product can not be empty nor can be characters other than numbers or alphabets. There should not be products shared with same `name`.
+  - In catalog sheet, `name` of each product can not be empty nor can be characters other than numbers or alphabets. There should not be products shared the same `name`.
 
 #### Browser
   - Pop-up blocker might disrupt the google sheet authorization process. Disable the plug-in, and try again from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope)

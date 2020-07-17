@@ -49,7 +49,7 @@ In the [demo store](https://trampoline.apiobuild.com/router/chopin/store/page/go
 You can easily update products to the catalog on google sheet and the store will update in real-time. On the other side, when user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4).
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
-<source src="/video/chopin-quick-demo.mp4" type="video/mp4" />
+<source src="/video/gsheet-to-store.mp4" type="video/mp4" />
 </video>
 
 
@@ -79,14 +79,14 @@ We also welcome third-party integrations and don’t want to tie you down with o
 
 #### Customization 
 
-The website is fully customizable. You can update **logo, store description, theme color, and background image** within the Chopin's configure tab to create a store aligned with your branding. More customization options are also available though simple HTML blocks.
+The website is fully customizable. You can update **logo, store description, background color, and background image** within the [Chopin's configure tab](https://telescope.apiobuild.com/app/chopin/configure) to create a store aligned with your brand. More customization options are also available though simple HTML blocks.
 
 <img src="/images/blog/store.png" class="post-img"> 
 
 
 #### Communication 
 
-Chopin enables social plug-ins so your customers can easily contact you via **Email, Instagram, Facebook, and Line**. You also have the option to setup **announcement** to broadcast important updates or discount information.
+Chopin enables social plug-ins so your customers can easily contact you via **Email, Instagram, Facebook, and Line**. You also have the option to setup **announcement** to broadcast important updates or discount information. 
 
 <img src="/images/blog/social.png" class="post-img">
 
@@ -107,9 +107,9 @@ Set a maximum quantity (per customer) for products in the catalog google sheet. 
 <source src="/video/out-of-stock.mp4" type="video/mp4" />
 </video>
 
-#### Shipping Options
+#### Tax and Shipping Options
 
-You can setup shipping rules, including different destination with different amounts and free shipping minimum.
+Depending on where your business is registered, tax rate can be set by you. You can also setup shipping rules, including different destination with different amounts and free shipping minimum.
 
 ## Summary
 
@@ -119,7 +119,7 @@ So how do you know if Chopin is right for you?
 - Are you just starting up an online business and **testing the water**?
 - Are you not sure what kind of website you want but **you already have something to sell**?
 
-If you answer **YES** to one of above questions, [Chopin](https://telescope.apiobuild.com/app/chopin) is the perfect solution for you to kickstart your business! [Click here to start creating your online store!]((https://telescope.apiobuild.com/app/chopin))
+If you answer **YES** to one of above questions, [Chopin](https://telescope.apiobuild.com/app/chopin) is the perfect solution for you to kickstart your business! [Click here to start creating your online store!](https://telescope.apiobuild.com/app/chopin)
 
 Happy Selling! 💰
 
@@ -130,8 +130,7 @@ Happy Selling! 💰
     margin-right: auto;
     max-width: 40%;
 }
-.banner
--img {
+.banner-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
