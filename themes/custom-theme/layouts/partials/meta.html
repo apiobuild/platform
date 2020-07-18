@@ -9,9 +9,14 @@
 
 {{ if isset .Params "image" }}
 <meta property="og:image" content="{{ .Site.BaseURL }}{{ $.Params.image }}" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}{{ $.Params.image }}" />
 {{ else }}
 <meta
   property="og:image"
+  content="{{ .Site.BaseURL }}{{ .Site.Params.image }}"
+/>
+<meta
+  name="twitter:image"
   content="{{ .Site.BaseURL }}{{ .Site.Params.image }}"
 />
 {{ end }} {{ else }}
@@ -31,6 +36,10 @@
 
 <meta
   property="og:image"
+  content="{{ .Site.BaseURL }}{{ .Site.Params.image }}"
+/>
+<meta
+  name="twitter:image"
   content="{{ .Site.BaseURL }}{{ .Site.Params.image }}"
 />
 
