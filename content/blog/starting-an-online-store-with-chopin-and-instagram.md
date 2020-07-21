@@ -39,7 +39,7 @@ With Chopin, all product information including name, price, description, image, 
 
 #### Real-Time Update
 
-Atelier EHOI features a weekly updated Dacquoise menu. They announce the secret flavors one week prior to the order deadline. **With Chopin, they can update the cake flavor every week by simply updating a few cells in google sheet.** It not only streamlined the menu update process for store owners, it also made it easier for customers to explore their weekly menu.
+Atelier EHOI features a weekly Dacquoise menu. They announce the secret flavors one week prior to the order deadline. **With Chopin, they can update the cake flavor every week by simply updating a few cells in google sheet.** This streamlines the menu update process for store owners and make it easier for customers to explore their weekly menu.
 
 <img src="/images/blog/update-catalog.png" class="post-img">
 
