@@ -45,7 +45,7 @@ We keep asking? Why does this have to be the case? This goes back to the above, 
 But now two simple spreadsheets are stored in a database and hidden in layers of application codes. It's not possible for a non-developer to understand how everything works.
 
 
-It does not have to be that way. If people understand spreadsheet and want to sell online, that's enough. **Why don't we create a way for people to run their online store with spreadsheets?** Well, other developers won't tell you this because they'd be out of job. However, we couldn't bear the thought that there's an easier way for people to create an online store and actually understand how everything is connected. At [apio](https://apiobuild.com/), we want to make your first step to enter the ecommerce world as easy as possible, before going for monstrous solutions.
+It does not have to be that way. If people understand spreadsheet and want to sell online, that's enough. **Why don't we create a way for people to run their online store with spreadsheets?** We couldn't bear the thought that there's an easier way for people to create an online store and actually understand how everything is connected. At [apio](https://apiobuild.com/), we want to make your first step to enter the e-commerce world as easy as possible, before going for monstrous solutions.
 
 <img src="/images/blog/chopin-architecture.png"  class="post-img">
 
