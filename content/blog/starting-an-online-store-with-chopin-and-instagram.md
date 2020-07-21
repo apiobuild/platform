@@ -57,7 +57,7 @@ No more manual calculation. With Chopin, all customers’ orders are summed and 
 
 ## Summary
 
-Atelier EHOI is a perfect example of how simple tool integration can smooth online business operations. The onboarding process took only a couple days. There's no need to learn a monstrous platform or different tools and can plug in Instagram contents to start an online store.
+Atelier EHOI is a perfect example of how simple tool integration can smooth online business operations. The onboarding process took only a couple days. There's no need to learn a monstrous platform or different tools. Just plug in Instagram contents that you've already created to start an online store.
 
 Are you still using google form, email, or DM to collect orders? [Try Chopin for free today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
 
