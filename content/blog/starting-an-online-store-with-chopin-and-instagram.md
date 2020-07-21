@@ -23,7 +23,7 @@ The first step to start an online business is to create a website. This involves
 
 🛍️[Read more: follow this guild and create your store today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
 
-## Atelier EHOI
+## Use Case: Atelier EHOI
 
 [Atelier EHOI](https://tinyurl.com/Atelier-EHOI) is a boutique bakery in the New York/New Jersey area. They already established presence on [Facebook](https://www.facebook.com/atelierehoi-115683523541293/) and [Instagram](https://www.instagram.com/atelierehoi/). Prior to using Chopin, they were collecting orders through google form which makes the transition painless, as they are already familiar with google products.
 
