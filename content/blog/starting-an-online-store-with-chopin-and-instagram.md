@@ -25,7 +25,7 @@ The first step to start an online business is to create a website. This involves
 
 ## Use Case: Atelier EHOI
 
-[Atelier EHOI](https://tinyurl.com/Atelier-EHOI) is a boutique bakery in the New York/New Jersey area. They already established presence on [Facebook](https://www.facebook.com/atelierehoi-115683523541293/) and [Instagram](https://www.instagram.com/atelierehoi/). Prior to using Chopin, they were collecting orders through google form which makes the transition painless, as they are already familiar with google products.
+[Atelier EHOI](https://tinyurl.com/Atelier-EHOI) is a boutique bakery in the New York/New Jersey area. They already established presence on [Facebook](https://www.facebook.com/atelierehoi-115683523541293/) and [Instagram](https://www.instagram.com/atelierehoi/). Prior to using Chopin, they were collecting orders through google form which makes the transition seamless, as they are already familiar with google products.
 
 [Visit their Chopin site!](tinyurl.com/Atelier-EHOI)
 
