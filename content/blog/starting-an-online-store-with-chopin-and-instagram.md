@@ -3,6 +3,7 @@ title: "Starting an Online Store with Chopin and Instagram"
 image: /images/blog/social-build-chopin.png
 date: 2020-07-20
 tags: ["ecommerce", "website", "small-business", "chopin", "google-sheet", "instagram", "facebook", "chopin-use-case", "use-case", "online-shop"]
+hide: true
 ---
 
 The first step to start an online business is to create a website. This involves getting a domain, hiring developers, creating contents and more. That’s a lot of work and investment before you can even put your products online. Many small business owners turn to social media (mostly [Facebook](https://www.facebook.com/) and [Instagram](https://www.instagram.com/)) to build up their brand. It’s free, easy, and most people åre already familiar with these platforms. **Our online store creator [Chopin](https://telescope.apiobuild.com/app/chopin) shares these benefits and can join forces with Instagram to help you create an online store with your Instagram posts.**
