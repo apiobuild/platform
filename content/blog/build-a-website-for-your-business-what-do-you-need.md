@@ -60,7 +60,7 @@ Happy Selling! 💰
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 60%;
+    max-width: 100%;
 }
 </style>
 
