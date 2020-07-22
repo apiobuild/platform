@@ -7,12 +7,14 @@ tags: ["chopin", "waitress", "telescope", "announcement", "ecommerce", "online-s
 
 Are you looking for a free and easy way to create your online store? We have a solution for you - introducing [Chopin by apio](https://telescope.apiobuild.com/app/chopin): a simple online store creator that allows you to configure your online store with google sheet. It’s a FREE tool with flexibility to customize and integrate with third-party API. No code required - Try now and start selling your products online!
 
-[Read more: a step-by-step guide on how to setup online store with Chopin](https://apiobuild.com/blog/how-to-create-web-store-with-apio)
+🛍️ [Read more: a step-by-step guide on how to setup online store with Chopin](https://apiobuild.com/blog/how-to-create-web-store-with-apio)
+
+🛍️ [Read more: why you don't need developers to build a website?](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
 
 ## Current Solutions for Online Store
 
 When creating online stores, you have a couple of choices:
-- List items on marketplace platforms ([Etsy](https://www.etsy.com/), [eBay](https://www.ebay.com/),[Craigslist](https://newyork.craigslist.org/), [Facebook Marketplace](https://www.facebook.com/marketplace/))
+- List items on marketplace platforms ([Etsy](https://www.etsy.com/), [eBay](https://www.ebay.com/), [Craigslist](https://newyork.craigslist.org/), [Facebook Marketplace](https://www.facebook.com/marketplace/))
 - Use an eCommerce website builder ([Shopify](https://www.shopify.com/), [Squarespace](https://www.squarespace.com/), [BigCommerce](https://www.bigcommerce.com/), [Wix](https://www.wix.com/))
 - Build your own eCommerce website with open-source ([OpenCart](https://www.opencart.com/))
 
@@ -48,8 +50,8 @@ In the [demo store](https://trampoline.apiobuild.com/router/chopin/store/page/go
 
 You can easily update products to the catalog on google sheet and the store will update in real-time. When user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4).
 
-<video width="100%" loop="true" autoplay="true" controls style="align: center">
-<source src="/video/gsheet-to-store.mp4" type="video/mp4" />
+<video width="75%" loop="true" autoplay="true" controls style="display: block;
+margin: 0 auto"><source src="/video/gsheet-to-store.mp4" type="video/mp4" />
 </video>
 
 
@@ -79,9 +81,9 @@ We also welcome third-party integrations and don’t want to tie you down with o
 
 #### Customization 
 
-The website is fully customizable. You can provide **logo, store description, background color, and background image** on [Chopin's configure tab](https://telescope.apiobuild.com/app/chopin/configure) to create a store page that aligns with your brand. More customization options are also available through simple HTML blocks.
+The website is fully customizable. You can provide **logo, store description, background color, and background image** on [Chopin\'s configure tab](https://telescope.apiobuild.com/app/chopin/configure) to create a store page that aligns with your brand. More customization options are also available through simple HTML blocks.
 
-<img src="/images/blog/store.png" class="post-img"> 
+<img src="/images/blog/customization.png" class="post-img">
 
 
 #### Communication 
@@ -90,12 +92,20 @@ Chopin enables social plug-ins so your customers can easily reach you via **Emai
 
 <img src="/images/blog/social.png" class="post-img">
 
+#### Payment Integration
+
+Chopin currently offers **PayPal** for your customers to pay through credit cards, bank accounts, or PayPal account balances. You can also provide your **Zelle** or **Venmo** account information as a manual pay option. We will record customers' payment method, PayPal transaction id in the order google sheet.
+
+*Note: You have to create a [PayPal business account](https://www.paypal.com/us/business/getting-started).*
+
+<img src="/images/blog/payment.png" class="post-img">
+
 #### Category
 
-You can group products in various categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers to locate any items easily. 
+You can group products in various categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers can locate any items easily. 
 
-<video width="75%" loop="true" autoplay="true" controls style="align: center">
-<source src="/video/jump-to.mp4" type="video/mp4" />
+<video width="75%" loop="true" autoplay="true" controls style="display: block;
+margin: 0 auto"><source src="/video/jump-to.mp4" type="video/mp4" />
 </video>
 
 
@@ -103,13 +113,15 @@ You can group products in various categories, and customers can filter products 
 
 Set a maximum quantity (per customer) for products in the catalog google sheet. Once the customer’s selection reaches the maximum, the system will show the limitation or out of stock message.
 
-<video width="75%" loop="true" autoplay="true" controls style="align: center">
-<source src="/video/out-of-stock.mp4" type="video/mp4" />
+<video width="75%" loop="true" autoplay="true" controls style="display: block;
+margin: 0 auto"><source src="/video/out-of-stock.mp4" type="video/mp4" />
 </video>
 
 #### Tax and Shipping Options
 
-Depending on where your business is registered, the tax rate can be set by you. You can also add shipping rules, including different destinations with different amounts and a free shipping minimum.
+Depending on where your business is registered, the tax rate can be set by you. You can also add shipping rules, including different destinations with different amounts and a **free shipping minimum**.
+
+<img src="/images/blog/order-summary.png" class="post-img">
 
 ## Summary
 
@@ -128,7 +140,7 @@ Happy Selling! 💰
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 40%;
+    max-width: 70%;
 }
 .banner-img {
     display: block;
