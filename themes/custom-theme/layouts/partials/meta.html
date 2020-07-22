@@ -1,4 +1,5 @@
 {{if eq .Section "blog"}}
+<title>{{ $.Params.title }}</title>
 <meta property="og:type" content="article" />
 <meta property="og:title" content="{{ $.Params.title }}" />
 <meta name="description" content="{{ .Summary }}" />
@@ -20,6 +21,7 @@
   content="{{ .Site.BaseURL }}{{ .Site.Params.image }}"
 />
 {{ end }} {{ else }}
+<title>{{ .Site.Title }}</title>
 <meta property="og:type" content="{{ .Site.Params.meta.meta_og_type }}" />
 <meta property="og:title" content="{{ .Site.Title }}" />
 <meta name="description" content="{{ .Site.Params.meta.meta_description }}" />
