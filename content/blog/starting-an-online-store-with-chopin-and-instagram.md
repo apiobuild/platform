@@ -8,7 +8,7 @@ hide: true
 
 The first step to start an online business is to create a website. This involves getting a domain, hiring developers, creating contents and more. That’s a lot of work and investment before you can even put your products online. Many small business owners turn to social media (mostly [Facebook](https://www.facebook.com/) and [Instagram](https://www.instagram.com/)) to build up their brand. It’s free, easy, and most people are already familiar with these platforms. **Our online store creator [Chopin](https://telescope.apiobuild.com/app/chopin) shares these benefits and can join forces with Instagram to help you create an online store with your Instagram posts.**
 
-🛍️[Read more: why you don\'t need to hire developers now](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
+🛍️[Read more: why you don\'t need to hire developers now.](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
 
 ## Why choose Chopin?
 
@@ -25,11 +25,13 @@ The first step to start an online business is to create a website. This involves
 
 ## Use Case: Atelier EHOI
 
+<img src="/images/blog/ehoi-apio.png" class="post-img">
+
 [Atelier EHOI](https://tinyurl.com/Atelier-EHOI) is a boutique bakery in the New York/New Jersey area. They already established presence on [Facebook](https://www.facebook.com/atelierehoi-115683523541293/) and [Instagram](https://www.instagram.com/atelierehoi/). Prior to using Chopin, they were collecting orders through google form which makes the transition seamless, as they are already familiar with google products.
 
-[Visit their Chopin site!](tinyurl.com/Atelier-EHOI)
+> The website is very convenient for our customers to place orders. After taking a while to set it up, it is very easy to manage the website. We like the fact that we can change contents like basic setting, product description and picture anytime we want. And I believe the website will benefit our business.
 
-<img src="/images/blog/ehoi-apio.png" class="post-img">
+<footer class="blockquote-footer">Jeff from <cite><a href="https://tinyurl.com/Atelier-EHOI" target="_blank">Atelier EHOI</cite></footer>
 
 #### Google Sheet and Instagram
 
@@ -68,6 +70,8 @@ Happy Selling! 💰
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
 }
 </style>

@@ -7067,3 +7067,11 @@ a.anchor {
 
 .info-card {
   background-color: rgba(245, 245, 245, 0.6) !important; }
+
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding-left: 15px;
+  border-left: 6px solid #ccc;
+}

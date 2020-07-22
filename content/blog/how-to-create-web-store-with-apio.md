@@ -97,9 +97,6 @@ This sheet will be storing **new orders** that customers submitted to your store
           <td class="wide">product_name</td>
           <td class="wide">product_qty</td>
           <td class="wide">product_price</td>
-          <td class="wide">status_open</td>
-          <td class="wide">status_paid</td>
-          <td class="wide">status_shipped</td>
         </tr>
       </tbody>
     </table>
@@ -110,7 +107,7 @@ This sheet will be storing **new orders** that customers submitted to your store
 
 ## Step 4: Create the Store
 
-After configuring both catalog and order in waitress app, we can head to [Chopin](https://telescope.apiobuild.com/app/chopin) to create our store. Enter the following information to the corresponding fields. You can update this information anytime (except store name and google sheet URLs) and the updates will be reflected in real-time.
+After configuring both catalog and order in waitress app, we can head to [Chopin](https://telescope.apiobuild.com/app/chopin) to create our store. Enter the following information to the corresponding fields. You can update this information anytime (**except store name and google sheet URLs**) and the updates will be reflected in real-time.
 
 **Customize Your Store**
 
@@ -122,10 +119,19 @@ After configuring both catalog and order in waitress app, we can head to [Chopin
 - Store Background Color  *(optional)*: you can easily select color from swatch or [hex code](https://htmlcolorcodes.com/)
 - Contact and Social Plug-ins *(optional)*: currently we support email address, Facebook, Instagram, and Line
 
+
 **Tax and Shipping Set-up**
 
 - Tax Rate *(optional)*: if Tax Rate = 0, it will not be shown on the store page
 - Shipping Options *(optional)*: you can setup multiple options and free shipping minimum
+
+**Payment Options**
+
+- PayPal: [contact us](https://apiobuild.com/forms/business/), let us help you integrate your [PayPal business account](https://www.paypal.com/us/business)
+- Zelle: provide your Zelle email or mobile number
+- Venmo: provide your Venmo handle
+
+*Note: We view Zelle and Venmo as manual payment methods, which means the payment would be handled outside of the Chopin checkout.*
 
 **Google Sheet API**
 
@@ -148,40 +154,44 @@ Voila, the store is now available at: [tinyurl.com/batmans-store](https://tinyur
 
 Happy “chopin”! 🛍️
 
-# FAQs
+## FAQs
 
 If you see error messages or Patrick Star crying (hopefully really rare), let us troubleshoot together! <a href="mailto:apiobuild@gmail.com">Contact us (your favorite developer) if you don't find answers here</a>!
 
 <img src="/images/blog/chopin-error.png" class="post-img">
 
-#### Chopin
+### Chopin
   - Go to [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope), check if you authorize both of your google sheets
 
-#### Google Sheet Data
+### Google Sheet Data
   - In catalog sheet, there should be no empty lines between rows.
   - In the catalog sheet, `name` of each product can not be empty nor can be characters other than numbers or alphabets. Product names must be unique.
 
-#### Browser
+### Browser
   - Pop-up blocker might disrupt the google sheet authorization process. Disable the plug-in, and try again from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope)
 
 
-#### Other Questions
+### Other Questions
 
-##### How to find image url from my website and Facebook page?
+#### How to find image url from my website and Facebook pages?
 
 🙋Right-click the image > Select 'Copy Image Address'
 
-##### How can I get image url for something I didn't post online?
+#### How can I get image url for something I didn't post online?
 
 🙋Try image hosting services, like [Imgbb](https://imgbb.com/).
 
-##### How can I get notification when someone places a new order?
+#### Why the images are not shown properly?
+
+🙋Make sure you copy the image url - the internet address that points directly to a specific image, rather than an entire index, webpage or website. You can put url in address bar to test it out. If you can see the image and only the image, then that's a working url.
+
+#### How can I get notification when someone places a new order?
 
 🙋At the top of your Order google sheet, click Tools and then Notification rules. Select "when" you want to receive notifications. [Read more](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
 
-##### How can I shrink my store URL?
+#### How can I shrink my store URL?
 
-🙋Try URL shortener services, like [tinyurl](https://tinyurl.com/) or[Bitly](https://bitly.com/) to make your store link easier to share.
+🙋Try URL shortener services, like [tinyurl](https://tinyurl.com/) or [Bitly](https://bitly.com/) to make your store link easier to share.
 
 <style>
 .center {

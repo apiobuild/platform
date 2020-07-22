@@ -157,6 +157,6 @@ Ta da! There you have a simple sign-up form to collect emails from your website 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 70%;
+    max-width: 100%;
 }
 </style>

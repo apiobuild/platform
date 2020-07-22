@@ -9,7 +9,7 @@ Are you looking for a free and easy way to create your online store? We have a s
 
 🛍️ [Read more: a step-by-step guide on how to setup online store with Chopin](https://apiobuild.com/blog/how-to-create-web-store-with-apio)
 
-🛍️ [Read more: why you don't need developers to build a website?](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
+🛍️ [Read more: why you don\'t need developers to build a website?](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
 
 ## Current Solutions for Online Store
 
@@ -42,6 +42,8 @@ It’s hard to decide which approach suits you best, and there are many pros and
 
 **[Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a lightweight static online store generator.** After providing store information and two google sheets (one for catalog and one for order), Chopin will generate a static website with a unique url.
 
+Whether you are [small business owners](https://apiobuild.com/blog/starting-an-online-store-with-chopin-and-instagram/) or just looking for ways to collect group orders among friends. Chopin can also be used as selling creative service or virtual products. [Read more use cases.](https://apiobuild.com/tags/chopin-use-case/)
+
 <img src="/images/blog/chopin-architecture.png"  class="banner-img">
 
 #### Demo
@@ -50,7 +52,7 @@ In the [demo store](https://trampoline.apiobuild.com/router/chopin/store/page/go
 
 You can easily update products to the catalog on google sheet and the store will update in real-time. When user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4).
 
-<video width="75%" loop="true" autoplay="true" controls style="display: block;
+<video width="100%" loop="true" autoplay="true" controls style="display: block;
 margin: 0 auto"><source src="/video/gsheet-to-store.mp4" type="video/mp4" />
 </video>
 
@@ -104,7 +106,7 @@ Chopin currently offers **PayPal** for your customers to pay through credit card
 
 You can group products in various categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers can locate any items easily. 
 
-<video width="75%" loop="true" autoplay="true" controls style="display: block;
+<video width="100%" loop="true" autoplay="true" controls style="display: block;
 margin: 0 auto"><source src="/video/jump-to.mp4" type="video/mp4" />
 </video>
 
@@ -113,7 +115,7 @@ margin: 0 auto"><source src="/video/jump-to.mp4" type="video/mp4" />
 
 Set a maximum quantity (per customer) for products in the catalog google sheet. Once the customer’s selection reaches the maximum, the system will show the limitation or out of stock message.
 
-<video width="75%" loop="true" autoplay="true" controls style="display: block;
+<video width="100%" loop="true" autoplay="true" controls style="display: block;
 margin: 0 auto"><source src="/video/out-of-stock.mp4" type="video/mp4" />
 </video>
 
@@ -140,12 +142,12 @@ Happy Selling! 💰
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 70%;
+    max-width: 100%;
 }
 .banner-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 </style>
