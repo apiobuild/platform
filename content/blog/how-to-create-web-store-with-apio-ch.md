@@ -75,7 +75,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 ## Step 3: 新增訂單Google Sheet
 
-創建另一個有不同標題列的google sheet作為**收集訂單**之用，複製以下標題列貼到此google sheet，無需再鍵入其它資料。並重複 [步驟1](#step-1-新增商品目錄-google-sheet) 跟 [步驟2](#step-2-授權google-sheet)。
+創建另一個有不同標題列的 google sheet 作為**收集訂單**之用，複製以下標題列貼到此 google sheet，無需再鍵入其它資料。並重複 [步驟1](#step-1-新增商品目錄-google-sheet) 跟 [步驟2](#step-2-授權google-sheet)。
 
 每筆顧客下訂的資料都會自動登錄在這個google sheet裡。
 
