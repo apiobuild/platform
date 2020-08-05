@@ -119,7 +119,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 - Store Description *(非必須)*: 商店敘述，最多250字
 - Store Background Image url  *(非必要)*: 背景圖案連結
 - Store Background Color  *(非必要)*: 可以從調色盤選取顏色或輸入 [hex code](https://htmlcolorcodes.com/)
-- Contact and Social Plug-ins *(非必要)*: 與客人的通訊方式，目前支援電子信箱, Facebook, Instagram, and Line
+- Contact and Social Plug-ins *(非必須)*: 與客人的通訊方式，目前支援電子信箱, Facebook, Instagram, and Line
 
 
 **設定稅率與運費**
