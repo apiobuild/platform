@@ -8,5 +8,4 @@ background: 'images/ideas.png'
 
 <br>
 
-### Connecting developers to impactful software-building.
-
+### Affordable and sustainable high quality customer software at fingertips. 
