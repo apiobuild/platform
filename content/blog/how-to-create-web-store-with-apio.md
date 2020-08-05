@@ -52,7 +52,7 @@ Fields are defined as the following:
 - image_url: url of the product image
 - price: product price
 - max_qty: maximum quantity that one customer can buy. **If max_qty = 0, it will show 'Out of Stock'**.
-- category *(optional)*: to allow customer to filter products. Multiple categories are allowed
+- category *(optional)*: to allow customer to filter products. Multiple categories can be separated by comma.
 
 *Note: There should not be empty line(s) between rows.*
 
