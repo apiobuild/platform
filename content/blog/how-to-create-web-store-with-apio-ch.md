@@ -49,7 +49,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 - product_url *(非必須)*: 產品外部連結
 - image_url: 產品圖片網址
 - price: 產品價錢
-- max_qty: 每個顧客可購買的上限， **如果設定 max_qty 為0, 會顯示 Out of Stock**
+- max_qty: 每個顧客可購買的上限，**如果設定 max_qty 為0, 會顯示 Out of Stock**
 - category *(非必須)*: 不同的產品分類，每個產品可以有多個分類
 
 *注意：每列之間不得穿插空白列*
