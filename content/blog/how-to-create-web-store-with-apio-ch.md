@@ -63,7 +63,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 先以 **google帳號**登入[Telescope平台 (apio microservices platform)](https://telescope.apiobuild.com/)。
 
 點入[Waitress](https://telescope.apiobuild.com/app/waitress) 跟著**configure tab**上面的步驟授權google sheet：
-1. 點選google sheet左上角的 `共用` (`Share`)
+1. 點選 google sheet 左上角的 `共用` (`Share`)
 2. 加入Waitress的帳號，並將其權限設為可以編輯（editor）
 3. 複製貼上google sheer連結，並點選`Authorize`
 
