@@ -158,7 +158,7 @@ Happy “chopin”! 🛍️
 
 ## 常見問題
 
-如果你看到錯誤訊息或是哭哭的派大星，不要緊張，可以參考以下常見問題！<a href="mailto:apiobuild@gmail.com">如果還是無法解決的話，歡迎直接聯絡我們工程師</a>!
+如果你看到錯誤訊息或是哭哭的派大星，不要緊張，可以參考以下常見問題！<a href="mailto:apiobuild@gmail.com">如果還是無法解決的話，歡迎直接聯絡工程師</a>!
 
 <img src="/images/blog/chopin-error.png" class="post-img">
 
