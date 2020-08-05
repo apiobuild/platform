@@ -69,7 +69,7 @@ Then go to [Waitress](https://telescope.apiobuild.com/app/waitress) and follow t
 2. Add the Waitress as an editor
 3. Copy and paste your google sheer URL. Hit `Authorize`
 
-After authorization, only you can access your sheet through our API. Even us cannot edit your google sheets!
+After authorization, only you can access your sheet through our API.
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/authorize-catalog-google-sheet.mp4" type="video/mp4" />
@@ -179,7 +179,7 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 
 #### How to find image url from my website and Facebook pages?
 
-🙋Right-click the image > Select 'Copy Image Address'
+🙋Right-click the image > Select `Copy Image Address`
 
 #### How can I get image url for something I didn't post online?
 
@@ -191,7 +191,7 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 
 #### How can I get notification when someone places a new order?
 
-🙋At the top of your Order google sheet, click Tools and then Notification rules. Select "when" you want to receive notifications. [Read more](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
+🙋At the top of your Order google sheet, click `Tools` and then `Notification Rules`. Select "when" you want to receive notifications. [Read more](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
 
 #### How can I shrink my store URL?
 

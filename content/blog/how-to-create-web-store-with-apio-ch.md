@@ -5,7 +5,7 @@ date: 2020-08-04
 tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation", "教學", "網路開店", "常見問題"]
 ---
 
-[Chopin by apio](https://telescope.apiobuild.com/app/chopin) 是一個簡單的靜態網路商店生成器，讓你不用會寫程式，只要幾鍵設定即可創建一家網路商店。且只要連結 Google Sheet，即可輕鬆上架商品跟管理訂單。這篇文章我們會教你如何使用 Google Sheet 搭配 [Waitress (apio's google sheet API)](https://telescope.apiobuild.com/app/waitress) 建立自己的網站。跟著我們的教學，開一間自己的網路商店吧！
+[Chopin by apio](https://telescope.apiobuild.com/app/chopin) 是一個簡單的靜態網路商店生成器，讓你不用會寫程式，只要幾鍵設定即可創建一家網路商店。且只要連結 Google Sheet，即可輕鬆上架商品跟管理訂單。這篇文章我們會教你如何使用 Google Sheet 搭配 [Waitress (apio\'s google sheet API)](https://telescope.apiobuild.com/app/waitress) 建立自己的網站。跟著我們的教學，開一間自己的網路商店吧！
 
 🛍️ [示範商店馬上逛](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
 
@@ -67,7 +67,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 2. 加入  Waitress  的帳號，並將其權限設為可以編輯（editor）
 3. 複製貼上 google sheet 連結，並點選 `Authorize`
 
-這個步驟確保只有你可以用我們的 API 讀取這些 google sheet 上的資料，就算是我們也看不到你的內容！
+這個步驟確保只有你可以用我們的 API 讀取這些 google sheet 上的資料。
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/authorize-catalog-google-sheet.mp4" type="video/mp4" />
@@ -75,7 +75,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 
 ## Step 3: 新增訂單 Google Sheet
 
-創建另一個有不同標題列的 google sheet 作為**收集訂單**之用，複製以下標題列貼到此 google sheet，無需再鍵入其它資料。並重複[步驟1](#step-1-新增商品目錄-google-sheet) 跟[步驟2](#step-2-授權google-sheet)。
+創建另一個有不同標題列的 google sheet 作為**收集訂單**之用，複製以下標題列貼到此 google sheet，無需再鍵入其它資料。並重複[步驟1](#step-1-新增商品目錄-google-sheet) 跟[步驟2](#step-2-授權-google-sheet)。
 
 每筆顧客下訂的資料都會自動登錄在這個 google sheet 裡。
 
@@ -114,17 +114,17 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 **客制化你的商店**
 
 - Store Name: 網路商店的名稱
-- Logo url *(非必要)*: logo 網址
+- Logo url *(非必須)*: logo 網址
 - Announcement *(非必須)*: 此通知會出現在頁面最上方，可以拿來放特價訊息或其他通知
 - Store Description *(非必須)*: 商店敘述，最多250字
 - Store Background Image url  *(非必須)*: 背景圖案連結
-- Store Background Color  *(非必要)*: 可以從調色盤選取顏色或輸入 [hex code](https://htmlcolorcodes.com/)
+- Store Background Color  *(非必須)*: 可以從調色盤選取顏色或輸入 [hex code](https://htmlcolorcodes.com/)
 - Contact and Social Plug-ins *(非必須)*: 與客人的通訊方式，目前支援電子信箱, Facebook, Instagram, and Line
 
 
 **設定稅率與運費**
 
-- Tax Rate *(非必要)*: 如果將 Tax Rate 設為0，即不會顯示稅率
+- Tax Rate *(非必須)*: 如果將 Tax Rate 設為0，即不會顯示稅率
 - Shipping Options *(非必須)*: 可以設立多個運費選項，亦可設定免運標準
 
 **付款方式**
@@ -163,7 +163,7 @@ Happy “chopin”! 🛍️
 <img src="/images/blog/chopin-error.png" class="post-img">
 
 ### Chopin
-  - 檢查你是否兩個 google shee t都有授權，可重複[步驟2](#step-2-授權google-sheet)再試一次
+  - 檢查你是否兩個 google shee t都有授權，可重複[步驟2](#step-2-授權-google-sheet)再試一次
 
 ### Google Sheet 資料
   - 檢查商品目錄 google sheet 資料，每列之間不得穿插空白列
@@ -177,7 +177,7 @@ Happy “chopin”! 🛍️
 
 #### 如何從網站或是Facebook獲得圖片網址？
 
-🙋右鍵點擊圖片 > 選取 `複製圖片網址` ('Copy Image Address')
+🙋右鍵點擊圖片 > 選取 `複製圖片網址` (`Copy Image Address`)
 
 #### 如何取得手邊圖片的網址呢？
 
@@ -189,7 +189,7 @@ Happy “chopin”! 🛍️
 
 #### 如何開啟新訂單自動通知
 
-🙋在商品目錄的 google sheet 中，按一下頂端的工具 > 通知規則，選取您要接收通知的時間點，[參考教學](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=zh-Hant)
+🙋在商品目錄的 google sheet 中，按一下頂端的`工具` > `通知規則`，選取您要接收通知的時間點，[參考教學](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=zh-Hant)
 
 #### 如何縮網址？
 
