@@ -177,7 +177,7 @@ Happy “chopin”! 🛍️
 
 #### 如何從網站或是Facebook獲得圖片網址？
 
-🙋右鍵點擊圖片 > 選取 ’複製圖片網址‘ （'Copy Image Address'）
+🙋右鍵點擊圖片 > 選取 `複製圖片網址` ('Copy Image Address')
 
 #### 如何取得手邊圖片的網址呢？
 
