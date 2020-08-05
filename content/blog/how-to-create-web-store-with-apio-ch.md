@@ -125,7 +125,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 **設定稅率與運費**
 
 - Tax Rate *(非必要)*: 如果將 Tax Rate 設為0，即不會顯示稅率
-- Shipping Options *(非必要)*: 可以設立多個運費選項，亦可設定免運標準
+- Shipping Options *(非必須)*: 可以設立多個運費選項，亦可設定免運標準
 
 **付款方式**
 
