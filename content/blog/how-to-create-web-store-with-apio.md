@@ -5,15 +5,19 @@ date: 2020-07-08
 tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation"]
 ---
 
-[Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a simple online store creator that allows you to configure your online store in just a few clicks. In this post, we'll show you how you create an online store with google sheet using [Waitress](https://telescope.apiobuild.com/app/waitress) (apio's google sheet API microservice). Try now and start selling your products online in just a few clicks.
+[Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a static online store generator that allows you to configure your online store in just a few clicks. In this post, we'll show you how you create an online store with google sheet using [Waitress](https://telescope.apiobuild.com/app/waitress) (apio's google sheet API microservice). Try now and start selling your products online in just a few clicks.
 
-🛍️View [Demo Store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
+🛍️ [Visit Demo Store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
 
 🛍️[Read more: How does Chopin compare to website builders and ecommerce services.](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
+🛍️ [中文版教學](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch/)
+
 ## Step 1: Create Catalog Google Sheet
 
-Create a google sheet that you'll be using as your **catalog**. Copy and paste the following columns to the sheet and input your product information to corresponding cells.
+You will need two google sheets (one served as catalog, another one for collecting order) created before setting up your store. 
+
+Firstly, create a google sheet that you'll be using as your **catalog**. Copy and paste the following columns to the sheet and input your product information to corresponding cells.
 
 <div class="row py-2">
   <div class="table-box table-warning table-responsive px-2 py-2">
@@ -43,12 +47,12 @@ Fields are defined as the following:
 
 - name: unique name/id contains **only dashes, underscores, and alphanumeric are allowed** for each product
 - nickname: item names that will appear on the store page, they can be **any language, symbol, and even emoji**
-- description *(optional)*: more information of the product
-- product_url *(optional)*: link to the product website
+- description *(optional)*: more information about the product
+- product_url *(optional)*: link to an external web page
 - image_url: url of the product image
 - price: product price
 - max_qty: maximum quantity that one customer can buy. **If max_qty = 0, it will show 'Out of Stock'**.
-- category *(optional)*: to allow customer to filter products
+- category *(optional)*: to allow customer to filter products. Multiple categories can be separated by comma.
 
 *Note: There should not be empty line(s) between rows.*
 
@@ -58,14 +62,14 @@ Fields are defined as the following:
 
 ## Step 2: Authorize Catalog Google Sheet on Telescope
 
-Go to [Telescope (apio microservices platform)](https://telescope.apiobuild.com/). Log in into your **existing google account**.
+Go to [Telescope (apio microservices platform)](https://telescope.apiobuild.com/). Log in with your **existing google account**.
 
 Then go to [Waitress](https://telescope.apiobuild.com/app/waitress) and follow the instruction on the **configure tab** to authorize your google sheet: 
 1. Click `Share` at the top right corner of your google sheet
 2. Add the Waitress as an editor
 3. Copy and paste your google sheer URL. Hit `Authorize`
 
-After authorization, only you can access your sheet through our API. Even us cannot edit your google sheets!
+After authorization, only you can access your sheet through our API.
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/authorize-catalog-google-sheet.mp4" type="video/mp4" />
@@ -75,7 +79,7 @@ After authorization, only you can access your sheet through our API. Even us can
 
 Repeat [Step 1](#step-1-create-catalog-google-sheet) and [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope) to **create another google sheet** with different header. 
 
-This sheet will be storing **new orders** that customers submitted to your store. Copy and paste the following columns to the sheet, no need to input additional information.
+Copy and paste the following columns to the sheet, no need to input additional information. This sheet will be storing **new orders** that customers submitted to your store. 
 
 <div class="row py-2">
   <div class="table-box table-warning table-responsive px-2 py-2">
@@ -107,14 +111,14 @@ This sheet will be storing **new orders** that customers submitted to your store
 
 ## Step 4: Create the Store
 
-After configuring both catalog and order in waitress app, we can head to [Chopin](https://telescope.apiobuild.com/app/chopin) to create our store. Enter the following information to the corresponding fields. You can update this information anytime (**except store name and google sheet URLs**) and the updates will be reflected in real-time.
+After configuring both catalog and order sheets in waitress app, we can now head to [Chopin](https://telescope.apiobuild.com/app/chopin) to create our store. Enter the following information to the corresponding fields. You can update this information anytime (**except store name and google sheet URLs**) and the updates will be reflected in real-time.
 
 **Customize Your Store**
 
 - Store Name: name of your store
 - Logo url *(optional)*: it can even be a gif
-- Announcement *(optional)*: it will show at the top of your store. You can update it anytime.
-- Store Description *(optional)*: any information you'd like to include. Up to 250 characters.
+- Announcement *(optional)*: it will show at the top of your store. You can update it anytime
+- Store Description *(optional)*: any information you'd like to include. Up to 250 characters
 - Store Background Image url  *(optional)*: add a background image
 - Store Background Color  *(optional)*: you can easily select color from swatch or [hex code](https://htmlcolorcodes.com/)
 - Contact and Social Plug-ins *(optional)*: currently we support email address, Facebook, Instagram, and Line
@@ -175,11 +179,11 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 
 #### How to find image url from my website and Facebook pages?
 
-🙋Right-click the image > Select 'Copy Image Address'
+🙋Right-click the image > Select `Copy Image Address`
 
 #### How can I get image url for something I didn't post online?
 
-🙋Try image hosting services, like [Imgbb](https://imgbb.com/).
+🙋Try image hosting services, like [Imgbb](https://imgbb.com/) or [img.onl](https://img.onl/).
 
 #### Why the images are not shown properly?
 
@@ -187,7 +191,7 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 
 #### How can I get notification when someone places a new order?
 
-🙋At the top of your Order google sheet, click Tools and then Notification rules. Select "when" you want to receive notifications. [Read more](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
+🙋At the top of your Order google sheet, click `Tools` and then `Notification Rules`. Select "when" you want to receive notifications. [Read more](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
 
 #### How can I shrink my store URL?
 
