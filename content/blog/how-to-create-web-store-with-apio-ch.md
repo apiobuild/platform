@@ -15,7 +15,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 ## Step 1: 新增商品目錄 Google Sheet
 
-開始設立商店前，你會需要準備兩個google sheet（商品目錄及訂單）。第一步是建立一個用來當作**商品目錄**的google sheet。複製以下標題並貼到google sheet的標題列，然後按照說明填入你的產品資訊。
+開始設立商店前，你會需要準備兩個 google sheet（商品目錄及訂單）。第一步是建立一個用來當作**商品目錄**的 google sheet。複製以下標題並貼到 google sheet的標題列，然後按照說明填入你的產品資訊。
 
 <div class="row py-2">
   <div class="table-box table-warning table-responsive px-2 py-2">
