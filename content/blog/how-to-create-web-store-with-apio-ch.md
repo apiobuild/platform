@@ -5,7 +5,7 @@ date: 2020-08-04
 tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation", "教學", "網路開店", "常見問題"]
 ---
 
-[Chopin by apio](https://telescope.apiobuild.com/app/chopin) 是一個簡單的靜態網路商店生成器，讓你不用會寫程式，只要幾鍵設定即可創建一家網路商店。且只要連結 Google Sheet，即可輕鬆上架商品跟管理訂單。這篇文章我們會教你如何使用 Google Sheet 搭配 [ Waitress ](https://telescope.apiobuild.com/app/waitress) (apio's google sheet API) 建立自己的網站 . 跟著我們的教學，開一間自己的網路商店吧！
+[Chopin by apio](https://telescope.apiobuild.com/app/chopin) 是一個簡單的靜態網路商店生成器，讓你不用會寫程式，只要幾鍵設定即可創建一家網路商店。且只要連結 Google Sheet，即可輕鬆上架商品跟管理訂單。這篇文章我們會教你如何使用 Google Sheet 搭配 [Waitress (apio's google sheet API)](https://telescope.apiobuild.com/app/waitress) 建立自己的網站。跟著我們的教學，開一間自己的網路商店吧！
 
 🛍️ [示範商店馬上逛](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
 
