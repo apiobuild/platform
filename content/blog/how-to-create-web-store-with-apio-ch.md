@@ -67,7 +67,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 2. 加入Waitress的帳號，並將其權限設為可以編輯（editor）
 3. 複製貼上google sheer連結，並點選`Authorize`
 
-這個步驟確保只有你可以用我們的API讀取這些google sheet上的資料，就算是我們也看不到你的內容！
+這個步驟確保只有你可以用我們的 API 讀取這些 google sheet 上的資料，就算是我們也看不到你的內容！
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/authorize-catalog-google-sheet.mp4" type="video/mp4" />
