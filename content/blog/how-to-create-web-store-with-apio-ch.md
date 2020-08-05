@@ -170,7 +170,7 @@ Happy “chopin”! 🛍️
   - 商品目錄 google sheet 中，每個產品的 `name` 欄不得是空白，不能重複，不能出現英文數字外的字符，不能有空格
 
 ### 瀏覽器
-  - 封鎖彈出視窗的功能有時候會影響 google sheet 授權過程. 可以取消此功能再重複[步驟2](#step-2-授權google-sheet)試試
+  - 封鎖彈出視窗的功能有時候會影響 google sheet 授權過程. 可以取消此功能再重複[步驟2](#step-2-授權-google-sheet)試試
 
 
 ### 其他
