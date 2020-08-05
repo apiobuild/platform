@@ -44,7 +44,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 各儲存格對應的內容：
 
 - name: 每個產品的獨立編碼 (product id)，只能使用 **英文、數字、連接號(-)或底線(＿)**
-- nickname: 顯示在網站的產品名稱，支援任何語言文字，甚至是表情符號
+- nickname: 顯示在網站的產品名稱，支援任何語言文字，表情符號
 - description *(非必須)*: 產品敘述
 - product_url *(非必須)*: 產品外部連結
 - image_url: 產品圖片網址
