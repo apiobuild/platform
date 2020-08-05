@@ -8,4 +8,4 @@ background: 'images/ideas.png'
 
 <br>
 
-### Affordable and sustainable high quality customer software at fingertips. 
+### Affordable and sustainable high quality custom software at fingertips. 
