@@ -8,5 +8,5 @@ background: 'images/ideas.png'
 
 <br>
 
-### Connecting developers to building impactful softwares.
+### Connecting developers to impactful software-building.
 
