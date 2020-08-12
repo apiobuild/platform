@@ -64,7 +64,7 @@ Developers should build you an **SEO-friendly website framework** that helps sea
 
 - **Social Media Links**: With built-in meta descriptions, we ensure the page thumbnail or link preview looks professional when your share your store on social medias.
 
-- **Fast Site Speed**: Website users can be impatient. Chopin-generated sites are static and lean, which means it takes less time to load comparing to normal sites.
+- **Fast Site Speed**: Website users can be impatient. Chopin-generated sites are static and lean, we constantly load test loading time to ensure performant response time.
 
 - **Mobile-Friendly**: [A responsive website](https://apiobuild.com/blog/create-an-online-store-for-free/#responsive-design) means better user experience. Mobile drives the the majority of the traffic. Mobile-friendliness is another important factor that improves ranking.
 
