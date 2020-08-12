@@ -15,7 +15,7 @@ SEO is one of those trendy words that every website developer lists on their off
 
 > **SEO is driven by content! Website developers give you a framework to publish content not the content itself.** 
 
-Owner has to create great content to optimize SEO. [Wordpress](https://wordpress.org/) (or any other website builders) does not give you "SEO", the content you publish on wordpress gives you SEO. Why would you ask a web developer/design agency to do this - go to marketing consultancy.
+Owner has to create great content to optimize SEO. [Wordpress](https://wordpress.org/) (or any website builder) does not give you "SEO", the content you publish gives you SEO. Why would you ask a web developer/design agency to do this - go to marketing agency.
 
 ## What is SEO?
 
@@ -105,4 +105,3 @@ Happy marketing!💰
     max-width: 100%;
 }
 </style>
-
