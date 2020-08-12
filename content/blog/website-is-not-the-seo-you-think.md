@@ -60,7 +60,7 @@ Developers should build you an **SEO-friendly website framework** that helps sea
 
 - **Meta titles & descriptions**: We build-in meta title and summary of your site that gets shown in Google search results. [Your store name and description](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-4-create-the-store) will translate to this meta data.
 
-- **Index**: We index the online store pages with users' consent, so your store's story and products can be read by search engines.
+- **Index**: We index the online store pages upon user consent. Your store's story and products can be found easily by search engines.
 
 - **Social Media Links**: With built-in meta descriptions, we ensure the page thumbnail or link preview looks professional when your share your store on social medias.
 
