@@ -25,7 +25,6 @@ SEO (Search Engine Optimization) makes business or brand to be visible on search
 
  - [Authority](#authority): **How many people find your content credible?** When more people link your page to their sites, Google think your website is authoritative. 
 
- - [Usefulness](#usefulness): **Is your content easy to understand so people can actually utilize that information?** You rarely find academic thesis in your search results, even when you search some technical terms. If you can't understand the content, then that's not useful for you.
 
 ## Developer vs. Marketer 
 
