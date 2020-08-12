@@ -19,7 +19,7 @@ Owner has to create great content to optimize SEO. [Wordpress](https://wordpress
 
 ## What is SEO?
 
-SEO (Search Engine Optimization) is using organic traffic generation by the website’s content (blog articles) to make business or brand to be visible for searchers on search engines (like [Google](https://www.google.com/), [Yahoo](https://www.yahoo.com/), [Bing](https://www.bing.com/)). Google did not reveal how exactly their algorithms determine where to position your website in the search results, but there are some factors that will improve your search result ranking:
+SEO (Search Engine Optimization) makes business or brand to be visible on search engines (like [Google](https://www.google.com/), [Yahoo](https://www.yahoo.com/), [Bing](https://www.bing.com/)) by driving organic traffic with contents (blog, articles). Google did not reveal how exactly their algorithms determine where to position your website in the search results, but there are many factors that will improve your website's ranking:
 
  - [Relevancy](#relevancy): **How much is your content related to the keyword?** When people search "custom cake delivery in New York", they will not find a realtor's website.
 
