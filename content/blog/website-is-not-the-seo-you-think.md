@@ -68,7 +68,7 @@ Developers should build you an **SEO-friendly website framework** that helps sea
 
 - **Mobile-Friendly**: [A responsive website](https://apiobuild.com/blog/create-an-online-store-for-free/#responsive-design) means better user experience. Mobile drives the the majority of the traffic. Mobile-friendliness is another important factor that improves ranking.
 
-- **Google Analytics**: If you want to dive more into the SEO game and analyze your website traffic data, we can help you integerate your by simply providing the tracking id.
+- **Google Analytics**: You can easily add google analytics-id and start analyze your page traffic.
 
 Here's how our [demo dessert store](https://tinyurl.com/apio-demo-store) looks like on Google search results and on Facebook:
 
