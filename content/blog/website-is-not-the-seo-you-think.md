@@ -79,7 +79,7 @@ Here's how our [demo dessert store](https://tinyurl.com/apio-demo-store) looks l
 
 ## Do you really need SEO?
 
-Beyond those built-in features powered by Chopin, what else you need to do for SEO? SEO is for driving steady traffic to your website. If you are a lifestyle blogger making referrals to amazon products, yes, you want SEO. If you are a small restaurant or local business owner, there's no value (nor reason) having someone come to read your website every other day. 
+Beyond these built-in features powered by Chopin, what else you need to do for SEO? SEO is for driving steady traffic to your website. If you are a lifestyle blogger making referrals to amazon products, yes, you want SEO. If you are a small restaurant or local business owner, there's no value (nor reason) having someone come to read your website every other day. 
 
 **Honestly, we've found SEO performs way poorer comparing to outreaching directly on [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), or [LinkedIn](https://www.linkedin.com/).**
 
