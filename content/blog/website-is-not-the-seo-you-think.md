@@ -31,7 +31,7 @@ SEO (Search Engine Optimization) makes business or brand to be visible on search
 
 How can developers help you to achieve SEO? Where do marketing specialists come in?
 
-Developers should build you a **SEO-friendly website framework** that helps search engine spiders find and index all of the pages on your website. Marketers should help you identify keywords and polish the content that can drive traffic to your website.
+Developers should build you an **SEO-friendly website framework** that helps search engine spiders find and index all the pages on your website. Marketers should help you identify keywords and polish the content that can drive traffic to your website.
 
 #### Relevancy
 
