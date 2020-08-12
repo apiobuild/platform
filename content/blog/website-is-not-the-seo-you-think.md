@@ -66,7 +66,7 @@ Developers should build you an **SEO-friendly website framework** that helps sea
 
 - **Fast Site Speed**: Website users can be impatient. Chopin-generated sites are static and lean, which means it takes less time to load comparing to normal sites.
 
-- **Mobile-Friendliness**: [A responsive website](https://apiobuild.com/blog/create-an-online-store-for-free/#responsive-design) means beyond better user experience in 2020. Mobile is how your prospective customers are searching for and browsing your site, and mobile-friendliness is a confirmed ranking factor.
+- **Mobile-Friendly**: [A responsive website](https://apiobuild.com/blog/create-an-online-store-for-free/#responsive-design) means better user experience. Mobile drives the the majority of the traffic. Mobile-friendliness is another important factor that improves ranking.
 
 - **Google Analytics**: If you want to dive more into the SEO game and analyze your website traffic data, we can help you integerate your by simply providing the tracking id.
 
