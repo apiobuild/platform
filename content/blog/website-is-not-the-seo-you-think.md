@@ -5,7 +5,7 @@ date: 2020-08-09
 tags: ["chopin", "blog","seo", "marketing", "google", "website"]
 ---
 
-SEO is one of those trendy keywords that every website developers put on their ads. Many people came to us and asked if our website can do SEO. SEO seems to be the magic word that will bring you thousands of sales and people think the first step is to get a website. Why does everyone think building a website would give them SEO? **In this article, let us breakdown this fancy term and tell you [how apio creates SEO-friendly websites](#chopin-s-seo-features).** And no, building a website is not the SEO you think.
+SEO is one of those trendy words that every website developer lists on their offerings. Many people come to us and ask if our website can do SEO. **In this article, let us breakdown this fancy word and discuss [how apio creates SEO-friendly websites](#chopin-s-seo-features).** Our honest answer? No, building a website does not give you SEO.
 
 🖥 [Read more: What you need from developers when it comes to website-building?](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
 
@@ -105,5 +105,4 @@ Happy marketing!💰
     max-width: 100%;
 }
 </style>
-
 
