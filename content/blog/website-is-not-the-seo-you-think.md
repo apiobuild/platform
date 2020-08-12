@@ -35,7 +35,7 @@ Developers should build you an **SEO-friendly website framework** that helps sea
 
 #### Relevancy
 
-💻 Developer builds a website framework that **indexes your site** properly so search engines can read the content and eventually determine if that's relevant to the search.
+💻 Developer builds a website framework that **indexes your site** allowing search engines to read the content and calculate relevancy to the search.
 
 📊 Marketer conducts keyword reseach and helps you **identify popular or niche keyphrases**.
 
