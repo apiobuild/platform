@@ -56,7 +56,7 @@ Developers should build you an **SEO-friendly website framework** that helps sea
 
 ## Chopin's SEO Features
 
-[Chopin is apio\'s static online store generator](https://telescope.apiobuild.com/app/chopin). Despite how easy it is to set up an online store, we offer a SEO-optimized website framework and take care many of the SEO integration already.
+[Chopin is apio\'s static online store generator](https://telescope.apiobuild.com/app/chopin). Despite how easy it is to set up an online store, we offer an SEO-optimized website framework and gives you many SEO integrations out of box.
 
 - **Meta titles & descriptions**: We build-in meta title and summary of your site that gets shown in Google search results. [Your store name and description](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-4-create-the-store) will translate to this meta data.
 
