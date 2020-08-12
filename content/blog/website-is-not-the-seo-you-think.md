@@ -77,7 +77,7 @@ Here's how our [demo dessert store](https://tinyurl.com/apio-demo-store) looks l
 🛍️[Read more: follow this tutorial and create your online store today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
 
 
-## But, do you really need SEO?
+## Do you really need SEO?
 
 Beyond those built-in features powered by Chopin, what else you need to do for SEO? SEO is for driving steady traffic to your website. If you are a lifestyle blogger making referrals to amazon products, yes, you want SEO. If you are a small restaurant or local business owner, there's no value (nor reason) having someone come to read your website every other day. 
 
