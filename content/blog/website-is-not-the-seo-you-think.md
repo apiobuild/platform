@@ -23,7 +23,7 @@ SEO (Search Engine Optimization) makes business or brand to be visible on search
 
  - [Relevancy](#relevancy): **How relevant is your content to the keyword?** When people search "custom cake delivery in New York", they will not find a realtor's website.
 
- - [Authority](#authority): **How many people find your content credible?** When more people link your page to their sites, Google think your website is authoritative. 
+ - [Authority](#authority): **How many people find your content credible?** When more people link your page to their sites, Google thinks your website is more authoritative. 
 
 
 ## Developer vs. Marketer 
