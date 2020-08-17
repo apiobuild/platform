@@ -9,7 +9,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 🛍️ [Visit Demo Store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
 
-🛍️[Read more: How does Chopin compare to website builders and ecommerce services.](https://apiobuild.com/blog/create-an-online-store-for-free/)
+🛍️ [Read more: How does Chopin compare to website builders and ecommerce services.](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
 🛍️ [中文版教學](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch/)
 
@@ -121,13 +121,17 @@ After configuring both catalog and order sheets in waitress app, we can now head
 - Store Description *(optional)*: any information you'd like to include. Up to 250 characters
 - Store Background Image url  *(optional)*: add a background image
 - Store Background Color  *(optional)*: you can easily select color from swatch or [hex code](https://htmlcolorcodes.com/)
-- Contact and Social Plug-ins *(optional)*: currently we support email address, Facebook, Instagram, and Line
 
+**Contacts and Social Plug-ins**
 
-**Tax and Shipping Set-up**
+- Email: it will be your google email by default, but you can change it to a different email. If you've authorized your email through [Post-it](https://telescope.apiobuild.com/app/post-it/), you can enable the automated email delivery feature by checking the  `Send Automated Order Confirmation` box
 
-- Tax Rate *(optional)*: if Tax Rate = 0, it will not be shown on the store page
-- Shipping Options *(optional)*: you can setup multiple options and free shipping minimum
+📫 [Check out this article to set up automated email confirmation with Post-it](https://apiobuild.com/blog/introducing-post-it-email-automation-service/#tutorial)
+
+- Facebook: full url to your facebook page (eg. https://www.facebook.com/apiobuild)
+- Phone Number: start with country code (US: +1) and without dash nor brackets (eg. +17181234567)
+- Line: link to your line account or line group
+- Instagram: instagram handle without @, not the full url (eg. apiobuild)
 
 **Payment Options**
 
@@ -136,6 +140,11 @@ After configuring both catalog and order sheets in waitress app, we can now head
 - Venmo: provide your Venmo handle
 
 *Note: We view Zelle and Venmo as manual payment methods, which means the payment would be handled outside of the Chopin checkout.*
+
+**Tax and Shipping Set-up**
+
+- Tax Rate *(optional)*: if Tax Rate = 0, it will not be shown on the store page
+- Shipping Options *(optional)*: you can setup multiple options and free shipping minimum
 
 **Google Sheet API**
 
@@ -195,7 +204,7 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 
 #### How can I shrink my store URL?
 
-🙋Try URL shortener services, like [tinyurl](https://tinyurl.com/) or [Bitly](https://bitly.com/) to make your store link easier to share.
+🙋Try URL shortener services, like [Bitly](https://bitly.com/)  or [tinyurl](https://tinyurl.com/) to make your store link easier to share.
 
 <style>
 .center {
