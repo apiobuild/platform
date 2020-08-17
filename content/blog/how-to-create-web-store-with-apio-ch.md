@@ -121,13 +121,17 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 - Store Description *(非必須)*: 商店敘述，最多250字
 - Store Background Image url  *(非必須)*: 背景圖案連結
 - Store Background Color  *(非必須)*: 可以從調色盤選取顏色或輸入 [hex code](https://htmlcolorcodes.com/)
-- Contact and Social Plug-ins *(非必須)*: 與客人的通訊方式，目前支援電子信箱, Facebook, Instagram, and Line
 
+**聯絡方式與社群媒體**
 
-**設定稅率與運費**
+- Email: 預設是你登入使用的google email，但也可以更改。如果你已在 Post-it 授權，打勾 `Send Automated Order Confirmation` 即會開啟自動寄送確認信功能
 
-- Tax Rate *(非必須)*: 如果將 Tax Rate 設為0，即不會顯示稅率
-- Shipping Options *(非必須)*: 可以設立多個運費選項，亦可設定免運標準
+📫 [教學：使用 Post-it 授權你的gmail信箱](#如何開啟自動寄送訂單確認信功能)
+
+- Facebook: facebook專頁的網址 (例：https://www.facebook.com/apiobuild)
+- 電話: 請包含＋號和國碼(美國即為 +1)，不用輸入連接號(-)或括號 (例：+17181234567)
+- Line: line 的個人或群組專屬網址，可參考[這篇教學](https://www.pkstep.com/archives/5261)
+- Instagram: instagram 的帳號非網址，不用輸入 @ (例：apiobuild)
 
 **付款方式**
 
@@ -136,6 +140,11 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 - Venmo: 填入 Venmo 帳號
 
 *注意：Zelle 和 Venmo 屬於手動付款，結帳會是在 Chopin 網路商店外線下發生*
+
+**設定稅率與運費**
+
+- Tax Rate *(非必須)*: 如果將 Tax Rate 設為0，即不會顯示稅率
+- Shipping Options *(非必須)*: 可以設立多個運費選項，亦可設定免運標準
 
 **Google Sheet API**
 
@@ -177,6 +186,18 @@ Happy “chopin”! 🛍️
 
 ### 其他
 
+#### 如何開啟自動寄送訂單確認信功能？
+
+🙋先在 [Post-it](https://telescope.apiobuild.com/app/post-it/configure) 授權我們使用你的gmail:
+1. 先點選 `View Emails` 再按加號 (+)
+2. 登入你的google帳號
+3. 點選 `進階` （`Advance`) 展開更多資訊
+4. 點選 `前往「apiobuild.com」(不安全)` (`Go to apio (unsafe)`)
+5. 點選 `允許` (`Allow`)
+6. 再回到 [Chopin](https://telescope.apiobuild.com/app/post-it/configure) 打勾 `Send Automated Order Confirmation` 
+
+[更多 Post-it 或訂單確認信的資訊\...](https://apiobuild.com/blog/introducing-post-it-email-automation-service/)
+
 #### 如何從網站或是Facebook獲得圖片網址？
 
 🙋右鍵點擊圖片 > 選取 `複製圖片網址` (`Copy Image Address`)
@@ -195,7 +216,7 @@ Happy “chopin”! 🛍️
 
 #### 如何縮網址？
 
-🙋可以使用縮網址服務，例如 [tinyurl](https://tinyurl.com/) 或 [Bitly](https://bitly.com/)
+🙋可以使用縮網址服務，例如 [Bitly](https://bitly.com/) 或 [tinyurl](https://tinyurl.com/)
 
 <style>
 .center {
