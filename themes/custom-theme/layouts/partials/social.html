@@ -26,4 +26,8 @@
 <a href="{{ .Params.YouTube }}" target="_blank">
   <i class="fab fa-youtube fa-lg" color="white"></i>
 </a>
+{{ end }} {{ if .Params.website }}
+<a href="{{ .Params.website }}" target="_blank">
+  <i class="fas fa-link fa-lg" color="black"></i>
+</a>
 {{ end }}
