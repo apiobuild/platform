@@ -125,10 +125,6 @@ Depending on where your business is registered, the tax rate can be set by you. 
 
 <img src="/images/blog/order-summary.png" class="post-img">
 
-#### Search Engine Optimization
-
-Despite how easy it is to set up an online store, we offer [an SEO-optimized website framework](https://apiobuild.com/blog/website-is-not-the-seo-you-think/#chopin-s-seo-features) to take care many of the SEO integrations such as meta title and descriptions, index, social media thumbnails, etc.
-
 ## Summary
 
 So how do you know if Chopin is right for you?
