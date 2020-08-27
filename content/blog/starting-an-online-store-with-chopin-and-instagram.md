@@ -20,7 +20,7 @@ The first step to start an online business is to create a website. This involves
 
 🛍️[Read more: more awesome features you can add to your Chopin site!](https://apiobuild.com/blog/create-an-online-store-for-free/#introducing-chopin)
 
-🛍️[Read more: follow this guild and create your store today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
+🛍️[Read more: follow this guide and create your store today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
 
 ## Use Case: Atelier EHOI
 
