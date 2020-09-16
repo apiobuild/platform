@@ -68,28 +68,20 @@ In the latter scenario (Cancel Order), the owners will get instant notification 
 
 Below we will show you how to automate the process of sending order notifications to your customers. In this example, we combine Post-it with [Chopin (apio\'s online store creator)](https://telescope.apiobuild.com/app/chopin/configure) to communicate with shoppers. 
 
-#### Step 1: Authorize Gmail Account on Post-it
+#### Step 1: Grant Gmail Access to Post-it
 
-Go to [Post-it](https://telescope.apiobuild.com/app/post-it/configure) on Telescope, apio's app platform. Follow the video instruction to authorize your gmail account.
+Go to [Post-it](https://telescope.apiobuild.com/app/post-it/configure) on Telescope, apio's app platform. Follow the instruction to grant apio access to send email on your behalf.
 
 1. Click `View Emails` and then the plus sign (+) to add an email
 2. Log in to your google account in the pop-up window
-3. Click `Advance` to expand more information
-4. Click `Go to apio (unsafe)`
-5. Click `Allow`
+3. Click `Allow` to grant apio access to send email on your behalf
 
-*Note: This is a preview feature. We are currently working with google to get our app verified. The process may take up to 10 weeks. Your functionality will not be impacted.*
-
-
-<video width="100%" loop="true" autoplay="true" controls style="align: center">
-<source src="/video/authorize-gmail.mp4" type="video/mp4" />
-</video>
 
 #### Step 2: Turn on Email Confirmation Feature on Chopin
 
 Then, go to [Chopin](https://telescope.apiobuild.com/app/chopin/configure) to turn on the email confirmation feature. 
 
-In the **Contacts and Social Plugings** section, check `Send Automated Order Confirmation` box.
+In the **Order Settings** section, check `Send Order Confirmation` box.
 
 Now try place an order with your online store or [ our demo store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4), you will receive an email confirmation with order details and options to follow up with the owner!
 
