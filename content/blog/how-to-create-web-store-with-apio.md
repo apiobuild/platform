@@ -13,6 +13,10 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 🛍️ [中文版教學](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch/)
 
+## TL; DR
+
+We simplified the set-up process for you. Click [here](https://telescope.apiobuild.com/flow/chopin-stores) to start creating your Chopin store!
+
 ## Step 1: Create Catalog Google Sheet
 
 You will need two google sheets (one served as catalog, another one for collecting order) created before setting up your store. 
@@ -45,14 +49,21 @@ Here's an example:
 
 Fields are defined as the following:
 
-- name: unique name/id contains **only dashes, underscores, and alphanumeric are allowed** for each product
+- name: unique name/id contains **only dashes (-), underscores (_), and alphanumeric are allowed** for each product. No spaces.
 - nickname: item names that will appear on the store page, they can be **any language, symbol, and even emoji**
 - description *(optional)*: more information about the product
 - product_url *(optional)*: link to an external web page
-- image_url: url of the product image
-- price: product price
+- image_url: url of the product image or YouTube video link (obtained via Share button). Multiple image urls can be separated by commas (,). [*What\'s image url?](#how-can-i-obtain-image-url)
+- price: product price, no need to enter "$" (dollar sign)
 - max_qty: maximum quantity that one customer can buy. **If max_qty = 0, it will show 'Out of Stock'**.
-- category *(optional)*: to allow customer to filter products. Multiple categories can be separated by comma.
+- category *(optional)*: to allow customer to filter products. Multiple categories can be separated by commas (,).
+
+You can also add the following columns for more advanced options:
+
+- hide: enter "x" (or any other characters), this product will not appear on your store
+- no_tax: enter "x" (or any other characters), sales tax won't apply to this product
+
+👗 [Check out this article if you want to sell products with multiple options](https://apiobuild.com/blog/how-to-add-options-to-products/)
 
 *Note: There should not be empty line(s) between rows.*
 
@@ -62,7 +73,7 @@ Fields are defined as the following:
 
 ## Step 2: Authorize Catalog Google Sheet on Telescope
 
-Go to [Telescope (apio microservices platform)](https://telescope.apiobuild.com/). Log in with your **existing google account**.
+Go to [Telescope (apio microservices platform)](https://telescope.apiobuild.com/). Log in with your **existing google account** by selecting `Sign in with Google` in the pop-up window.
 
 Then go to [Waitress](https://telescope.apiobuild.com/app/waitress) and follow the instruction on the **configure tab** to authorize your google sheet: 
 1. Click `Share` at the top right corner of your google sheet
@@ -80,6 +91,8 @@ After authorization, only you can access your sheet through our API.
 Repeat [Step 1](#step-1-create-catalog-google-sheet) and [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope) to **create another google sheet** with different header. 
 
 Copy and paste the following columns to the sheet, no need to input additional information. This sheet will be storing **new orders** that customers submitted to your store. 
+
+You can manage this order sheet in your preferred way by adjusting the order of columns or adding more columns (i.e. order_shipped, order_completed, note, etc)
 
 <div class="row py-2">
   <div class="table-box table-warning table-responsive px-2 py-2">
@@ -99,6 +112,7 @@ Copy and paste the following columns to the sheet, no need to input additional i
           <td class="wide">order_tax</td>
           <td class="wide">order_total</td>
           <td class="wide">product_name</td>
+          <td class="wide">product_nickname</td>
           <td class="wide">product_qty</td>
           <td class="wide">product_price</td>
         </tr>
@@ -113,7 +127,7 @@ Copy and paste the following columns to the sheet, no need to input additional i
 
 After configuring both catalog and order sheets in waitress app, we can now head to [Chopin](https://telescope.apiobuild.com/app/chopin) to create our store. Enter the following information to the corresponding fields. You can update this information anytime (**except store name and google sheet URLs**) and the updates will be reflected in real-time.
 
-**Customize Your Store**
+#### Customize Your Store
 
 - Store Name: name of your store
 - Logo url *(optional)*: it can even be a gif
@@ -122,7 +136,7 @@ After configuring both catalog and order sheets in waitress app, we can now head
 - Store Background Image url  *(optional)*: add a background image
 - Store Background Color  *(optional)*: you can easily select color from swatch or [hex code](https://htmlcolorcodes.com/)
 
-**Contacts and Social Plug-ins**
+#### Contacts and Social Plug-ins
 
 - Email: it will be your google email by default, but you can change it to a different email. If you've authorized your email through [Post-it](https://telescope.apiobuild.com/app/post-it/), you can enable the automated email delivery feature by checking the  `Send Automated Order Confirmation` box
 
@@ -133,7 +147,7 @@ After configuring both catalog and order sheets in waitress app, we can now head
 - Line: link to your line account or line group
 - Instagram: instagram handle without @, not the full url (eg. apiobuild)
 
-**Payment Options**
+#### Payment Options
 
 - PayPal: [contact us](https://apiobuild.com/forms/business/), let us help you integrate your [PayPal business account](https://www.paypal.com/us/business)
 - Zelle: provide your Zelle email or mobile number
@@ -141,12 +155,12 @@ After configuring both catalog and order sheets in waitress app, we can now head
 
 *Note: We view Zelle and Venmo as manual payment methods, which means the payment would be handled outside of the Chopin checkout.*
 
-**Tax and Shipping Set-up**
+#### Tax and Shipping Set-up
 
 - Tax Rate *(optional)*: if Tax Rate = 0, it will not be shown on the store page
 - Shipping Options *(optional)*: you can setup multiple options and free shipping minimum
 
-**Google Sheet API**
+#### Google Sheet API
 
 - Catalog Google Sheet url: copy and paste the authorized catalog sheet URL from [Step 1](#step-1-create-catalog-google-sheet) 
 - Order Google Sheet url: copy and paste the authorized order sheet URL from [Step 3](#step-3-create-order-google-sheet)
@@ -161,7 +175,7 @@ After configuring both catalog and order sheets in waitress app, we can now head
 
 Voila, the store is now available at: [tinyurl.com/batmans-store](https://tinyurl.com/batmans-store)!
 
-💡You can use services like [tinyurl.com](https://tinyurl.com/) to make the raw url easier to share on facebook, instagram, and among you friends.
+💡You can use URL shorten services like [bitly.com](https://bitly.com/) or [tinyurl.com](https://tinyurl.com/) to make the raw url easier to share on facebook, instagram, and among you friends.
 
 💡Any new order will be updated on the order google sheet you created in [Step 3](#step-3-create-order-google-sheet). You can also setup [google sheet notification](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en) to get real-time updates on new order submission.
 
@@ -174,11 +188,12 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 <img src="/images/blog/chopin-error.png" class="post-img">
 
 ### Chopin
-  - Go to [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope), check if you authorize both of your google sheets
+  - Go to [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope), check if you authorize both of your google sheets.
+  - Check if you use the same log-in methods for logging in Telescope and opening a Chopin store by click the setting button (<i class="fas fa-cog"></i>) and visit your [Telescope account](https://telescope.apiobuild.com/settings). Try sign out completely and log in again by selecting `Sign in with Google` in the pop-up window.
 
 ### Google Sheet Data
   - In catalog sheet, there should be no empty lines between rows.
-  - In the catalog sheet, `name` of each product can not be empty nor can be characters other than numbers or alphabets. Product names must be unique.
+  - In the catalog sheet, `name` of each product can not be empty nor can be characters other than numbers or alphabets. No spaces either. Product names must be unique.
 
 ### Browser
   - Pop-up blocker might disrupt the google sheet authorization process. Disable the plug-in, and try again from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope)
@@ -186,17 +201,19 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 
 ### Other Questions
 
-#### How to find image url from my website and Facebook pages?
+#### How can I obtain image url?
 
-🙋Right-click the image > Select `Copy Image Address`
-
-#### How can I get image url for something I didn't post online?
-
-🙋Try image hosting services, like [Imgbb](https://imgbb.com/) or [img.onl](https://img.onl/).
+🙋Try image hosting services, like [Imgbb](https://imgbb.com/) or [img.onl](https://img.onl/). After uploading an image to those websites, you will get an image url or a direct link that points directly to a specific image.
 
 #### Why the images are not shown properly?
 
-🙋Make sure you copy the image url - the internet address that points directly to a specific image, rather than an entire index, webpage or website. You can put url in address bar to test it out. If you can see the image and only the image, then that's a working url.
+🙋Make sure you copy the image url - the internet address that points directly to a specific image, rather than an entire index, webpage, or website. You can put the url in address bar to test it out. If you can see the image and only the image, then that's a working url.
+
+🙋Also try moving your images to a hosting service.
+
+#### How to find image url from my website and Facebook pages?
+
+🙋Right-click the image > Select `Copy Image Address`. However, we recommend using an image hosting service to ensure the image urls will always be valid.
 
 #### How can I get notification when someone places a new order?
 
@@ -205,6 +222,15 @@ If you see error messages or Patrick Star crying (hopefully really rare), let us
 #### How can I shrink my store URL?
 
 🙋Try URL shortener services, like [Bitly](https://bitly.com/)  or [tinyurl](https://tinyurl.com/) to make your store link easier to share.
+
+#### Can I add/move columns in order google sheet?
+
+🙋Absolutely! Feel free to add a column to write in some notes or move the column so certain information can be next to each other. As long as you keep the title row, our api will be able to populate data to matching fields.
+
+#### What should I do if I don't want to see certain data?
+
+🙋We don't recommend deleting any real data (actual transactions, retiring products, etc), as they're valuable for future analysis. Instead, feel free to hide the rows you don't need (Select row(s) > Right Click > Click `Hide row`) or hide the products that no longer available (see [Step 1](#step-1-create-catalog-google-sheet)'s advanced option).
+
 
 <style>
 .center {

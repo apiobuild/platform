@@ -1,5 +1,5 @@
 ---
-title: "Create an Online Store for FREE"
+title: "Create an Online Store for FREE with Chopin"
 image: /images/blog/shoppingapp.png
 date: 2020-07-06
 tags: ["chopin", "waitress", "telescope", "announcement", "ecommerce", "online-store", "google", "sheets"]
