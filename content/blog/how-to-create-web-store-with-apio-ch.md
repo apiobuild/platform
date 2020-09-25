@@ -212,7 +212,9 @@ Happy “chopin”! 🛍️
 
 #### 如何取得手邊圖片的網址呢？
 
-🙋可以使用圖片網址生成服務，像是 [Imgbb](https://zh-tw.imgbb.com/) 或 [img.onl](https://img.onl/) 。成功上傳圖片成功後，會得到一串 image url 或是 direct link
+🙋可以使用圖片網址生成服務，像是 [Imgbb](https://zh-tw.imgbb.com/) 或 [img.onl](https://img.onl/) 。成功上傳圖片成功後，會得到一串 **image url** 或是 **direct link** (請參考下圖)
+
+<img src="/images/blog/faq-image-link.png" class="post-img">
 
 #### 為什麼圖片無法顯示？
 
@@ -232,13 +234,13 @@ Happy “chopin”! 🛍️
 
 🙋可以使用縮網址服務，例如 [Bitly](https://bitly.com/) 或 [tinyurl](https://tinyurl.com/)
 
-#### 可以移動或新增訂單 google sheet 中的欄位嗎？
+#### 可以移動、新增或隱藏訂單 google sheet 中的欄位嗎？
 
-🙋添加欄位或是移動標題列中的欄位排序都不會影響資料的寫入喔！建議可以在網站流量小的時候操作
+🙋添加、隱藏欄位或是移動標題列中的欄位排序都不會影響資料的寫入，也可以自由變更欄位顯示顏色！注意：`order_number` 一定要是第一個欄位，不能移動或隱藏。建議在網站流量小的時候操作。
 
 #### 不想看到過去的訂單或是不會再製造的產品怎麼辦？
 
-🙋不建議刪掉任何資料，這些都是之後分析顧客喜好或是成本收益的寶貴資料。可以選擇隱藏過去訂單那幾列 (選取列 > 右鍵 > `隱藏列`) 或是隱藏某幾項產品 (參考 [步驟1](#step-1-新增商品目錄-google-sheet) 的進階選項)
+🙋不建議刪掉任何資料，這些都是之後分析顧客喜好或是成本收益的寶貴資料。可以選擇隱藏過去訂單那幾列 (選取列 > 右鍵 > `隱藏列`) 或是隱藏某幾項產品 (參考 [步驟1](#step-1-新增商品目錄-google-sheet) 的進階選項)。注意：`order_number` 一定要是第一個欄位，不能移動或隱藏。
 
 <style>
 .center {
