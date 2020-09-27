@@ -60,7 +60,7 @@ We suggest you check the followings first to find and fix any technical issue.
 
 ### How can I shrink my store URL?
 
-🙋 Try URL shortener services, like [Bitly](https://bitly.com/)  or [tinyurl](https://tinyurl.com/) to make your store link easier to share. Contact us if you want to reroute your Chopin to your domain, if you already have one.
+🙋 Try URL shortener services, like [Bitly](https://bitly.com/)  to make your store link easier to share. Contact us if you want to reroute your Chopin to your domain, if you already have one.
 
 ### Can I add/move/hide columns in order google sheet?
 
