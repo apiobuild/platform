@@ -9,7 +9,7 @@ Are you selling products with multiple size and color options? We bring to you a
 
 🛍️ [Create your online store for free today!](https://telescope.apiobuild.com/flow/chopin-stores)
 
-🛍️ [Read more: quick introduction to Chopin\'s features](http://localhost:1313/blog/create-an-online-store-for-free/#introducing-chopin)
+🛍️ [Read more: quick introduction to Chopin\'s features](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
 ## A Demo Clothing Store
 
@@ -41,6 +41,8 @@ The catalog google sheet for products with options is as same as the catalog goo
 
 This field doesn't have to be **sizes** (S, M, L or 5.5, 6, 6.5), it can also be different **styles** or **flavors**. The text you put in to the cell will appear below the product image in the **squared box**.
 
+`option:size` can be in languages other than English, but cannot contain spaces. Dashes (-) is fine.
+
 #### option:color
 
 There are two ways to indicate your product color, which will apprear in **circle**.
@@ -52,7 +54,7 @@ There are two ways to indicate your product color, which will apprear in **circl
 
 This field indicates how the products are grouped together. For example, a t-shirt comes with two colors - white and yellow. The `option:name` column for these two rows has to be the same (t-shirt), so the system can identify these *two products* are actually *two options of the same product*.
 
-Remember to follow the same rule of `name` field - unique name/id contains only dashes, underscores, and alphanumeric. No space is allowed.
+*Remember to follow the same rule of `name` field - unique name/id contains only dashes, underscores, and alphanumeric. No space is allowed.*
 
 
 ## Example: A Clothing Store
@@ -72,7 +74,9 @@ For example, I'd like to sell this wool coat that comes with two colors (pink, b
 
 #### name
 
-All these products should have a unique `name`, so I decided to follow this naming guide: `coat-<color>-<size>`. Feel free to use sku numbers.
+All these products should have a unique `name` a.k.a a product id, so I decided to follow this naming guide: `coat-<color>-<size>`. Feel free to use sku numbers.
+
+*Reminder: `name` has to be unique value, which means no products can share the same `name`.*
 
 <img src="/images/blog/step-1-name.png" class="post-img">
 
@@ -111,7 +115,7 @@ Now you can showcase different style and sizing for this wool coat!
 
 Then you can continue to finish the other fields (`description`, `product_url`, `image_url`, `price`, 	`max_qty`, `category`). You can keep them all the same or customize for each option depending on whether each option has varied description, image, price, etc.
 
-🛍️ [What does these fields mean?](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-1-create-catalog-google-sheet)
+🛍️ [What does these fields mean?](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-5-update-catalog-sheet)
 
 *Note: Given the product layouts for single option and multiple options look a little different, we suggest you organize all single-option products together and vice versa.*
 
@@ -121,6 +125,18 @@ With Chopin, it's really convenient to manage your product in google sheet. You 
 
 Happy Selling! 💰
 
+## FAQs
+
+Let us troubleshoot together! Contact us (your favorite developer) via <a href="mailto:apiobuild@gmail.com">email</a> or [Facebook Messenger](https://m.me/apiobuild) if you don't find answers here!
+
+### Google Sheet Data
+
+- `name`: there should not be any duplicate value. All `name` cells must be unique and contain no space.
+- `option:size`: these cells should not contain spaces.
+
+### Other Questions
+
+[Click here for more commonly asked questions](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#faqs)
 
 
 <style>
