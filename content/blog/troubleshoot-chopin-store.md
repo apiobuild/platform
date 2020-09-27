@@ -17,7 +17,7 @@ Contact us (aka your favorite developer) via <a href="mailto:apiobuild@gmail.com
 
 ## Checklist
 
-We suggest you check the followings first to detect and fix the technical issues.
+We suggest you check the followings first to find and fix any technical issue.
 
 ### Google Sheet Data
 
