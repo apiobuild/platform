@@ -1,11 +1,11 @@
 ---
 title: "How to Configure Your Chopin Store"
-image: /images/blog/chopinwebsite.png
+image: /images/blog/setting.png
 date: 2020-09-24
 tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation"]
 ---
 
-After creating a [Chopin](https://telescope.apiobuild.com/app/chopin) store, you now need to update the catalog google sheet with your own product information. You can also change the store appearance and update various setting (social plug-ins, discount rule, free shipping threshold, etc.) in Chopin app. In this article, we will breakdown what all those google sheet fields mean as well as explain all the customization setting. Let us help you create a store tailored for your business needs!
+After creating a [Chopin](https://telescope.apiobuild.com/app/chopin) store, you now need to update the catalog google sheet with your own product information. You can also change the store appearance and update various setting (social accounts, discount rule, free shipping threshold, etc.) in Chopin app. In this article, we will breakdown all the google sheet fields as well as explain customization settings. Let us help you create a store tailored for your business needs!
 
 🛍️ [Follow this step-by-step tutorial to create your online store for free today!](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
@@ -13,7 +13,7 @@ After creating a [Chopin](https://telescope.apiobuild.com/app/chopin) store, you
 
 ## Update Catalog Sheet
 
-Your store would be look like [this](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)) if you follow the [tutorial](https://apiobuild.com/blog/create-an-online-store-for-free/)) and use the example data provided. But I'm pretty sure you're not selling Cool Cat and Funny Cat. Now it's time to update the Catalog sheet with your product information.
+Your store would be look like [this](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) if you follow the [tutorial](https://apiobuild.com/blog/how-to-create-web-store-with-apio) and use the example data provided. But I'm pretty sure you're not selling Cool Cat and Funny Cat. Now it's time to update the Catalog sheet with your product information.
 
 Fields are defined as the following:
 
@@ -63,8 +63,8 @@ Click <i class="fas fa-save"></i> (save sign) to save your updates. Click <i cla
 - Remove Customer Address Field: If you sell digital products or only offer store pick-up, you might not need to collect customer's addess.
 - Add Optional Note Section: To add a field for customers to input any notes. 
 *We recommend using this field to collect customization details (i.e. message to be put on the cake) rather than using as a communication channel*
-- Set Order Minimum: Enter a domore amount. Your customers' purchase has to achieve this minimum amount to be able to submit the order.
-- Send Order Confirmation: Enable this feature, so customers can receive a confirmation email after placing an order successfully. If you didn't grant us access to send email on your behalf at [Step 4](#step-4-add-email-confirmation), you can do it in [Post-it](https://telescope.apiobuild.com/app/post-it/).
+- Set Order Minimum: Enter a dollar amount. Your customers' purchase has to achieve this minimum amount to be able to submit the order.
+- Send Order Confirmation: Enable this feature, so customers can receive a confirmation email after placing an order successfully. If you didn't grant us access to send email on your behalf when [creating store](#step-4-add-email-confirmation), you can do it in [Post-it app](https://telescope.apiobuild.com/app/post-it/).
 
 📫 [Check out this article to learn more about the automated email confirmation feature and Post-it](https://apiobuild.com/blog/introducing-post-it-email-automation-service/#tutorial)
 
@@ -82,9 +82,10 @@ Click <i class="fas fa-plus"></i> (plus sign) to add new contact information. If
 
 - Zelle: Provide your Zelle email or mobile number.
 - Venmo: Provide your Venmo handle.
-- PayPal: [Contact us](https://apiobuild.com/forms/business/) and let us help you integrate your [PayPal business account](https://www.paypal.com/us/business)
+- PayPal: [Contact us](https://apiobuild.com/forms/business/) and let us help you integrate your [PayPal business account](https://www.paypal.com/us/business).
+- Pay at Pick-Up: Check this box if you wish to have a button, named "Pay at Pick-up".
 
-If you don't add any payment options, there will be a "Submit Order" button. You can enable as many payment options as you'd like. They will replace the "Submit Order" button. If you don't see your preferred payment methods, [drop us a message](https://apiobuild.com/forms/business/)! 
+If you don't add any payment options, there will be a **"Submit Order"** button. You can enable as many payment options as you'd like. They will replace the "Submit Order" button. If you don't see your preferred payment methods, [drop us a message](https://apiobuild.com/forms/business/)! 
 
 *Note: We view Zelle and Venmo as manual payment methods, which means the payment would be handled outside of the Chopin checkout.*
 
@@ -102,7 +103,7 @@ If you don't add any payment options, there will be a "Submit Order" button. You
 
 ### Tax
 
-Enter the tax rate in your area. If Tax Rate = 0, it will not be shown on the store page.
+Enter the tax rate in your area. If Tax Rate = 0, tax option will not be shown on the store.
 
 ### Waitress API
 

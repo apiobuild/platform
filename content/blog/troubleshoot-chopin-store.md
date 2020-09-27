@@ -1,6 +1,6 @@
 ---
 title: "Something Went Wrong? Troubleshooting Your Chopin Store"
-image: /images/blog/chopinwebsite.png
+image: /images/blog/faqs.png
 date: 2020-09-25
 tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation"]
 ---
@@ -56,7 +56,7 @@ We suggest you check the followings first to detect and fix the technical issues
 
 ### How can I get notification when someone places a new order?
 
-🙋 At the top of your Order google sheet, click `Tools` and then `Notification Rules`. Select "when" you want to receive notifications. [Read more](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
+🙋 You can set up google sheet notification to get real-time updates on new order submission. At the top of your Order google sheet, click `Tools` and then `Notification Rules`. Select "when" you want to receive notifications. [Read more](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
 
 ### How can I shrink my store URL?
 
@@ -73,10 +73,6 @@ Note, `order_number` has always to be the first column and cannot be hidden.
 🙋 We don't recommend deleting any real data (actual transactions, retiring products, etc), as they're valuable for future analysis. Instead, feel free to hide the rows you don't need (Select row(s) > Right Click > Click `Hide row`) or hide the products that no longer available (see [instruction](https://apiobuild.com/blog/how-to-configure-chopin-store/#update-catalog-sheet)). 
 
 Note, `order_number` has always to be the first column and cannot be hidden.
-
-### How can I get notified, when someone places an order?
-
-🙋 You can set up google sheet notification to get real-time updates on new order submission. At the top of your google sheet, click `Tools` and then `Notification rules`. Then select "when" you want to receive notifications. [See instruction](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
 
 <style>
 .post-img {

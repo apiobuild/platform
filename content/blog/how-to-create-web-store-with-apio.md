@@ -9,7 +9,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 🛍️ [Visit Demo Store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
 
-🛍️ [Read more: How does Chopin compare to website builders and ecommerce services.](https://apiobuild.com/blog/create-an-online-store-for-free/)
+🛍️ [Read more: How does Chopin compare to website builders and ecommerce services](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
 🛍️ [中文版教學](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch/)
 
@@ -32,14 +32,14 @@ Then go to [Chopin Stores](https://telescope.apiobuild.com/flow/chopin-stores) t
 
 ## Step 2: Add Catalog Google Sheet
 
-You will need two google sheets (one served as **product catalog**, another one for **collecting order**). Follow the directions to create a new google sheet as catalog, where you input product details and prices.
+You will need two google sheets (one served as **product catalog**, another one for **collecting order**). Follow the direction to create a new google sheet as your catalog, where you input product details and prices.
 
-1. Create Sheet: Click <i class="fas fa-plus"></i> (plus sign) to create a google sheet, that will be used as catalog"
+1. Create Sheet: Click <i class="fas fa-plus"></i> (plus sign) to create a google sheet, that will be used as catalog.
 2. Populate Data: Click <i class="fas fa-copy"></i> (copy sign) to copy the example data, then paste it to your sheet.
 3. Share: Click the email address to copy it. Go to your google sheet, the click `Share` at the top right corner. Add the copied email address as Editor.
 4. Authorize: Copy this google sheet URL and paste it in the Google Sheet URL field. Then click <i class="fas fa-unlock"></i> (unlock sign) to authorize. After authorization, only you can access your sheet through our API.
 
-*You can replace example data with your own later. See [Step 5](#step-5-update-catalog-sheet) for more information.*
+*You can replace example data with your own later. See this [article](https://apiobuild.com/blog/how-to-configure-chopin-store/) for more information.*
 
 <video width="100%" controls style="align: center">
 <source src="/video/create-catalog-sheet.mp4" type="video/mp4" />
@@ -49,7 +49,7 @@ You will need two google sheets (one served as **product catalog**, another one 
 
 Repeat the same process to create another google sheet, which will be storing **new orders** that customers submit to your store. 
 
-1. Create Sheet: Click <i class="fas fa-plus"></i> (plus sign) to create another google sheet, that will be used to collect order
+1. Create Sheet: Click <i class="fas fa-plus"></i> (plus sign) to create another google sheet, that will be used to collect order.
 2. Populate Data: Click <i class="fas fa-copy"></i> (copy sign) to copy the header columns, then paste it to your sheet.
 3. Share: Click the email address to copy it. Go to your google sheet, the click `Share` at the top right corner. Add the copied email address as Editor. 
 4. Authorize: Copy this google sheet URL and paste it in the Google Sheet URL field. Then click <i class="fas fa-unlock"></i> (unlock sign) to authorize.
@@ -62,7 +62,7 @@ You can manage this order sheet in your preferred way by adjusting the order of 
 
 ## 🎉 Congratulations! You've just created a store! 
 
-View your store (it should look like [this store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)) and be proud of yourself! 
+Check out your store now (it should look like [this](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)) and be proud of yourself! 
 
 You can proceed to [Step 4](#step-4-add-email-confirmation) to finish setting up email confirmation, or go to [Chopin](https://telescope.apiobuild.com/app/chopin) to configure your store.
 
