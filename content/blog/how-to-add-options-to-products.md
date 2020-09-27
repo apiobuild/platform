@@ -5,7 +5,7 @@ date: 2020-09-15
 tags: ["telescope", "chopin", "tutorial", "product-variants", "e-commerce", "google-sheet"]
 ---
 
-Are you selling products with multiple size and color options? We bring to you an advanced Chopin store that can showcase several product variations. We promise there won't be complex configuration. Just the [same catalog google sheet](http://localhost:1313/blog/how-to-create-web-store-with-apio/#step-1-create-catalog-google-sheet) with some more columns, you will be able to sell clothes with different style and size, handmade craft with various patterns, cupcakes with multiple flavors, etc. In this tutorial, we will show you how to set up your catalog google sheet to add multiple options to your products. 
+Are you selling products with multiple size and color options? We bring to you an advanced Chopin store that can showcase several product variations. We promise there won't be complex configuration. Just the [same catalog google sheet](http://localhost:1313/blog/how-to-create-web-store-with-apio/#step-2-add-catalog-google-sheet) with some more columns, you will be able to sell clothes with different style and size, handmade craft with various patterns, cupcakes with multiple flavors, etc. In this tutorial, we will show you how to set up your catalog google sheet to add multiple options to your products. 
 
 🛍️ [Create your online store for free today!](https://telescope.apiobuild.com/flow/chopin-stores)
 
@@ -19,9 +19,9 @@ Visit our [demo boutique shop](https://trampoline.apiobuild.com/router/chopin/st
 <source src="/video/boutique-overview.mp4" type="video/mp4" />
 </video>
 
-## Three More Columns
+## Tutorial
 
-The catalog google sheet for products with options is as same as the catalog google sheet used in our basic Chopin store, but with three more columns. Add these columns to your catalog google sheet.
+The catalog google sheet for multi-option products is just same as the catalog google sheet used in the basic Chopin store, but with some more columns. 
 
 <div class="row py-2">
   <div class="table-box table-warning table-responsive px-2 py-2">
@@ -29,6 +29,7 @@ The catalog google sheet for products with options is as same as the catalog goo
       <tbody>
         <tr>
           <td class="wide">option:size</td>
+          <td class="wide">option:flavor</td>
           <td class="wide">option:color</td>
           <td class="wide">option:name</td>
         </tr>
@@ -37,11 +38,25 @@ The catalog google sheet for products with options is as same as the catalog goo
   </div>
 </div>
 
+### Step 1: Choose Option Methods
+
+There are three different ways to present your options and you can choose up to two:
+
+| Field Name | Appearance | Field value |
+|-|-|-|-|
+| `option-size` | Rectanglur Boxes   | Custom Text |
+| `option-flavor` | Drop-Down Menu | Custom Text |
+| `option-color` | Text in Circles | HTML Color Name |
+
 #### option:size
 
 This field doesn't have to be **sizes** (S, M, L or 5.5, 6, 6.5), it can also be different **styles** or **flavors**. The text you put in to the cell will appear below the product image in the **squared box**.
 
 `option:size` can be in languages other than English, but cannot contain spaces. Dashes (-) is fine.
+
+#### option:flavor
+
+Same as above, this field doesn't have to be **flavors**. The text you put in to the cell will appear below the product image as **drop-down menu**.
 
 #### option:color
 
@@ -49,13 +64,15 @@ There are two ways to indicate your product color, which will apprear in **circl
 1. Color Name: Just enter a color (i.e. red, blue, black, etc.) You can refer to [this list](https://htmlcolorcodes.com/color-names/) to find names for more specific colors (i.e. lightskyblue, olive, and more). 
 2. Hex Code: Enter the 6-digit code with # sign. For example, #556B2F for olive.
 
+### Step 2: Group Same Products Together
+
+You also need one additional field to indicate which products should be grouped together.
 
 #### option:name
 
-This field indicates how the products are grouped together. For example, a t-shirt comes with two colors - white and yellow. The `option:name` column for these two rows has to be the same (t-shirt), so the system can identify these *two products* are actually *two options of the same product*.
+Group the same kind products together by inputing the same value in this field. For example, a sun dress comes with two colors - white and yellow. The `option:name` fields for these two rows have to be the same, which are `dress`, so the system can identify these *two products* are actually *two options of the same product*.
 
 *Remember to follow the same rule of `name` field - unique name/id contains only dashes, underscores, and alphanumeric. No space is allowed.*
-
 
 ## Example: A Clothing Store
 
@@ -136,7 +153,7 @@ Let us troubleshoot together! Contact us (your favorite developer) via <a href="
 
 ### Other Questions
 
-[Click here for more commonly asked questions](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#faqs)
+[Click here for more commonly asked questions](https://apiobuild.com/blog/troubleshoot-chopin-store/)
 
 
 <style>
