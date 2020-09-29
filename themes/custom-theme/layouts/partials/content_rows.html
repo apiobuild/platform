@@ -17,11 +17,11 @@
           <h1 class="text-capitalize">{{ .Title }}</h1>
           <p>{{ .Content }}</p>
           {{ if .Params.button }}
-          <button type="button" class="btn btn-light">
-            <a class="button" href="{{ .Params.buttonLink }}" target="_blank">
+          <a class="button" href="{{ .Params.buttonLink }}" target="_blank">
+            <button type="button" class="btn btn-light">
               {{ .Params.button }}
-            </a>
-          </button>
+            </button>
+          </a>
           {{ end }}
         </div>
 
@@ -32,7 +32,7 @@
         </div>
 
         {{ if .Params.product }}
-        <div class="col offset-md-2">
+        <div class="col offset-md-2" style="width: 90%">
         {{ partial "product.html" . }}
         {{ end }}
         </div>
