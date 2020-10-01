@@ -17,7 +17,7 @@ The task is obviously tedious and that's where our API comes in. We understand y
 
 Throughout the lifecycle of a Chopin store visit, there are various API involved:
 
-<img src="/images/blog/chopin-order-api-request-flow.jpg"></img>
+<img src="/images/blog/chopin-order-api-request-flow.jpg" style="width: 100%"></img>
 
 When a user click on your store URL, our platform will:
 
@@ -42,19 +42,84 @@ Although we want to be transparent about how our pricing and platform works, we 
   - 2 requests to waitress: auth + update order google sheet
   - 2 requests to post-it (if enabled): auth + send email on your behalf to customer
 
-## Estimated Cost Given Scenarios
+The more services integration you added to your chopin store, the more API requests it'd make and the more it'd cost.
 
-### Established Store with Heavy Traffic
+## Quick Comparison
 
-2500 visitors per month and 100 transactions.
+Let's do a quick comparison given different scenarios so you could get an idea of actual cost:
 
-It'll be a total of 10400 requests
+| Scenario        | Starting Out | Growing Audience <br> (Most Common) | Recurring Customers |
+| --------------- | ------------ | ----------------------------------- | ------------------- |
+| Visits          | 500          | 1500                                | 2500                |
+| Transactions    | 10           | 50                                  | 100                 |
+| Conversion Rate | 2%           | 3.33%                               | 2.5%                |
+| Total Requests  | 2040         | 6200                                | 10400               |
+| Total Cost (mo) | $5           | $6                                  | $10                 |
+
+{{< rawhtml >}}
+<style>
+  table{
+    width: 100%;
+    text-align: center;
+  }
+  thead>tr {
+    height: 100px;
+  }
+  tbody>tr{
+    height: 50px;
+  }
+</style>
+{{< /rawhtml >}}
+
+## Cost Estimation Given Different Scenarios
+
+### Starting Out
+
+500 visitors per month and 10 (2% conversion) transactions.
+
+It'll be a total of 2040 requests consisted of:
+
+- impressions: 4 * 490 = 1960 requests
+- purchases: 8 * 10 = 80 requests
+
+In our basic pricing plan, monthly cost will be a total of $5
+
+- fixed: $5 (with 5000 requests included)
+
+### Growing Audience (Most Common)
+
+1500 visitors per month and 50 (3.33% conversion) transactions.
+
+It'll be a total of 6200 requests consisted of:
+
+- impressions: 4 * 1450 = 5800 requests
+- purchases: 8 * 50 = 400 requests
+
+In our basic pricing plan, monthly cost will be a total of $6
+
+- fixed: $5 (with 5000 requests included)
+- volume: $5 for 1200 requests ($1 per 1000 requests)
+
+### Recurring Customers
+
+2500 visitors per month and 100 (2.5% conversion) transactions.
+
+It'll be a total of 10400 requests consisted of:
 
 - impressions: 4 * 2400 = 9600 requests
 - purchases: 8 * 100 = 800 requests
 
 In our basic pricing plan, monthly cost will be a total of $10
 
-- $5 (with 5000 requests included)
-- $5 for additional requests ($1 per 1000 requests)
+- fixed: $5 (with 5000 requests included)
+- volume: $5 for 5400 requests ($1 per 1000 requests)
 
+## Summary
+
+The state of e-commerce and no-code web development platform is extremely competitive. We want to bring an alternative perspective to the competition: more options and functionality does not solve business problems better.
+
+Well-designed suite of toolings specifically for small business owners could get aspiring business owners off the ground much faster to validate their products and ideas. The flexibility to quickly pivot, experiment, or even taking a break, could be extremely crucial in the early state of businesses.
+
+For those who's just starting out, you could spend your valuable time learning a e-commerce platform to build a website and how to manage your inventory - we argue, however, it's so much more important to get off the ground fast, learn about your customers and improve your products and services. After all, for a business to truly succeed, it's all about the customers.
+
+Happy Building Businesses.
