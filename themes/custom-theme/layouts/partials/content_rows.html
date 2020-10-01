@@ -12,7 +12,7 @@
     <div class="container py-5 mx-0">
       <div class="row py-5">
         <div
-          class="col offset-md-{{ .Params.offset }}"
+          class="col offset-sm-{{ .Params.offset }}"
         >
           <h1 class="text-capitalize">{{ .Title }}</h1>
           <p>{{ .Content }}</p>
@@ -31,8 +31,14 @@
         {{ end }}
         </div>
 
+        {{ if .Params.pricing }}
+        <div class="row ml-sm-5 align-content-center justify-content-center pricing">
+        {{ partial "pricing.html" . }}
+        {{ end }}
+        </div>
+
         {{ if .Params.product }}
-        <div class="col offset-md-2" style="width: 90%">
+        <div class="col offset-sm-2 px-0" style="width: 80%">
         {{ partial "product.html" . }}
         {{ end }}
         </div>
