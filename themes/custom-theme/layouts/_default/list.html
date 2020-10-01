@@ -33,8 +33,8 @@
             {{ else }}
             <img class="card-img-top" src="{{ .Site.Params.image }}" />
             {{ end }}
-            <div class="card-body px-3 py-3">
-              <h5> {{.Title}} </h5>
+            <div class="card-body px-3 py-3 article-head">
+              <h5 class="article-title"> {{.Title}} </h5>
               <p style="color: black;"> {{.Date.Format "2006-01-02"}} • {{ .ReadingTime }} min read </p>
             </div>
           </a>
@@ -55,6 +55,12 @@
 }
 .card:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.article-title {
+  height: 75px;
+}
+.article-head {
+  height: 150px;
 }
 </style>
 
