@@ -3,6 +3,8 @@ title: "Developer"
 anchor: "developer"
 weight: 2
 offset: 2
+col: 12
+col_md: 4
 background: "images/developers.png"
 backgroundSize: cover
 signup: true
