@@ -227,9 +227,9 @@ It'll be a total of 10400 requests consisted of:
 
 The state of e-commerce and no-code web development platform is extremely competitive. We want to bring an alternative perspective to the competition: **more options and functionality does not solve business problems better.**
 
-Well-designed suite of toolings specifically for small business owners could get aspiring business owners off the ground much faster to validate their products and ideas. The flexibility to quickly pivot, experiment, or even taking a break, could be extremely crucial in the early state of businesses.
+Well-designed suite of toolings specifically for small business owners could help aspiring business owners off the ground to validate their products and ideas much faster. The flexibility to quickly pivot, experiment or even taking a break could be extremely crucial in the early stage of businesses.
 
-For those who's just starting out, you could spend your valuable time learning an e-commerce platform to build a website and how to manage your inventory. We argue, however, it's so much more important to get off the ground fast, learn about your customers, and improve your products and services. After all, for a business to truly succeed, it's all about the customers.
+For those who are just starting out, you could spend your valuable time learning an e-commerce platform to build a website. We argue, however, it's so much more important to get off the ground fast, learn about your customers and improve your products and services. After all, for a business to truly succeed, it's all about the customers.
 
 Let apio help you to choose your own set of tools and grow the business together!
 
