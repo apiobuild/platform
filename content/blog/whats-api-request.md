@@ -177,7 +177,7 @@ Let's do a quick comparison given different scenarios so you could get an idea o
 
 ### Hobbyist
 
-We offer [a forever free tier](https://apiobuild.com/#pricing) for you to test the water. You can have up to 5000 requests per month and have Amazon product recommendation on your Chopin store.
+We offer [a forever free tier](https://apiobuild.com/#pricing) for you to test the water. You can enjoy up to 5000 requests per month and Amazon product recommendation displayed on your Chopin store.
 
 ### Starting Out
 
