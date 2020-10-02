@@ -54,10 +54,6 @@ This field doesn't have to be **sizes** (S, M, L or 5.5, 6, 6.5), it can also be
 
 `option:size` can be in languages other than English, but cannot contain spaces. Dashes (-) is fine.
 
-#### option:flavor
-
-Same as above, this field doesn't have to be **flavors**. The text you put in to the cell will appear below the product image as **drop-down menu**.
-
 #### option:color
 
 There are two ways to indicate your product color, which will apprear in **circle**.
@@ -70,7 +66,7 @@ You also need one additional field to indicate which products should be grouped 
 
 #### option:name
 
-Group the same kind products together by inputing the same value in this field. For example, a sun dress comes with two colors - white and yellow. The `option:name` fields for these two rows have to be the same, which are `dress`, so the system can identify these *two products* are actually *two options of the same product*.
+*Remember to follow the same rule of `name` field - unique name/id contains only dashes, underscores, and alphanumeric. No space is allowed.*
 
 *Remember to follow the same rule of `name` field - unique name/id contains only dashes, underscores, and alphanumeric. No space is allowed.*
 
@@ -153,7 +149,7 @@ Let us troubleshoot together! Contact us (your favorite developer) via <a href="
 
 ### Other Questions
 
-[Click here for more commonly asked questions](https://apiobuild.com/blog/troubleshoot-chopin-store/)
+[Click here for more commonly asked questions](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#faqs)
 
 
 <style>
