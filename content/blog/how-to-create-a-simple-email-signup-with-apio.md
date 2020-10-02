@@ -117,7 +117,7 @@ This will create the form like this:
  let token = "Bearer <your telescope token>"
  let url =
 "https://trampoline.apiobuild.com/router/waitress/gsheets/<your google sheet id>";
- 
+
  function submitForm() {
    var http = new XMLHttpRequest();
    http.open("POST", url, true);
