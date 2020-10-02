@@ -5,7 +5,7 @@ date: 2020-09-25
 tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation"]
 ---
 
-We try our best to design a fool-proof onboarding process, but sometimes it just happened. If you see error messages or Patrick Star crying (hopefully really rare), let us troubleshoot together! This is a growing list of commonly asked questions regarding apio\'s static online store generator [Chopin](https://telescope.apiobuild.com/app/chopin).
+We try our best to design a fool-proof onboarding process, but things happens, if you see error messages or Patrick Star crying (hopefully really rare), let us troubleshoot together! This is a growing list of commonly asked questions regarding apio\'s static online store generator [Chopin](https://telescope.apiobuild.com/app/chopin).
 
 Contact us (aka your favorite developer) via <a href="mailto:apiobuild@gmail.com">email</a> or [Facebook Messenger](https://m.me/apiobuild) if you don't find answers here! Bug reports and feebacks are welcomed too!
 
@@ -17,7 +17,7 @@ Contact us (aka your favorite developer) via <a href="mailto:apiobuild@gmail.com
 
 ## Checklist
 
-We suggest you check the followings first to detect and fix the technical issues.
+We suggest you check the followings first to find and fix any technical issue.
 
 ### Google Sheet Data
 
@@ -60,7 +60,7 @@ We suggest you check the followings first to detect and fix the technical issues
 
 ### How can I shrink my store URL?
 
-🙋 Try URL shortener services, like [Bitly](https://bitly.com/)  or [tinyurl](https://tinyurl.com/) to make your store link easier to share. Contact us if you want to reroute your Chopin to your domain, if you already have one.
+🙋 Try URL shortener services, like [Bitly](https://bitly.com/)  to make your store link easier to share. Contact us if you want to reroute your Chopin to your domain, if you already have one.
 
 ### Can I add/move/hide columns in order google sheet?
 

@@ -6,7 +6,8 @@ $enable-shadows: true;
 $enable-gradients: true;
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-$font-family-base: 'Lato', sans-serif;
+$font-family-base: 'Lato',
+sans-serif;
 
 @import "bootstrap/scss/bootstrap";
 
@@ -55,13 +56,6 @@ a.anchor {
   width: 100%;
   max-width: 150pt;
   border-radius: 50%;
-}
-
-// email signup form
-.email-signup {
-  min-height: 250pt;
-  min-width: 200pt;
-  max-width: 300pt;
 }
 
 // info-card

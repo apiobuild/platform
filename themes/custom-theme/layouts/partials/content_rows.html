@@ -9,35 +9,38 @@
     class="strip {{ if .Params.backgroundSize  }}strip-{{ .Params.backgroundSize }}{{ else }}strip-contain{{ end }}"
     style="background-image: {{ if .Params.background }} url('{{ .Params.background }}') {{ else }} unset {{ end }}"
   >
-    <div class="container py-5 mx-0">
+    <div class="container py-5 mx-0" {{ if .Params.max_width }} style="max-width: {{.Params.max_width}}%" {{ end }}>
       <div class="row py-5">
         <div
-          class="col offset-md-{{ .Params.offset }}"
+          class="col offset-sm-{{ .Params.offset }} {{ if .Params.col }} col-{{.Params.col}} {{end}} {{ if .Params.col_md }} col-md-{{.Params.col_md}} {{end}}"
         >
           <h1 class="text-capitalize">{{ .Title }}</h1>
           <p>{{ .Content }}</p>
           {{ if .Params.button }}
-          <button type="button" class="btn btn-light">
-            <a class="button" href="{{ .Params.buttonLink }}" target="_blank">
+          <a class="button" href="{{ .Params.buttonLink }}" target="_blank">
+            <button type="button" class="btn btn-light">
               {{ .Params.button }}
-            </a>
-          </button>
+            </button>
+          </a>
           {{ end }}
         </div>
 
-        {{ if .Params.signup }}
-        <div class="col">
-        {{ partial "email_signup.html" . }}
-        {{ end }}
-        </div>
+      {{ if .Params.signup }}
+      {{ partial "email_signup.html" . }}
+      {{ end }}
 
-        {{ if .Params.product }}
-        <div class="col offset-md-2">
-        {{ partial "product.html" . }}
-        {{ end }}
-        </div>
+      {{ if .Params.pricing }}
+      {{ partial "pricing.html" . }}
+      {{ end }}
+
+
+      {{ if .Params.product }}
+      {{ partial "product.html" . }}
+      {{ end }}
+
       </div>
     </div>
+  </div>
   {{ end }}
   </div>
 </div>
