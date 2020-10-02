@@ -51,12 +51,12 @@ Here's a quick summary:
 ## Monthly Cost Calculator
 
 {{< rawhtml >}}
-<div class="card">
-  <div class="row align-items-center">
-    <div class="col col-12 col-md-4 text-right py-3">
+<div class="card" style="padding: 20px">
+  <div class="row align-items-center text-center">
+    <div class="col col-12 col-md-4 py-3">
       Number of Visits
     </div>
-    <div class="col col-12 col-md-8">
+    <div class="col col-12 col-md-8 text-left">
       <input
         class="range-slider"
         id="visits"
@@ -65,18 +65,18 @@ Here's a quick summary:
         min="500"
         max="10000"
         step="500"
-        style="width: 80%"
+        style="width: 70%"
       >
-      <h4 class="range-value-badge">
+      <h4 class="range-value-badge text-right">
         <span class="badge badge-primary" id="visits-val">1500</span>
       </h4>
     </div>
   </div>
-  <div class="row align-items-center">
-    <div class="col col-12 col-md-4 text-right py-3">
+  <div class="row align-items-center text-center">
+    <div class="col col-12 col-md-4 py-3">
       Number of Transactions
     </div>
-    <div class="col col-12 col-md-8">
+    <div class="col col-12 col-md-8 text-left">
       <input
         class="range-slider"
         id="transactions"
@@ -85,22 +85,22 @@ Here's a quick summary:
         min="10"
         max="500"
         step="10"
-        style="width: 80%"
+        style="width: 70%"
       >
-      <h4 class="range-value-badge">
+      <h4 class="range-value-badge text-right">
         <span class="badge badge-primary" id="transactions-val">50</span>
       </h4>
     </div>
   </div>
 
-  <div class="row align-items-center">
-    <div class="col col-12 col-md-4 text-right py-3">
+  <div class="row align-items-center text-center">
+    <div class="col col-12 col-md-4 py-3">
       Monthly Requests
     </div>
     <div class="col col-12 col-md-8">
       <span id="monthly-requests">6200</span>
     </div>
-    <div class="col col-12 col-md-4 text-right py-3">
+    <div class="col col-12 col-md-4 py-3">
       Monthly Cost
     </div>
     <div class="col col-12 col-md-8">
