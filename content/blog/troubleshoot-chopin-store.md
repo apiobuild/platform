@@ -1,11 +1,13 @@
 ---
 title: "Something Went Wrong? Troubleshooting Your Chopin Store"
 image: /images/blog/faqs.png
-date: 2020-09-25
+date: 2020-07-10
 tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation"]
 ---
 
 We try our best to design a fool-proof onboarding process, but things happens, if you see error messages or Patrick Star crying (hopefully really rare), let us troubleshoot together! This is a growing list of commonly asked questions regarding apio\'s static online store generator [Chopin](https://telescope.apiobuild.com/app/chopin).
+
+<!--more-->
 
 Contact us (aka your favorite developer) via <a href="mailto:apiobuild@gmail.com">email</a> or [Facebook Messenger](https://m.me/apiobuild) if you don't find answers here! Bug reports and feebacks are welcomed too!
 
@@ -30,11 +32,11 @@ We suggest you check the followings first to find and fix any technical issue.
 ### Chopin
 
 - Check if you use the same log-in methods for logging in Telescope and opening a Chopin store. Click the setting button (<i class="fas fa-cog"></i>) and visit your [Telescope account](https://telescope.apiobuild.com/settings). Try sign out completely and log in again by selecting `Sign in with Google` in the pop-up window.
+- Check if follow the instructions in[Chopin Flow](https://telescope.apiobuild.com/flow/chopin-stores) to create **two** google sheets, share editor access with Waitress account, and authorize.
 
 ### Browser
 
 - Pop-up blocker might disrupt the google sheet authorization process. Disable the plug-in, and try [authorize google sheets](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-2-add-catalog-google-sheet) again.
-
 
 ## Other Questions
 
@@ -54,13 +56,15 @@ We suggest you check the followings first to find and fix any technical issue.
 
 🙋 Right-click the image > Select `Copy Image Address`. However, we recommend using an image hosting service to ensure the image urls will always be valid.
 
+*However, we recommend using image hosting service over copy the image urls from Facebook, as those links might be invalid after a period of time.
+
 ### How can I get notification when someone places a new order?
 
 🙋 You can set up google sheet notification to get real-time updates on new order submission. At the top of your Order google sheet, click `Tools` and then `Notification Rules`. Select "when" you want to receive notifications. [Read more](https://support.google.com/docs/answer/91588?co=GENIE.Platform%3DDesktop&hl=en)
 
 ### How can I shrink my store URL?
 
-🙋 Try URL shortener services, like [Bitly](https://bitly.com/)  to make your store link easier to share. Contact us if you want to reroute your Chopin to your domain, if you already have one.
+🙋 Try URL shortener services, like [Bitly](https://bitly.com/)  to make your store link easier to share. You can also upgrade to [Basic Plan](https://apiobuild.com/#pricing) to own a custom apio-branded URL (`YOURNAME.apiobuild.com`) with only $5 per month. Feel free to contact us if you want to reroute your Chopin to your domain, if you already have one.
 
 ### Can I add/move/hide columns in order google sheet?
 
