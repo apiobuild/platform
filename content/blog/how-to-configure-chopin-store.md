@@ -1,11 +1,13 @@
 ---
 title: "How to Configure Your Chopin Store"
 image: /images/blog/setting.png
-date: 2020-09-24
+date: 2020-07-09
 tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation"]
 ---
 
 After creating a [Chopin](https://telescope.apiobuild.com/app/chopin) store, you now need to update the catalog google sheet with your own product information. You can also change the store appearance and update various setting (social accounts, discount rule, free shipping threshold, etc.) in Chopin app. In this article, we will breakdown all the google sheet fields as well as explain customization settings. Let us help you create a store tailored for your business needs!
+
+<!--more-->
 
 🛍️ [Follow this step-by-step tutorial to create your online store for free today!](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
@@ -35,7 +37,7 @@ Fields are defined as the following:
 <img src="/images/blog/catalog-sample.png" class="post-img">
 
 
-## Configure Your Store
+## Configure Your Store (in Chopin app)
 
 Customize your store in [Chopin](https://telescope.apiobuild.com/app/chopin) app, where you can change the layout of your online store or configure various functions. You can update this information anytime (except store name and waitress APIs) and the updates will be reflected in real-time.
 
@@ -51,8 +53,9 @@ Click <i class="fas fa-save"></i> (save sign) to save your updates. Click <i cla
 ### Layout
 
 - Store Background Image url  *(optional)*: Add a background image.
-- Store Background Color  *(optional)*: You can easily select color from swatch or enter a[hex code](https://htmlcolorcodes.com/).
+- Store Background Color *(optional)*: You can easily select color from swatch or enter a[hex code](https://htmlcolorcodes.com/).
 - Remove Description Whiteout: To remove the white background of the store description box.
+- Message to show when the product has max_qty = 0 *(optional)*: In catalog google sheet, when the `max_qty` = 0 that product will show `Coming Soon!`. A few other alternatives can be `Out of Stock`, `Back in October` etc.
 
 ### Order Settings
 
@@ -64,7 +67,7 @@ Click <i class="fas fa-save"></i> (save sign) to save your updates. Click <i cla
 - Add Optional Note Section: To add a field for customers to input any notes. 
 *We recommend using this field to collect customization details (i.e. message to be put on the cake) rather than using as a communication channel*
 - Set Order Minimum: Enter a dollar amount. Your customers' purchase has to achieve this minimum amount to be able to submit the order.
-- Send Order Confirmation: Enable this feature, so customers can receive a confirmation email after placing an order successfully. If you didn't grant us access to send email on your behalf when [creating store](#step-4-add-email-confirmation), you can do it in [Post-it app](https://telescope.apiobuild.com/app/post-it/).
+- Send Order Confirmation: Enable this feature, so customers can receive a confirmation email after placing an order successfully. If you didn't grant us access to send email on your behalf when [creating store](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-4-add-email-confirmation), you can do it in [Post-it app](https://telescope.apiobuild.com/app/post-it/).
 
 📫 [Check out this article to learn more about the automated email confirmation feature and Post-it](https://apiobuild.com/blog/introducing-post-it-email-automation-service/#tutorial)
 
@@ -82,12 +85,13 @@ Click <i class="fas fa-plus"></i> (plus sign) to add new contact information. If
 
 - Zelle: Provide your Zelle email or mobile number.
 - Venmo: Provide your Venmo handle.
+- e-transfer: Provide your E-Transfer email or mobile number.
 - PayPal: [Contact us](https://apiobuild.com/forms/business/) and let us help you integrate your [PayPal business account](https://www.paypal.com/us/business).
 - Pay at Pick-Up: Check this box if you wish to have a button, named "Pay at Pick-up".
 
 If you don't add any payment options, there will be a **"Submit Order"** button. You can enable as many payment options as you'd like. They will replace the "Submit Order" button. If you don't see your preferred payment methods, [drop us a message](https://apiobuild.com/forms/business/)! 
 
-*Note: We view Zelle and Venmo as manual payment methods, which means the payment would be handled outside of the Chopin checkout.*
+*Note: We view Zelle, Venmo, and E-Transfer as manual payment methods, which means the payment would be handled outside of the Chopin checkout.*
 
 ### Shipping
 

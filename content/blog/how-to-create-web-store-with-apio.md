@@ -7,6 +7,8 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 [Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a static online store generator that allows you to configure your online store in just a few clicks. In this post, we'll show you how you create an online store with google sheet using [Waitress](https://telescope.apiobuild.com/app/waitress) (apio's google sheet API microservice). Try now and start selling your products online!
 
+<!--more-->
+
 🛍️ [Visit Demo Store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
 
 🛍️ [Read more: How does Chopin compare to website builders and ecommerce services](https://apiobuild.com/blog/create-an-online-store-for-free/)
@@ -28,7 +30,6 @@ Then go to [Chopin Stores](https://telescope.apiobuild.com/flow/chopin-stores) t
 <video width="100%" controls style="align: center">
 <source src="/video/name-store.mp4" type="video/mp4" />
 </video>
-
 
 ## Step 2: Add Catalog Google Sheet
 
@@ -60,7 +61,7 @@ You can manage this order sheet in your preferred way by adjusting the order of 
 <source src="/video/create-order-sheet.mp4" type="video/mp4" />
 </video>
 
-## 🎉 Congratulations! You've just created a store! 
+## 🎉 Congratulations! You've just created a store!
 
 Check out your store now (it should look like [this](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)) and be proud of yourself! 
 
@@ -75,10 +76,10 @@ You can proceed to [Step 4](#step-4-add-email-confirmation) to finish setting up
 
 You can enable email confirmation with any Gmail account. Click <i class="fas fa-plus"></i> (plus sign) to grant us permission to send email on your behalf.
 
-*This step is optional. You don't have to if you don't plan to send email confirmation. You can also add this later.*
+*This step is optional. You don't have to if you don't plan to send email confirmation. You can also add this later by going to the [Post-it app](https://telescope.apiobuild.com/app/post-it).*
 
 <video width="100%" controls style="align: center">
-<source src="/video/authorize-email.mp4" type="video/mp4" />
+<source src="/video/authorize-email.mp4" type="video/mp4"/>
 </video>
 
 ## Summary
