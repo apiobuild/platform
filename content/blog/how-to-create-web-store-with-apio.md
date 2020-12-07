@@ -17,9 +17,11 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 ## TL; DR
 
-The set-up process is easy to follow. Click [here](https://telescope.apiobuild.com/flow/chopin-stores) to start creating your Chopin store. Then check this [article](https://apiobuild.com/blog/how-to-configure-chopin-store/) to see what to include in your catalog google sheet and configure your store.
+The set-up process is easy to follow. Click [here](https://telescope.apiobuild.com/flow/chopin-stores) to start creating your Chopin store. Then check this article to see what to include in your catalog google sheet and [configure your store](https://apiobuild.com/blog/how-to-configure-chopin-store/) .
 
-Troubleshooting? Check frequently asked questions [here](https://apiobuild.com/blog/troubleshoot-chopin-store/).
+Troubleshooting? Check these [frequently asked questions](https://apiobuild.com/blog/troubleshoot-chopin-store/).
+
+Prefer to learn from videos? Watch this [three-minute tutorial video](https://youtu.be/BWYpITLKzXI) to get started!
 
 ## Step 1: Create a Store
 
