@@ -125,7 +125,7 @@ margin: 0 auto"><source src="/video/out-of-stock.mp4" type="video/mp4" />
 
 #### Tax and Shipping Options
 
-Depending on where your business is registered, the tax rate can be set by you. You can also add shipping rules, including different destinations with different amounts and a **free shipping minimum**. Chopin also support discount function, and you can offer percentage or dollar value off for all of your products or just for certain categories.
+Depending on where your business is registered, the tax rate can be set by you. You can also add shipping rules, including different destinations with different amounts and a **free shipping minimum**. Chopin also supports discount function, and you can offer percentage or dollar value off for all of your products or just for certain categories.
 
 <img src="/images/blog/order-summary.png" class="post-img">
 
