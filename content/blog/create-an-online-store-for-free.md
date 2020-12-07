@@ -52,10 +52,9 @@ In the [demo store](https://trampoline.apiobuild.com/router/chopin/store/page/go
 
 You can easily update products to the catalog on google sheet and the store will update in real-time. When user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4).
 
-<video width="100%" loop="true" autoplay="true" controls style="display: block;
+<video width="100%" autoplay="true" controls style="display: block;
 margin: 0 auto"><source src="/video/gsheet-to-store.mp4" type="video/mp4" />
 </video>
-
 
 ## Benefits
 
@@ -65,13 +64,15 @@ Chopin made creating your own store as easy as filling out a simple survey. You 
 
 **No code required**, just use the interface everyone’s familiar- Google Sheet. You can add new items by simply adding a new row in your google sheet. Have you ever thought updating a website can be so easy?
 
+[Watch this three-minute tutorial video to get started!](https://youtu.be/BWYpITLKzXI)
+
 #### Responsive Design
 
 As much as we want to provide great user experiences for store owners, we also want your customers to have a smooth experience when browsing the merchandise. Chopin’s website design can accommodate different settings on a variety of devices and screen sizes. **Your customers will be able to place orders on their phones, tablets, or laptops.** You also save energy by not having to develop and test different designs on various devices.
 
 #### Free and Flexible
 
-At [apio](https://apiobuild.com/), we believe that good technology should be accessible and shareable. **Chopin is a FREE solution for small business owners.** We operate on revenue from ads that appeared on your store. If you’re looking for an ad-free store, [feel free contact us for pricing plan](https://apiobuild.com/forms/business/).
+At [apio](https://apiobuild.com/), we believe that good technology should be accessible and shareable. **Chopin is a FREE solution for small business owners.** We operate on revenue from ads that appeared on your store. If you’re looking for an ad-free store with more powerful features, [you're welcome to upgrade to our Basic Plan](https://apiobuild.com/#pricing) for as low as $5 per month.
 
 We also welcome third-party integrations and don’t want to tie you down with only the services we offer. While we offer various microservices and APIs through [Telescope](https://telescope.apiobuild.com/), we’re more than happy to help you integrate other APIs to your store based on your use cases.
 
@@ -80,6 +81,8 @@ We also welcome third-party integrations and don’t want to tie you down with o
 **All Chopin generated sites are SSL certified and meet the highest security standard**, which means your customers’ sensitive data (email addresses, phone number, names etc.) are encrypted and protected from unauthorized users. This feature doesn’t just protect store owners and their customers, is also the required element for implementing third-party payment gateways (i.e. [Stripe](https://stripe.com/), [Square](https://squareup.com/), [PayPal](https://www.paypal.com/)).
 
 ## Features
+
+🛍️ [Latest and full features of Chopin](https://apiobuild.com/blog/how-to-configure-chopin-store/)
 
 #### Customization 
 
@@ -90,7 +93,7 @@ The website is fully customizable. You can provide **logo, store description, ba
 
 #### Communication 
 
-Chopin enables social plug-ins so your customers can easily reach you via **Email, Instagram, Facebook, and Line**. You also have the option to add **announcement** to broadcast important updates or discount information. 
+Chopin enables social plug-ins so your customers can easily reach you via **Phone, Email, Instagram, Facebook, and Line**. You also have the option to add **announcement** to broadcast important updates or discount information. 
 
 <img src="/images/blog/social.png" class="post-img">
 
@@ -106,22 +109,23 @@ Chopin currently offers **PayPal** for your customers to pay through credit card
 
 You can group products in various categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers can locate any items easily. 
 
-<video width="100%" loop="true" autoplay="true" controls style="display: block;
+<video width="100%" controls style="display: block;
 margin: 0 auto"><source src="/video/jump-to.mp4" type="video/mp4" />
 </video>
 
-
 #### Limit Per Customer/Out of Stock
 
-Set a maximum quantity (per customer) for products in the catalog google sheet. Once the customer’s selection reaches the maximum, the system will show the limitation or out of stock message.
+Set a maximum quantity (per customer) for products in the catalog google sheet. Once the customer’s selection reaches the maximum, the system will show the limitation or out of stock message. which is also customizable. You can change it to "Coming Soon" or "Back in Stock Next Spring."
 
-<video width="100%" loop="true" autoplay="true" controls style="display: block;
+Chopin store is capable for inventory management too! <a href="mailto:apiobuild@gmail.com">Contact us</a> to learn more.
+
+<video width="100%" controls style="display: block;
 margin: 0 auto"><source src="/video/out-of-stock.mp4" type="video/mp4" />
 </video>
 
 #### Tax and Shipping Options
 
-Depending on where your business is registered, the tax rate can be set by you. You can also add shipping rules, including different destinations with different amounts and a **free shipping minimum**.
+Depending on where your business is registered, the tax rate can be set by you. You can also add shipping rules, including different destinations with different amounts and a **free shipping minimum**. Chopin also support discount function, and you can offer percentage or dollar value off for all of your products or just for certain categories.
 
 <img src="/images/blog/order-summary.png" class="post-img">
 
@@ -133,7 +137,7 @@ So how do you know if Chopin is right for you?
 - Are you just starting up an online business and **testing the water**?
 - Are you not sure what kind of website you want but **you already have something to sell**?
 
-If you answer **YES** to one of above questions, [Chopin](https://telescope.apiobuild.com/app/chopin) is the perfect solution for you to kickstart your business! [Click here to start creating your online store!](https://telescope.apiobuild.com/app/chopin)
+If you answer **YES** to one of above questions, [Chopin](https://telescope.apiobuild.com/app/chopin) is the perfect solution for you to kickstart your business! [Click here to start creating your online store!](https://telescope.apiobuild.com/flow/chopin-stores)
 
 Happy Selling! 💰
 

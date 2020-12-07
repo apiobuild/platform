@@ -66,12 +66,9 @@ Expand the token you just created, paste the **route URL from [Step 2](#step-2-a
 <source src="/video/token-post.mp4" type="video/mp4" />
 </video>
 
-If you forget to copy the returned route URL from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope): 
-1. Simply go back and recreate it. You might need to delete the meta tab in google sheet in order to configure again.
+If you forget to copy the returned route URL from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope), put the following address in the route field `waitress/gsheets/<your google sheet id>`. 
 
-2. Put the following in route field `waitress/gsheets/<your google sheet id>`. You can find your Google Sheet id in the url, which is the number after `spreadsheet/d/` and before `/edit`.
-
-<img src="/images/blog/delete-meta.png" class="post-img">
+You can find your Google Sheet id in the url, which is the number after `spreadsheet/d/` and before `/edit`.
 
 ## Step 5: Add Sign-up Form to Website
 

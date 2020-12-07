@@ -42,7 +42,7 @@ The catalog google sheet for multi-option products is just same as the catalog g
 
 There are three different ways to present your options and you can choose up to 2 options:
 
-|             | `option-size`                                                | `option-flavor` | `option-color`  |
+|             | `option:size`                                                | `option:flavor` | `option:color`  |
 | ----------- | ------------------------------------------------------------ | --------------- | --------------- |
 | Appearance  | Rectanglur Boxes                                             | Drop-Down Menu  | Color Circles   |
 | Field Value | Custom Text                                                  | Custom Text     | HTML Color Name |

@@ -56,8 +56,9 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 - Store Background Image url *(非必須)*: 背景圖案連結。
 - Store Background Color *(非必須)*: 可以從調色盤選取顏色或輸入 [hex code](https://htmlcolorcodes.com/)。
+- *`NEW`* Page Header Height: 調整點進網站背景圖所佔螢幕的比例。*注意：若空間不夠， `Store Description` 內容將會超出首圖區。*
 - Remove Description Whiteout: 移除商片敘述的半透明白色背景。
-- Message to show when the product has max_qty = 0 *(非必須)*: 當商品目錄中的`max_qty` = 0，該商品在網站上會顯示 `Coming Soon!`。此欄位供你自由填入適合的字樣，例如 `Out of Stock`, `Back in October` 等等。
+- Message to show when the product has max_qty = 0 *(非必須)*: 當商品目錄中的 `max_qty` = 0，該商品在網站上會顯示 `Coming Soon!`。此欄位供你自由填入適合的字樣，例如 `Out of Stock`, `Back in October` 等等。
 
 ### 訂單設定 (Order Settings)
 

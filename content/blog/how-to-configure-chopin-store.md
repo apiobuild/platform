@@ -46,14 +46,15 @@ Click <i class="fas fa-save"></i> (save sign) to save your updates. Click <i cla
 ### Store Information
 
 - Store Name: You named your store when [creating the store](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-1-create-a-store). It cannot be modified.
-- Logo url *(optional)*: Give your store a logo [*What\'s image url?](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-can-i-obtain-image-url)
+- Logo url *(optional)*: Give your store a logo [*What\'s image URL?](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-can-i-obtain-image-url)
 - Store Description *(optional)*: Let your customers know what your store is about, brand story, shipping/return policy, or any information you'd like to include. Up to 250 characters.
 - Announcement *(optional)*: News to share with your customers. It will be shown at the top of your store and disappear in 5 seconds.
 
 ### Layout
 
-- Store Background Image url  *(optional)*: Add a background image.
-- Store Background Color *(optional)*: You can easily select color from swatch or enter a[hex code](https://htmlcolorcodes.com/).
+- Store Background Image url *(optional)*: Add a background image.
+- Store Background Color *(optional)*: You can easily select color from swatch or enter a [hex code](https://htmlcolorcodes.com/).
+- *`NEW`* Page Header Height: You can adjust height of your background image. Default is 100% and it will take up the entire screen. *Note: If there's no enough space, the texts from `Store Description` might go beyond boarder.*
 - Remove Description Whiteout: To remove the white background of the store description box.
 - Message to show when the product has max_qty = 0 *(optional)*: In catalog google sheet, when the `max_qty` = 0 that product will show `Coming Soon!`. A few other alternatives can be `Out of Stock`, `Back in October` etc.
 
