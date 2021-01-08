@@ -92,7 +92,7 @@ The website is fully customizable. As of the [website appearance](https://apiobu
 
 #### Communication 
 
-There are a few communication channels designed for you and your customers to create flawless conversation. Chopin enables social plug-ins so your customers can easily reach you via **[Phone, Email, Instagram, Facebook, and Line](https://apiobuild.com/blog/how-to-configure-chopin-store/#contact-information)**. You also have the option to add **[announcement](https://apiobuild.com/blog/how-to-configure-chopin-store/#store-information)** to broadcast important updates or discount information.
+There are a few communication channels designed for you and your customers to create a flawless conversation experience. Chopin enables social plug-ins so your customers can easily reach you via **[Phone, Email, Instagram, Facebook, and Line](https://apiobuild.com/blog/how-to-configure-chopin-store/#contact-information)**. You also have the option to add **[announcement](https://apiobuild.com/blog/how-to-configure-chopin-store/#store-information)** to broadcast important updates or discount information.
 
 Each success order comes with a **[confirmation email](https://apiobuild.com/blog/introducing-post-it-email-automation-service/#use-case-automated-order-confirmation)** sent directly from your Gmail account (opt-in required). Your customers can contact you regarding order details, payment confirmation, or cancelation.
 
