@@ -86,6 +86,6 @@ You can enable email confirmation with any Gmail account. Click <i class="fas fa
 
 ## Summary
 
-Now you are a proud owner of a Chopin store! Finish setting up your store by following this [article](https://apiobuild.com/blog/how-to-configure-chopin-store/) to update your catalog google sheet and configure your store.
+Now you are a proud owner of a Chopin store! Finish setting up your store by following this article to [update your catalog google sheet and configure your store](https://apiobuild.com/blog/how-to-configure-chopin-store/).
 
 Happy “chopin”! 🛍️

@@ -81,7 +81,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 
 ## 總結
 
-四步驟輕鬆建立網路商店，現在你可以參考這篇文章了解如何在商品目錄 Google Sheet 添加自己的商品資訊，及如何從 Chopin app 設定外觀、聯絡資訊、折扣等等細節。
+四步驟輕鬆建立網路商店，現在你可以參考這篇文章了解如何[更新商品目錄 Google Sheet](https://apiobuild.com/blog/how-to-configure-chopin-store/) 以添加自己的商品資訊，及如何從 [Chopin app](https://telescope.apiobuild.com/app/chopin) 設定外觀、聯絡資訊、折扣等等細節。
 
 祝您開張大吉！🛍️
 
