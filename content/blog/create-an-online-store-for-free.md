@@ -86,28 +86,31 @@ We also welcome third-party integrations and don’t want to tie you down with o
 
 #### Customization 
 
-The website is fully customizable. You can provide **logo, store description, background color, and background image** on [Chopin\'s configure tab](https://telescope.apiobuild.com/app/chopin/configure) to create a store page that aligns with your brand. More customization options are also available through simple HTML blocks.
+The website is fully customizable. As of the [website appearance](https://apiobuild.com/blog/how-to-configure-chopin-store/#store-information), you can create an online store that aligns with your brand by providing **logo, store description, background color, and background image** on [Chopin\'s configure tab](https://telescope.apiobuild.com/app/chopin). More customization options are also available through simple HTML blocks.
 
 <img src="/images/blog/customization.png" class="post-img">
 
-
 #### Communication 
 
-Chopin enables social plug-ins so your customers can easily reach you via **Phone, Email, Instagram, Facebook, and Line**. You also have the option to add **announcement** to broadcast important updates or discount information. 
+There are a few communication channels designed for you and your customers to create flawless conversation. Chopin enables social plug-ins so your customers can easily reach you via **[Phone, Email, Instagram, Facebook, and Line](https://apiobuild.com/blog/how-to-configure-chopin-store/#contact-information)**. You also have the option to add **[announcement](https://apiobuild.com/blog/how-to-configure-chopin-store/#store-information)** to broadcast important updates or discount information.
+
+Each success order comes with a **[confirmation email](https://apiobuild.com/blog/introducing-post-it-email-automation-service/#use-case-automated-order-confirmation)** sent directly from your Gmail account (opt-in required). Your customers can contact you regarding order details, payment confirmation, or cancelation.
+
+You can also add Facebook messenger chat to your store, where you can provide instant automated answers and enhance customer experience. Like what we do on our website at the bottom right corner.
 
 <img src="/images/blog/social.png" class="post-img">
 
 #### Payment Integration
 
-Chopin currently offers **PayPal** for your customers to pay through credit cards, bank accounts, or PayPal account balances. You can also provide your **Zelle** or **Venmo** account information as a manual pay option. We will record customers' payment method, PayPal transaction id in the order google sheet.
+Chopin currently offers **[Stripe](https://stripe.com/payments)** and **[PayPal Business](https://www.paypal.com/us/business/website-payments)** for your customers to pay through credit cards, bank accounts, or PayPal account balances. Integrating these digital payment platforms allows Chopin to **verify the transactions in realtime and post the result** to order google sheet, so you don't have to manually confirm each payment or check the amount totals.
 
-*Note: You have to create a [PayPal business account](https://www.paypal.com/us/business/getting-started).*
+You can also provide your **[Zelle](https://www.zellepay.com/)**, **[Venmo](https://venmo.com/)**, or **[PayPal.Me](https://www.paypal.com/paypalme/)** account information as a manual pay option. While these manual transactions can't be verified, we will record customers' payment method in the order google sheet.
 
 <img src="/images/blog/payment.png" class="post-img">
 
 #### Category
 
-You can group products in various categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers can locate any items easily. 
+You can group products into categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers can locate any items easily. 
 
 <video width="100%" controls style="display: block;
 margin: 0 auto"><source src="/video/jump-to.mp4" type="video/mp4" />
@@ -125,7 +128,10 @@ margin: 0 auto"><source src="/video/out-of-stock.mp4" type="video/mp4" />
 
 #### Tax and Shipping Options
 
-Depending on where your business is registered, the tax rate can be set by you. You can also add shipping rules, including different destinations with different amounts and a **free shipping minimum**. Chopin also support discount function, and you can offer percentage or dollar value off for all of your products or just for certain categories.
+Depending on where your business is registered, the tax rate can be set by you. You can also set
+up [shipping rules](https://apiobuild.com/blog/how-to-configure-chopin-store/#shipping), including different destinations with different amounts and a **free shipping minimum**. 
+
+Chopin also supports [discount](https://apiobuild.com/blog/how-to-configure-chopin-store/#discount) function, and you can offer percentage discount or dollar value off for all of your products or just for certain categories.
 
 <img src="/images/blog/order-summary.png" class="post-img">
 
