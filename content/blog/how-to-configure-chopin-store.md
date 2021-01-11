@@ -152,7 +152,7 @@ Integrating these digital payment platforms allows Chopin to **verify the transa
 
 We also support some popular manual payment options across North America. However, manual payment means that the transaction will be handled outside of the Chopin checkout. We won't be able to verify these payments either, though the payment method selected by customers will still be posted to your [order google sheet](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-3-add-order-google-sheet).
 
-- *`[NEW]`* [PayPal.Me](https://www.paypal.com/paypalme/): Provide your PayPal.Me link. It will look like: paypal.me/youraccount. This is the only manual payment which we can auto-generate the order total amount for customers. Recommended over other manual options.
+- *`[NEW]`* [PayPal.Me](https://www.paypal.com/paypalme/): Provide your PayPal.Me link. It will look like: https://www.paypal.me/youraccount This is the only manual payment which we can auto-generate the order total amount for customers. Recommended over other manual options.
   [*How to set up PayPal.Me?](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-to-set-up-paypal-me)
 - [Zelle](https://www.zellepay.com/): Provide your Zelle email or mobile number.
 - [Venmo](https://venmo.com/): Provide your Venmo handle.

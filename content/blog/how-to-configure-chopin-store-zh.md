@@ -154,7 +154,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 我們也提供以下手動付款選項，這些交易會是在 Chopin 網路商店外線下發生。雖然此類交易無法自動對帳，但我們仍會將顧客選用的付款方式記錄在訂單 google sheet 上，以利您人工對帳。
 
-- *`[NEW]`* [PayPal.Me](https://www.paypal.com/paypalme/): 填入 PayPal.Me 連結，範例: paypal.me/youraccount。這是唯一一個雖是手動付款卻仍能產生訂單總額的選項，建議使用。
+- *`[NEW]`* [PayPal.Me](https://www.paypal.com/paypalme/): 填入 PayPal.Me 連結，範例: https://www.paypal.me/youraccount。這是唯一一個雖是手動付款卻仍能幫客人產生訂單總額的選項，建議使用。
   [*如何設定PayPal.Me](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/#如何設定-paypal-me)
 - [Zelle](https://www.zellepay.com/): 填入 Zelle 帳號（電子信箱或電話號碼）。
 - [Venmo](https://venmo.com/): 填入 Venmo 帳號。
