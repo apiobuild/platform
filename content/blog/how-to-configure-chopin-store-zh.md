@@ -13,6 +13,35 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 🛍️ [參考常見問題](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/)
 
+<div class="table-box table-warning table-responsive px-2 py-2">
+<table class="center">
+  <tbody>
+    <tr>
+   內容：
+
+- [更新商品目錄](#更新商品目錄)
+- [客製化你的商店](#客製化你的商店)
+  - [商店資訊 (Store Information)](#商店資訊-store-information)
+  - [外觀 (Layout)](#外觀-layout)
+  - [訂單設定 (Order Settings)](#訂單設定-order-settings)
+    - [網站貨幣](#網站貨幣)
+    - [訂購人資料](#訂購人資料)
+    - [最低消費](#最低消費)
+    - [訂單確認信](#訂單確認信)
+  - [聯絡方式與社群媒體 (Contact Information)](#聯絡方式與社群媒體-contact-information)
+  - [付款方式 (Payment Methods)](#付款方式-payment-methods)
+    - [線上支付](#線上支付)
+    - [手動付款](#手動付款)
+  - [運費 (Shipping)](#運費-shipping)
+  - [折扣 (Discount)](#折扣-discount)
+  - [稅 (Tax)](#稅-tax)
+  - [Waitress API](#waitress-api)
+- [總結](#總結)
+    </tr>
+  </tbody>
+</table>
+</div>
+
 ## 更新商品目錄
 
 如果你跟著我們的[教學](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch)，並且使用提供的範例資料建立商店，你的商店目前應該會長的像[這樣](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)。
@@ -88,6 +117,10 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 ### 訂單設定 (Order Settings)
 
+#### 網站貨幣
+
+- *`[NEW]`* Store Currency: 預設為 USD (美元)，亦可從下拉式選單選取欲套用的[貨幣代碼](https://en.wikipedia.org/wiki/ISO_4217#Active_codes)。
+
 #### 訂購人資料
 
 - Required Input in Order Form: 預設只有規定顧客一定要填寫 Email 才能成立訂單，可以選擇其他必填欄位，包括顧客名、聯絡電話和地址。
@@ -125,7 +158,9 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 - 電話: 請包含＋號和國碼(美國即為 +1)，不用輸入連接號(-)或括號 (例：+17181234567)
 - LINE: LINE 的個人或群組專屬網址。[*如何取得LINE網址？](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/#%E5%A6%82%E4%BD%95%E5%8F%96%E5%BE%97-line-%E7%B6%B2%E5%9D%80)
 - Instagram: Instagram 的帳號 (非網址)，不用輸入 @ (例：apiobuild)
-- Phone Number: 電話號碼前請加國碼 (美加: +1)，不需加 其他符號分隔 (例： +17181234567)
+- Phone Number: 電話號碼前請加國碼 (美加: +1)，不需加其他符號分隔 (例： +17181234567)
+- *`[NEW]`* Twitter: Twitter 的帳號 (非網址)，不用輸入 @ (例：apiobuild)
+- *`[NEW]`* WhatsApp: WhatsApp 號碼並加上國碼， 不需加 + 或其他符號分隔 (例：12121234567)
 
 <img src="/images/blog/d_contact_info.png" class="post-img">
 
@@ -159,7 +194,8 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 - [Zelle](https://www.zellepay.com/): 填入 Zelle 帳號（電子信箱或電話號碼）。
 - [Venmo](https://venmo.com/): 填入 Venmo 帳號。
 - [E-transfer](https://www.interac.ca/en/consumers/products/interac-e-transfer/): 填入 e-transfer 帳號。
-- Pay at Pick-Up: 勾選此選項，可以同時出現其他付款方式與店取選項。
+- Pay at Pick-Up: 勾選此選項，會出現店取付款選項。
+- *`[NEW]`* Collect on Delivery: 勾選此選項，會出現貨到付款選項。
 
 ### 運費 (Shipping)
 
@@ -197,5 +233,16 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+}
+.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+.wide {
+  width: 5%;
+}
+.table-box{
+  color: black;
+  border-left: 6px solid #fcd236;
 }
 </style>
