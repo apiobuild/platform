@@ -2,7 +2,7 @@
 title: "Introducing Post-It: Communication Automation Service"
 image: /images/blog/email-post-it.png
 date: 2020-08-16
-tags: ["email-automation", "email", "chopin", "online-shop", "post-it", "tutorial", "use-case","order-confirmation"]
+tags: ["email-automation", "email", "chopin", "online-shop", "post-it", "tutorial", "use-case","order-confirmation", "product-updates"]
 ---
 
 Announcing our new service: **[Post-it](https://telescope.apiobuild.com/app/post-it)** - a communication automation service. We wrap various communication APIs in one place. You can send pre-templated messages from your own email address and other social accounts over API (we currently support **Gmail**) with simple configuration. In this post, we will show you how you can use Post-it with Chopin (apio\'s online store creator) to send automated order confirmation. 

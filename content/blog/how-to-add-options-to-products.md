@@ -2,7 +2,7 @@
 title: "How to Add Options to Products for a Chopin Store?"
 image: /images/blog/option-tutorial.png
 date: 2020-09-15
-tags: ["telescope", "chopin", "tutorial", "product-variants", "e-commerce", "google-sheet"]
+tags: ["telescope", "chopin", "tutorial", "product-variants", "ecommerce", "google-sheet","product-updates", "documentation"]
 ---
 
 Are you selling products with multiple size and color options? We bring to you an advanced Chopin store that can showcase several product variations. We promise there won't be complex configuration. Just the [same catalog google sheet](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-2-add-catalog-google-sheet) with some more columns, you will be able to sell clothes with different style and size, handmade craft with various patterns, cupcakes with multiple flavors, etc. In this tutorial, we will show you how to set up your catalog google sheet to add multiple options to your products. 
