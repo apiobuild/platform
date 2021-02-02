@@ -13,6 +13,37 @@ After creating your [Chopin](https://telescope.apiobuild.com/app/chopin) store, 
 
 🛍️ [Something wrong with your Chopin store? Check these frequently asked questions.](https://apiobuild.com/blog/troubleshoot-chopin-store/)
 
+🛍️ [中文設定教學](https://apiobuild.com/blog/how-to-configure-chopin-store-zh/)
+
+<div class="table-box table-warning table-responsive px-2 py-2">
+<table class="center">
+  <tbody>
+    <tr>
+   CONTENTS:
+
+- [Update Catalog Sheet](#update-catalog-sheet)
+- [Configure Your Store (in Chopin app)](#configure-your-store-in-chopin-app)
+  - [Store Information](#store-information)
+  - [Layout](#layout)
+  - [Order Settings](#order-settings)
+    - [Store Currency](#store-currency)
+    - [Order Form](#order-form)
+    - [Minimum Order](#minimum-order)
+    - [Order Confirmation Email](#order-confirmation-email)
+  - [Contact Information](#contact-information)
+  - [Payment Methods](#payment-methods)
+    - [Online Payment Processor](#online-payment-processor)
+    - [Manual Options](#manual-options)
+  - [Shipping](#shipping)
+  - [Discount](#discount)
+  - [Tax](#tax)
+  - [Waitress API](#waitress-api)
+- [Summary](#summary)
+    </tr>
+  </tbody>
+</table>
+</div>
+
 ## Update Catalog Sheet
 
 Your store would be look like [this](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) if you follow the [tutorial](https://apiobuild.com/blog/how-to-create-web-store-with-apio) and use the example data provided. But I'm pretty sure you're not selling Cool Cat and Funny Cat. Now it's time to update the catalog google sheet with your own product information.
@@ -88,6 +119,10 @@ The next step is to customize your store in [Chopin](https://telescope.apiobuild
 
 ### Order Settings
 
+#### Store Currency
+
+- *`[NEW]`* Store Currency: Default is USD (US Dollar). Choose your preferred [currency code](https://en.wikipedia.org/wiki/ISO_4217#Active_codes) from the dropdown menu.
+
 #### Order Form
 
 - Required Input in Order Form: By default, we only require customers to put in their emails. You can make other fields required, so you would not miss any important information.
@@ -125,7 +160,9 @@ The next step is to customize your store in [Chopin](https://telescope.apiobuild
 - Facebook: Full url to your facebook page or group (eg. https://www.facebook.com/apiobuild)
 - Instagram: instagram handle without @, not the full url (eg. apiobuild)
 - LINE: URL to your LINE account or LINE group. [*How to retrieve LINE URL](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-to-retrieve-line-url)
-- Phone Number: Start with country code (US: +1) and without dash nor brackets (eg. +17181234567)
+- Phone Number: Start with country code (US: +1) and without dash nor brackets (eg. +17181234567).
+- *`[NEW]`* Twitter: Twitter handle without @ (eg. apiobuild).
+- *`[NEW]`* WhatsApp: WhatsApp number with country code and without dash, +,  nor brackets (eg. 12121234567).
 
 <img src="/images/blog/d_contact_info.png" class="post-img">
 
@@ -158,6 +195,7 @@ We also support some popular manual payment options across North America. Howeve
 - [Venmo](https://venmo.com/): Provide your Venmo handle.
 - [E-transfer](https://www.interac.ca/en/consumers/products/interac-e-transfer/): Provide your E-Transfer email or mobile number.
 - Pay at Pick-Up: Check this box if you wish to collect payment when customers pick up their orders.
+- *`[NEW]`* Collect on Delivery: Check this box if you or courier will collect payment when the order is delivered to customers.
 
 ### Shipping
 
@@ -198,5 +236,16 @@ We are continue to update this article and grow our features. If you don't see t
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+}
+.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+.wide {
+  width: 5%;
+}
+.table-box{
+  color: black;
+  border-left: 6px solid #fcd236;
 }
 </style>

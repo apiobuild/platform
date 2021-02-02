@@ -2,7 +2,7 @@
 title: "How to Set Up Website with Goldfish?"
 image: /images/blog/website-setup.png
 date: 2020-12-03
-tags: ["website", "application", "custom-solution", "small-business", "tutorial", "one-page-website"]
+tags: ["website", "application", "custom-solution", "small-business", "tutorial", "one-page-website", "product-updates", documentation"]
 ---
 
 The myth under the sea is that goldfish's memory spans only three seconds. apio presents to you a **one-page website generator** that makes those 3 seconds worth it. A one-page website indicates a website that contains all the information in one HTML page. All the information is kept in one place which makes the navigation easier and allows you to control how you tell your story. In this article, we will show you how to use **[Goldfish by apio](https://telescope.apiobuild.com/app/goldfish)** to create a simple website that showcase your works or tell your brand story!
