@@ -48,9 +48,9 @@ Whether you are [small business owners](https://apiobuild.com/blog/starting-an-o
 
 #### Demo
 
-In the [demo store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4), we've configured one google sheet to be catalog and another one to store order.
+In the [demo store](https://chopin.apiobuild.com/demo-store), we've configured one google sheet to be catalog and another one to store order.
 
-You can easily update products to the catalog on google sheet and the store will update in real-time. When user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4).
+You can easily update products to the catalog on google sheet and the store will update in real-time. When user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://chopin.apiobuild.com/demo-store).
 
 <video width="100%" autoplay="true" controls style="display: block;
 margin: 0 auto"><source src="/video/gsheet-to-store.mp4" type="video/mp4" />
@@ -92,39 +92,35 @@ The website is fully customizable. As of the [website appearance](https://apiobu
 
 #### Communication 
 
-There are a few communication channels designed for you and your customers to create a flawless conversation experience. Chopin enables social plug-ins so your customers can easily reach you via **[Phone, Email, Instagram, Facebook, and Line](https://apiobuild.com/blog/how-to-configure-chopin-store/#contact-information)**. You also have the option to add **[announcement](https://apiobuild.com/blog/how-to-configure-chopin-store/#store-information)** to broadcast important updates or discount information.
+There are a few communication channels designed for you and your customers to create a flawless conversation experience. Chopin enables social plug-ins so your customers can easily reach you via **[Phone, Email, Instagram, Facebook, WhatsApp, and Line](https://apiobuild.com/blog/how-to-configure-chopin-store/#contact-information)**. You also have the option to add **[announcement](https://apiobuild.com/blog/how-to-configure-chopin-store/#store-information)** to broadcast important updates or discount information.
 
 Each success order comes with a **[confirmation email](https://apiobuild.com/blog/introducing-post-it-email-automation-service/#use-case-automated-order-confirmation)** sent directly from your Gmail account (opt-in required). Your customers can contact you regarding order details, payment confirmation, or cancelation.
 
-You can also add Facebook messenger chat to your store, where you can provide instant automated answers and enhance customer experience. Like what we do on our website at the bottom right corner.
+You can also add **Facebook messenger chat** to your store, where you can provide instant automated answers and enhance customer experience. Like what we do on our website at the bottom right corner.
 
 <img src="/images/blog/social.png" class="post-img">
 
 #### Payment Integration
 
-Chopin currently offers **[Stripe](https://stripe.com/payments)** and **[PayPal Business](https://www.paypal.com/us/business/website-payments)** for your customers to pay through credit cards, bank accounts, or PayPal account balances. Integrating these digital payment platforms allows Chopin to **verify the transactions in realtime and post the result** to order google sheet, so you don't have to manually confirm each payment or check the amount totals.
+Chopin currently offers **[Stripe](https://stripe.com/payments)** for your customers to pay through credit cards. Integrating digital payments allows Chopin to **verify the transactions in realtime and post the result** to order google sheet, so you don't have to manually confirm each payment or check the amount totals.
 
 You can also provide your **[Zelle](https://www.zellepay.com/)**, **[Venmo](https://venmo.com/)**, or **[PayPal.Me](https://www.paypal.com/paypalme/)** account information as a manual pay option. While these manual transactions can't be verified, we will record customers' payment method in the order google sheet.
 
-<img src="/images/blog/payment.png" class="post-img">
+<img src="/images/blog/payment21.png" class="post-img">
 
 #### Category
 
 You can group products into categories, and customers can filter products by category directly from the menu. We also support multiple categories per product. For example, you can set up a "Featured" collection to highlight popular items on the top and still show it in other categories so customers can locate any items easily. 
 
 <video width="100%" controls style="display: block;
-margin: 0 auto"><source src="/video/jump-to.mp4" type="video/mp4" />
+margin: 0 auto"><source src="/video/category.mp4" type="video/mp4" />
 </video>
 
 #### Limit Per Customer/Out of Stock
 
-Set a maximum quantity (per customer) for products in the catalog google sheet. Once the customer’s selection reaches the maximum, the system will show the limitation or out of stock message. which is also customizable. You can change it to "Coming Soon" or "Back in Stock Next Spring."
+Set a maximum quantity (per customer) for products in the catalog google sheet for better inventory management. Once the customer’s selection reaches the maximum, the system will show the limitation or out of stock message. which is also customizable. You can change it to "Coming Soon" or "Back in Stock Next Spring."
 
 Chopin store is capable for inventory management too! <a href="mailto:apiobuild@gmail.com">Contact us</a> to learn more.
-
-<video width="100%" controls style="display: block;
-margin: 0 auto"><source src="/video/out-of-stock.mp4" type="video/mp4" />
-</video>
 
 #### Tax and Shipping Options
 
@@ -133,7 +129,7 @@ up [shipping rules](https://apiobuild.com/blog/how-to-configure-chopin-store/#sh
 
 Chopin also supports [discount](https://apiobuild.com/blog/how-to-configure-chopin-store/#discount) function, and you can offer percentage discount or dollar value off for all of your products or just for certain categories.
 
-<img src="/images/blog/order-summary.png" class="post-img">
+<img src="/images/blog/order-summary21.png" class="post-img">
 
 ## Summary
 

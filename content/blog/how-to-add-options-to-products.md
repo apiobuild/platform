@@ -13,7 +13,7 @@ Are you selling products with multiple size and color options? We bring to you a
 
 ## A Demo Clothing Store
 
-Visit our [demo boutique shop](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/74c00629-b2a7-4e52-b58a-c35deefa8adf)! We have clothing with multiple colors and sizes as well as accessories with varied styles.
+Visit our [demo boutique shop](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/74c00629-b2a7-4e52-b58a-c35deefa8adf)! We have clothing with multiple colors and sizes as well as accessories with varied styles.
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/boutique-overview.mp4" type="video/mp4" />

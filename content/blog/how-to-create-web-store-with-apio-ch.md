@@ -9,7 +9,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 
 <!--more-->
 
-🛍️ [示範商店馬上逛](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
+🛍️ [示範商店馬上逛](https://chopin.apiobuild.com/demo-store)
 
 🛍️ [延伸閱讀：Chopin 與其他電商平台比較](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
@@ -27,7 +27,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 
 然後選取 [Chopin Stores](https://telescope.apiobuild.com/flow/chopin-stores) 建立新商店，遵照網站指示完成第一步：命名商店。
 
-*注意：此商店名稱之後無法更改*
+⚠️ 注意：此商店名稱之後無法更改
 
 <video width="100%" controls style="align: center">
 <source src="/video/name-store.mp4" type="video/mp4" />
@@ -65,7 +65,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 
 ## 🎉 恭喜! 您成功創建了一個網路商店!
 
-點擊 `Go To Store` 預覽你的商店，如果你使用我們提供的範例商品資料，你的店應該會長的像[這樣](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)。
+點擊 `Go To Store` 預覽你的商店，如果你使用我們提供的範例商品資料，你的店應該會長的像[這樣](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)。
 
 接下來你可以繼續[步驟 4](#step-4-新增-email-確認信功能) 加上 email 確認信功能，或是到 [Chopin app](https://telescope.apiobuild.com/app/chopin)  設定網路商店細節。
 

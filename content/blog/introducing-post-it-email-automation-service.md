@@ -83,7 +83,7 @@ Then, go to [Chopin](https://telescope.apiobuild.com/app/chopin/configure) to tu
 
 In the **Order Settings** section, check `Send Order Confirmation` box.
 
-Now try place an order with your online store or [ our demo store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4), you will receive an email confirmation with order details and options to follow up with the owner!
+Now try place an order with your online store or [our demo store](https://chopin.apiobuild.com/demo-store), you will receive an email confirmation with order details and options to follow up with the owner!
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/turn-on-post-it.mp4" type="video/mp4" />

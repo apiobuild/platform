@@ -46,23 +46,22 @@ After creating your [Chopin](https://telescope.apiobuild.com/app/chopin) store, 
 
 ## Update Catalog Sheet
 
-Your store would be look like [this](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) if you follow the [tutorial](https://apiobuild.com/blog/how-to-create-web-store-with-apio) and use the example data provided. But I'm pretty sure you're not selling Cool Cat and Funny Cat. Now it's time to update the catalog google sheet with your own product information.
+Your store would be look like [this](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) if you follow the [tutorial](https://apiobuild.com/blog/how-to-create-web-store-with-apio) and use the example data provided. But I'm pretty sure you're not selling Cool Cat and Funny Cat. Now it's time to update the catalog google sheet with your own product information.
 
 Fields are defined as the following:
 
 - name: Unique name/id starts with any alphabet and contains **only dashes (-), underscores (_), and alphanumeric are allowed** for each product. No spaces.
 - nickname: Item names that will appear on the store page, they can be **any language, symbol, and even emoji**.
-- description *(optional)*: More information about the product.
-- product_url *(optional)*: Link to an external web page, like a facebook post or blog review.
-- image_url: URL of the product image or YouTube video link (obtained via Share button). Multiple image urls can be separated by commas (,). [*What\'s image url?](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-can-i-obtain-image-url)
+- description *(optional)*: More information about the product. [*Styling with Markdown is supported](https://www.markdownguide.org/cheat-sheet/)
+- image_url: URL of the product image(s). Multiple image urls can be separated by commas (,). [*What\'s image url?](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-can-i-obtain-image-url)
 - price: Product price, no need to enter "$" (dollar sign).
-- max_qty: Maximum quantity that *one customer* can buy. If max_qty = 0, it will show 'Coming Soon'
+- max_qty *(optional)*: Maximum quantity that *one customer* can buy. If max_qty = 0, it will show 'Coming Soon'
 - category *(optional)*: To allow customer to filter products. Multiple categories can be separated by commas (,).
 - hide: Enter "x" (or any other characters), this product will not appear on your store.
 - no_tax: Enter "x" (or any other characters), sales tax won't apply to this product.
 
 Example:
-<img src="/images/blog/catalog_sheet_eg1.png" class="post-img">
+<img src="/images/blog/catalog_sheet_ex1.png" class="post-img">
 
 <br>
 
@@ -74,7 +73,7 @@ If you want to [sell products with multiple options](https://apiobuild.com/blog/
 - option:color
 
 Example:
-<img src="/images/blog/catalog_sheet_eg2.png" class="post-img">
+<img src="/images/blog/catalog_sheet_ex2.png" class="post-img">
 
 ⚠️ Important:
 1. There should not be any empty line(s) between rows.
@@ -99,19 +98,18 @@ The next step is to customize your store in [Chopin](https://telescope.apiobuild
 
 - Store Name: You named your store when [creating the store](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-1-create-a-store). It cannot be modified.
 - Logo url *(optional)*: Give your store a logo. [*What\'s image URL?](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-can-i-obtain-image-url)
-- Store Description *(optional)*: Let your customers know what your store is about, brand story, shipping/return policy, or any information you'd like to include. Up to 250 characters.
-- Announcement *(optional)*: News to share with your customers. It will be shown at the top of your store and disappear in 5 seconds.
+- Store Description *(optional)*: Let your customers know what your store is about, brand story, shipping/return policy, or any information you'd like to include. Up to 1000 characters. [*Styling with Markdown is supported](https://www.markdownguide.org/cheat-sheet/)
+- Announcement *(optional)*: News to share with your customers.
 
-<img src="/images/blog/a_store_info.png" class="post-img">
+<img src="/images/blog/a_store_info_21.png" class="post-img">
 
 ### Layout
 
 - Store Background Image url *(optional)*: Add a background image.
 - Store Background Color *(optional)*: You can easily select color from swatch or enter a [hex code](https://htmlcolorcodes.com/).
-- *`[NEW]`* Page Header Height: You can adjust height of your background image. Default is 100% and it will take up the entire screen. *Note: If there's no enough space, the texts from `Store Description` might go beyond boarder.*
-- Remove Description Whiteout: To remove the white background of the store description box.
+- *`[NEW]`* Page Header Height: You can adjust height of your background image. Default is 100% and it will take up the entire screen.
 
-<img src="/images/blog/b_layout_1.png" class="post-img">
+<img src="/images/blog/b_layout_1_21.png" class="post-img">
 
 - Message to show when the product has max_qty = 0 *(optional)*: In catalog google sheet, when input "0" in the `max_qty` field the indicated product will show "Coming Soon!" on the website. You can customize this text your way. A few other alternatives can be "Out of Stock", "Back in October" etc.
 
@@ -134,7 +132,7 @@ The next step is to customize your store in [Chopin](https://telescope.apiobuild
 
    *We recommend using this field to collect customization details (i.e. message to be put on the cake) rather than using as a communication channel*
 
-<img src="/images/blog/c_order_1.png" class="post-img">
+<img src="/images/blog/c_order_1_21.png" class="post-img">
 
 #### Minimum Order
 
@@ -170,18 +168,21 @@ The next step is to customize your store in [Chopin](https://telescope.apiobuild
 
 Each payment method will appear as a **button**. If you don't add any payment options, there will be a **"Submit Order"** button. You can enable as many payment options as you'd like. They will replace the "Submit Order" button.
 
-Visit our [Demo Store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4) and see how they work in real world. If you don't see your preferred payment methods, [drop us a message](https://apiobuild.com/forms/business/)!
+Visit our [Demo Store](https://chopin.apiobuild.com/demo-store) and see how they work in real world. If you don't see your preferred payment methods, [drop us a message](https://apiobuild.com/forms/business/)!
 
-<img src="/images/blog/e_payment_button.png" class="post-img">
+<img src="/images/blog/e_payment_button_21.png" class="post-img">
 
 #### Online Payment Processor
 
-We currently support [Stripe](https://stripe.com/payments) and [PayPal for Business](https://www.paypal.com/us/business/website-payments) as online payment processor, which allows your customers pay with credit cards. [Contact us](https://apiobuild.com/forms/business/) when you've signed up Stripe and/or PayPal Business account(s) and are ready to integrate them to your Chopin store.
+We currently support [Stripe](https://stripe.com/payments) as online payment processor, which allows your customers pay with credit cards. [Contact us](https://apiobuild.com/forms/business/) when you've signed up Stripe and are ready to integrate them to your Chopin store.
 
-There is a processing fee of **2.9% + 30¢** for both platforms, that will be deducted directly from your Stripe/PayPal account. Click links below for more detailed pricing. [*Stripe v.s PayPal. Which one is better?](https://apiobuild.com/blog/troubleshoot-chopin-store/#difference-between-stripe-and-paypal-business)
+There is a processing fee of **2.9% + 30¢**, that will be deducted directly from your Stripe account. apio doesn't take a cut from your profits! Click links below for more detailed pricing. [*Stripe v.s PayPal. Which one is better?](https://apiobuild.com/blog/troubleshoot-chopin-store/#difference-between-stripe-and-paypal-business)
 
 - *`[NEW]`* [Stripe](https://stripe.com/pricing)
+
+<span style="display: none">
 - [PayPal](https://www.paypal.com/us/webapps/mpp/merchant-fees)
+</span>
 
 Integrating these digital payment platforms allows Chopin to **verify the transactions in realtime and post the result** to [order google sheet](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-3-add-order-google-sheet), so you don't have to manually confirm each payment or check the amount totals.
 
