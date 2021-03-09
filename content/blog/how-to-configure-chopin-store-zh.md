@@ -44,7 +44,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 ## 更新商品目錄
 
-如果你跟著我們的[教學](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch)，並且使用提供的範例資料建立商店，你的商店目前應該會長的像[這樣](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)。
+如果你跟著我們的[教學](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch)，並且使用提供的範例資料建立商店，你的商店目前應該會長的像[這樣](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)。
 
 我相信你應該捨不得賣出 Cool Cat 和 Funny Cat，接下來請按照以下說明更新商品目錄 Google Sheet，更新過程中內容會即時反映在網路商店。
 
@@ -52,17 +52,16 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 - name: 每個產品的獨立編碼 (product id)，英文開頭並只能使用**英文、數字、連接號(-)或底線(＿)，不能有空格**。
 - nickname: 顯示在網站的產品名稱，支援任何語言文字或表情符號。
-- description *(非必須)*: 產品敘述。
-- product_url *(非必須)*: 產品外部連結。
-- image_url: 產品圖片網址或 YouTube 連結。每個產品可以有多個影像網址，以逗號相隔 (,)。 [*如何取得圖片網址](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/#%E5%A6%82%E4%BD%95%E5%8F%96%E5%BE%97%E6%89%8B%E9%82%8A%E5%9C%96%E7%89%87%E7%9A%84%E7%B6%B2%E5%9D%80%E5%91%A2)
+- description *(非必須)*: 產品敘述。[*支援 Markdown 語法編輯格式](https://www.markdownguide.org/cheat-sheet/)
+- image_url: 產品圖片網址。每個產品可以有多個圖片，將網址以逗號 (,)分隔即可。 [*如何取得圖片網址](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/#%E5%A6%82%E4%BD%95%E5%8F%96%E5%BE%97%E6%89%8B%E9%82%8A%E5%9C%96%E7%89%87%E7%9A%84%E7%B6%B2%E5%9D%80%E5%91%A2)
 - price: 產品價錢，不需輸入金錢符號 ($)。
-- max_qty: 每個顧客可購買的上限，**如果設定 max_qty 為0, 會顯示 Coming Soon**。
+- max_qty *(非必須)*:: 每個顧客可購買的上限，**如果設定 max_qty 為0, 會顯示 Coming Soon**。
 - category *(非必須)*: 不同的產品分類。每個產品可以有多個分類，以逗號相隔 (,)。
 - hide: 在這格打上 "x" (或是其他字母符號)，該產品即不會顯示在網站上。
 - no_tax: 在這格打上 "x" (或是其他字母符號)，該產品不會被計算稅。
 
 範例：
-<img src="/images/blog/catalog_sheet_eg1.png" class="post-img">
+<img src="/images/blog/catalog_sheet_ex1.png" class="post-img">
 
 如果想要[將產品加上多個尺寸顏色選項](https://apiobuild.com/blog/how-to-add-options-to-products/)，你會需要手動新增以下四個欄位：
 
@@ -72,7 +71,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 - option:color
 
 範例：
-<img src="/images/blog/catalog_sheet_eg2.png" class="post-img">
+<img src="/images/blog/catalog_sheet_ex2.png" class="post-img">
 
 ⚠️ 注意:
 1. 每列之間不得穿插空白列。
@@ -97,19 +96,18 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 - Store Name: 網路商店的名稱，[建立商店](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch/#step-1-建立新商店)時已提供，無法更改。
 - Logo url *(非必須)*: logo 圖片網址。 [*什麼是圖片網址？](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/#如何取得手邊圖片的網址呢)
-- Store Description *(非必須)*: 商店敘述，最多250字。
-- Announcement *(非必須)*: 此通知會出現在頁面最上方，每次出現約5秒，可以拿來放特價訊息或其他通知。
+- Store Description *(非必須)*: 商店敘述，最多1000字。[*支援 Markdown 語法編輯格式](https://www.markdownguide.org/cheat-sheet/)
+- Announcement *(非必須)*: 此通知會出現在頁面最上方，可以拿來放特價訊息或其他通知。
 
-<img src="/images/blog/a_store_info.png" class="post-img">
+<img src="/images/blog/a_store_info_21.png" class="post-img">
 
 ### 外觀 (Layout)
 
 - Store Background Image url *(非必須)*: 背景圖案連結。
 - Store Background Color *(非必須)*: 可以從調色盤選取顏色或輸入 [hex code](https://htmlcolorcodes.com/)。
-- *`[NEW]`* Page Header Height: 調整點進網站背景圖所佔螢幕的比例。*注意：若空間不夠， `Store Description` 內容將會超出首圖區。*
-- Remove Description Whiteout: 移除商片敘述的半透明白色背景。
+- *`[NEW]`* Page Header Height: 調整點進網站背景圖所佔螢幕的比例。
 
-<img src="/images/blog/b_layout_1.png" class="post-img">
+<img src="/images/blog/b_layout_1_21.png" class="post-img">
 
 - Message to show when the product has max_qty = 0 *(非必須)*: 當商品目錄中的 `max_qty` 欄位為0時，該商品在網站上會自動顯示 "Coming Soon!" 但你也可以在此欄位填入其他適合的字樣，例如 "Out of Stock" 或是 "Back in October" 等等。
 
@@ -130,7 +128,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 - Remove Customer Address Field: 如果你販賣虛擬商品或是只提供取貨選項，可以移除訂單中的地址欄位。
 - Add Optional Note Section: 可以新增一欄位供顧客填寫備註資訊。 *我們建議你請客人於此提供客製商品資訊（像是蛋糕上的糖霜字樣），而非用來與客人聯繫寄送細節*
 
-<img src="/images/blog/c_order_1.png" class="post-img">
+<img src="/images/blog/c_order_1_21.png" class="post-img">
 
 #### 最低消費
 
@@ -168,18 +166,17 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 每個付款方式會以按鈕的方式呈現，如果沒有新增任何付款方式，預設會是以 "Submit Order" 按鈕送出訂單。可以添加兩種以上的付款方式。
 
-可以到[範例商店](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)實際體驗不同付款方式的流程。如果有其他付款方式的需求，歡迎[聯絡我們](https://apiobuild.com/forms/business/)！
+可以到[範例商店](https://chopin.apiobuild.com/demo-store)實際體驗不同付款方式的流程。如果有其他付款方式的需求，歡迎[聯絡我們](https://apiobuild.com/forms/business/)！
 
-<img src="/images/blog/e_payment_button.png" class="post-img">
+<img src="/images/blog/e_payment_button_21.png" class="post-img">
 
 #### 線上支付
 
-目前支持以 [Stripe](https://stripe.com/payments) 和 [PayPal for Business](https://www.paypal.com/us/business/website-payments) 處理信用卡付款。 於上述網站開通帳號後，[聯絡我們](https://apiobuild.com/forms/business/)即可！
+目前支持以 [Stripe](https://stripe.com/payments) 處理信用卡付款。 於開通帳號後，[聯絡我們](https://apiobuild.com/forms/business/)即可！
 
-這兩個平台的手續費約**2.9% + 30¢**，會直接從你的營收裡扣款，可參考以下連結了解他們的詳細收費方式：
+平台手續費約**2.9% + 30¢**，會直接從你的營收裡扣款，apio 並不經手你的營收，可參考以下連結了解 Stripe 平台詳細收費方式：
 
 - *`[NEW]`* [Stripe](https://stripe.com/pricing)
-- [PayPal](https://www.paypal.com/us/webapps/mpp/merchant-fees)
 
 [*Stripe 和 PayPal 該選哪個？](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/#stripe-%E5%92%8C-paypal-business-%E6%9C%89%E4%BB%80%E9%BA%BC%E4%B8%8D%E5%90%8C)
 

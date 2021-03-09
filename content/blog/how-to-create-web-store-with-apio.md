@@ -9,7 +9,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 <!--more-->
 
-🛍️ [Visit Demo Store](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C117090713962028193035/7a8c0376-0fd0-4093-894f-e6d0200444d4)
+🛍️ [Visit Demo Store](https://chopin.apiobuild.com/demo-store)
 
 🛍️ [Read more: How does Chopin compare to website builders and ecommerce services](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
@@ -27,7 +27,9 @@ Prefer to learn from videos? Watch this [three-minute tutorial video](https://yo
 
 Go to [Telescope (apio microservices platform)](https://telescope.apiobuild.com/). Log in with your existing google account by selecting `Sign in with Google` in the pop-up window.
 
-Then go to [Chopin Stores](https://telescope.apiobuild.com/flow/chopin-stores) to start creating your store. First step is naming your store. Store name cannot be changed later.
+Then go to [Chopin Stores](https://telescope.apiobuild.com/flow/chopin-stores) to start creating your store. First step is naming your store. 
+
+⚠️ Store name cannot be changed later, but you can always create a new store.
 
 <video width="100%" controls style="align: center">
 <source src="/video/name-store.mp4" type="video/mp4" />
@@ -65,14 +67,13 @@ You can manage this order sheet in your preferred way by adjusting the order of 
 
 ## 🎉 Congratulations! You've just created a store!
 
-Check out your store now (it should look like [this](https://trampoline.apiobuild.com/router/chopin/store/page/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)) and be proud of yourself! 
+Check out your store now (it should look like [this](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47)) and be proud of yourself! 
 
 You can proceed to [Step 4](#step-4-add-email-confirmation) to finish setting up email confirmation, or go to [Chopin](https://telescope.apiobuild.com/app/chopin) to configure your store.
 
 <video width="100%" controls style="align: center">
 <source src="/video/view-configure-store.mp4" type="video/mp4" />
 </video>
-
 
 ## Step 4: Add Email Confirmation
 
