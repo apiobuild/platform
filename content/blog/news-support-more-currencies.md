@@ -5,13 +5,15 @@ date: 2021-02-01
 tags: ["chopin", "telescope", "tutorial", "ecommerce", "google-sheet", "product-updates", "documentation"]
 ---
 
-As we see a greater number of [Chopin](https://telescope.apiobuild.com/app/chopin) sign-ups are from outside of the U.S., we are expanding our functionalities to better address their business needs.
+As we see a greater number of [Chopin](https://telescope.apiobuild.com/app/chopin) sign-ups are from outside of the U.S., we are expanding our functionalities to better address their business needs.****
 
 These exciting updates include:
 
 1. [Support Local Currency](#local-currency)
 2. [Add Twitter and WhatsApp as Contacts](#twitter-and-whatsapp)
 3. [Add Collect on Delivery as a Payment Method](#collect-on-delivery)
+
+<!--more-->
 
 [👀 See all product updates!](https://apiobuild.com/tags/product-updates/)
 
