@@ -2,10 +2,6 @@
 background: '/images/new-hero.png'
 ---
 
-## Custom Technology Solutions
-  
-# Reimagined
+# Democratizing Great Software for Everyone
 
-<br>
-
-### Affordable and sustainable high quality custom software at fingertips. 
+## Low Code SaaS Platform for Small Businesses, Entrepreneur and Beyond
