@@ -9,7 +9,7 @@
     class="strip {{ if .Params.backgroundSize  }}strip-{{ .Params.backgroundSize }}{{ else }}strip-contain{{ end }}"
     style="background-image: {{ if .Params.background }} url('{{ .Params.background }}') {{ else }} unset {{ end }}"
   >
-    <div class="container py-5 mx-0" {{ if .Params.max_width }} style="max-width: {{.Params.max_width}}%" {{ end }}>
+    <div class="container mx-0" {{ if .Params.max_width }} style="max-width: {{.Params.max_width}}%" {{ end }}>
       <div class="row py-5">
         <div
           class="col offset-sm-{{ .Params.offset }} {{ if .Params.col }} col-{{.Params.col}} {{end}} {{ if .Params.col_md }} col-md-{{.Params.col_md}} {{end}} {{ with .Params.text_align }} text-{{ . }} {{ end }}"
