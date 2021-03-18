@@ -7,6 +7,7 @@ relativeURLs = true
 googleAnalytics = "UA-71133003-2"
 disqusShortname = "apiobuild-com"
 enableRobotsTXT = true
+assetDir = "static"
 
 [params]
   footer = "Made by 🦌 and 🐟 with ❤️ and 🍵 in 🗽"

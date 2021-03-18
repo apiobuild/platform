@@ -24,7 +24,10 @@
   integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
   crossorigin="anonymous"
 />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme.css" />
+<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme.css" /> -->
+
+{{ $style := resources.Get "theme.scss" | resources.ToCSS (dict "outputStyle" "compressed") }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/custom.css" />
 <script defer src="{{ .Site.BaseURL }}/js/fontawesome/all.js"></script>
 <script
