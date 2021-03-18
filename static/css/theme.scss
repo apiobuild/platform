@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+$font-family-base: 'Lato',
+sans-serif;
+
 $primary: #007bff;
 $secondary: #fcd236;
 $body-bg: #fefefe;
@@ -7,11 +11,7 @@ $enable-rounded: true;
 $enable-shadows: true;
 $enable-gradients: false;
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-$font-family-base: 'Lato',
-sans-serif;
-
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../../themes/custom-theme/node_modules/bootstrap/scss/bootstrap";
 
 html,
 body {
