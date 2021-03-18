@@ -1,8 +1,7 @@
 ---
-anchor: "try-now"
+anchor: "features"
 weight: 1
 offset: 0
 max_width: 100
-try_now: true
+features: true
 ---
-

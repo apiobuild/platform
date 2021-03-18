@@ -32,11 +32,6 @@ assetDir = "static"
   priority = 0.5
 
 [[menu.main]]
-	name = "try now"
-	url = "#try-now"
-    weight = 1
-
-[[menu.main]]
 	name = "pricing"
 	url = "/#pricing"
     weight = 2
