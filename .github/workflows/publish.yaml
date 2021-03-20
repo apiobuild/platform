@@ -22,7 +22,7 @@ jobs:
         cd ../..
 
         echo "generate static content in public"
-        docker run --rm -v $(pwd):/site -v $(pwd)/public:/site/public l1990790120/hugo:0.64.1-p ""
+        docker run --rm -v $(pwd):/site -v $(pwd)/public:/site/public l1990790120/hugo:0.80.0-p ""
         echo "push public to master"
         cd public
         git add --all
