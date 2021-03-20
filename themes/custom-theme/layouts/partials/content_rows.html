@@ -10,7 +10,8 @@
     style="background-image: {{ if .Params.background }} url('{{ .Params.background }}') {{ else }} unset {{ end }}"
   >
     <div class="container mx-0" {{ if .Params.max_width }} style="max-width: {{.Params.max_width}}%" {{ end }}>
-      <div class="row py-5">
+      <div class="row {{ if .Params.RowArgs }} {{ .Params.RowArgs }} {{ else }} py-5 {{ end}}">
+        {{ if not .Params.HideContent }}
         <div
           class="col offset-sm-{{ .Params.offset }} {{ if .Params.col }} col-{{.Params.col}} {{end}} {{ if .Params.col_md }} col-md-{{.Params.col_md}} {{end}} {{ with .Params.text_align }} text-{{ . }} {{ end }}"
         >
@@ -24,6 +25,15 @@
           </a>
           {{ end }}
         </div>
+      {{ end }}
+
+      {{ if .Params.chopin }}
+      {{ partial "chopin-app.html"}}
+      {{ end }}
+
+      {{ if .Params.goldfish }}
+      {{ partial "goldfish-app.html"}}
+      {{ end }}
 
       {{ if .Params.features }}
       {{ partial "features.html" . }}
@@ -36,10 +46,6 @@
       {{ if .Params.pricing }}
       {{ partial "pricing.html" . }}
       {{ end }}
-
-      {{/*  {{ if .Params.product }}
-      {{ partial "product.html" . }}
-      {{ end }}  */}}
 
       </div>
     </div>
