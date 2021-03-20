@@ -4,6 +4,7 @@
   {{ $reusablePages := $headless.Resources.ByType "page" }}
   {{ $reusablePages := sort $reusablePages ".Params.weight" }}
   {{ range $reusablePages }}
+  {{ if not .Params.draft }}
   <div
     id="{{ .Params.Anchor }}"
     class="strip {{ if .Params.backgroundSize  }}strip-{{ .Params.backgroundSize }}{{ else }}strip-contain{{ end }}"
@@ -39,10 +40,6 @@
       {{ partial "features.html" . }}
       {{ end }}
 
-      {{ if .Params.signup }}
-      {{ partial "email_signup.html" . }}
-      {{ end }}
-
       {{ if .Params.pricing }}
       {{ partial "pricing.html" . }}
       {{ end }}
@@ -50,6 +47,7 @@
       </div>
     </div>
   </div>
+  {{ end }}
   {{ end }}
   </div>
 </div>

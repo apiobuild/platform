@@ -8,10 +8,11 @@ col_md: 6
 background: "images/developers.png"
 backgroundSize: cover
 signup: true
+draft: true
 ---
 
 Are you a developer who's looking to ...
 
-* Contribute to impactful and quality software solutions
-* Get paid by software usages not just hours
-* Explore different technology stacks outside of your 9-5 work
+- Contribute to impactful and quality software solutions
+- Get paid by software usages not just hours
+- Explore different technology stacks outside of your 9-5 work
