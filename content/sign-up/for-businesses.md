@@ -2,7 +2,6 @@
 title: "Beta User"
 anchor: "betauser"
 weight: 1
-offset: 2
 background: "images/business.png"
 backgroundSize: cover
 button: "Contact Us"

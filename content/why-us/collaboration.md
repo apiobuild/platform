@@ -3,7 +3,6 @@ headless: true
 title: 'Collaboration'
 anchor: 'collaboration'
 weight: 2
-offset: 2
 background: 'images/collaboration.png'
 ---
 
