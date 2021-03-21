@@ -3,7 +3,6 @@ headless: true
 title: 'Built for Any Size'
 anchor: 'flexibility'
 weight: 3
-offset: 2
 background: 'images/flexibility.png'
 ---
 
