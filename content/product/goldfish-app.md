@@ -1,9 +1,7 @@
 ---
 anchor: "goldfish-app"
 weight: 3
-offset: 0
-max_width: 100
+py: py-0
 goldfish: true
-hidecontent: true
-RowArgs: py-0
+fluid: true
 ---

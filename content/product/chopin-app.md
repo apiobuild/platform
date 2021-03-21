@@ -1,9 +1,7 @@
 ---
 anchor: "chopin-app"
 weight: 2
-offset: 0
-max_width: 100
+py: py-0
 chopin: true
-hidecontent: true
-RowArgs: py-0
+fluid: true
 ---
