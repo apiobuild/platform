@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "Devices.css": "github:marvelapp/devices.css",
     "node-sass": "^4.14.1"
   }
 }

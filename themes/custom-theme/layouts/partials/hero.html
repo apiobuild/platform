@@ -1,0 +1,167 @@
+<div class="row px-3" style="padding-top: 150px; height: 92%">
+  <div class="col col-12 align-self-end">
+    <h1>Democratizing Great Software for Everyone</h1>
+    <h5>
+      Low Code SaaS Platform for Small Businesses, Entrepreneur and Beyond
+    </h5>
+    <!--
+    <a
+      href="https://telescope.apiobuild.com/"
+      target="_blank"
+      style="text-decoration: none"
+    >
+      <button
+        type="button"
+        class="btn btn-primary btn-lg shadow mt-2"
+        style="width: 200px"
+      >
+        Try Now
+      </button>
+    </a>
+    <a href="https://calendly.com/apiobuild" target="_blank">
+      <button
+        type="button"
+        class="btn btn-light btn-lg shadow mt-2"
+        style="width: 200px"
+      >
+        Request Demo
+      </button>
+    </a>
+    -->
+  </div>
+  <div class="col col-12 col-sm-6 py-5">
+    <form class="input-group email-signup-form" novalidate>
+      <input
+        placeholder="Email"
+        name="email"
+        type="email"
+        id="femail"
+        required
+        class="form-control rounded-0 border-dark"
+        style="border-width: 2px !important; height: 45px; max-width: 300px"
+      />
+      <button
+        class="btn btn-dark rounded-0"
+        type="submit"
+        id="email-signup-submit-btn"
+        style="width: 150px"
+      >
+        Get Started
+      </button>
+    </form>
+    <p class="font-weight-light" id="email-signup-hint"></p>
+  </div>
+</div>
+<script type="text/javascript">
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    "use strict";
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll(".email-signup-form");
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms).forEach(function (form) {
+      form.addEventListener(
+        "submit",
+        function (event) {
+          event.preventDefault();
+          if (!form.checkValidity()) {
+            event.stopPropagation();
+          } else {
+            submitForm();
+          }
+
+          form.classList.add("was-validated");
+        },
+        false
+      );
+    });
+  })();
+
+  const token =
+    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIwZGVhODAxLWI1N2ItMTFlYS1hM2M0LTYzZDEwYzc2ODJkNyIsImF1ZCI6Imh0dHBzOi8vYXBpb2J1aWxkLmNvbSIsImlhdCI6MTU5MzM3MzEwOCwiaXNzIjoiZ29vZ2xlLW9hdXRoMnwxMTcwOTA3MTM5NjIwMjgxOTMwMzUiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzA5MDcxMzk2MjAyODE5MzAzNSJ9.btULqOzCjZlfPZwAdscziLmorDoDdFbusaKU5EFi6E0";
+  const url =
+    "https://trampoline.apiobuild.com/router/waitress/gsheets/1jAJPHwVQ9L37izcEKYLnrTjCnrV-e0P4NS342VMvv3U";
+
+  const submitForm = async () => {
+    const input = document.getElementById("femail");
+    const btn = document.getElementById("email-signup-submit-btn");
+    const hint = document.getElementById("email-signup-hint");
+    const email = input.value;
+    const created = new Date().toISOString();
+    const payload = [
+      {
+        Email: email,
+        Created: created,
+      },
+    ];
+
+    btn.setAttribute("disabled", "");
+    input.setAttribute("disabled", "");
+    btn.innerHTML = `<div class="lds-facebook"><div></div><div></div><div></div></div>`;
+
+    const resp = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: token,
+      },
+      body: JSON.stringify(payload),
+    });
+    if (resp.status === 200) {
+      btn.classList.remove("btn-primary");
+      btn.classList.add("btn-success");
+      btn.innerHTML = "You're in!";
+      hint.innerHTML = "Check out your email for details.";
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 },
+      });
+    } else {
+      btn.removeAttribute("disabled");
+      btn.innerHTML = "Get Started";
+    }
+  };
+</script>
+<style>
+  .lds-facebook {
+    display: inline-block;
+    position: relative;
+    bottom: 56px;
+    right: 32px;
+    zoom: 0.3;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #fff;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%,
+    100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+</style>

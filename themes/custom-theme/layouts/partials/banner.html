@@ -2,13 +2,9 @@
   class="container-fluid h-100 banner"
   style="background-image: url('{{ .Params.background }}');"
 >
-  <div class="row align-middle align-items-center ml-sm-3 px-3" style="height: 92%;">
-    <span>
-      <p>{{ .Content }}</p>
-    </span>
-  </div>
+  {{ partial "hero.html" . }}
   <div id="banner" class="row justify-content-center">
-    <a href="#product">
+    <a href="/#product">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"

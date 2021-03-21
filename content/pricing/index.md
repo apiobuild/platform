@@ -1,3 +1,4 @@
 ---
 pricing: true
+hidecontent: true
 ---

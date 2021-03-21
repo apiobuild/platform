@@ -1,17 +1,19 @@
-$body-bg: #fefefe;
-$body-color: #111;
-
-$enable-rounded: false;
-$enable-shadows: true;
-$enable-gradients: true;
-
+@import "../../themes/custom-theme/node_modules/Devices.css/assets/scss/devices";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 $font-family-base: 'Lato',
 sans-serif;
 
-@import "bootstrap/scss/bootstrap";
+$primary: #007bff;
+$secondary: #fcd236;
+$body-bg: #fefefe;
+$body-color: #111;
 
-// full screen banner
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: false;
+
+@import "../../themes/custom-theme/node_modules/bootstrap/scss/bootstrap";
+
 html,
 body {
   height: 100%;

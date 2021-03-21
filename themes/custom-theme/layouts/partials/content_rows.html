@@ -4,43 +4,50 @@
   {{ $reusablePages := $headless.Resources.ByType "page" }}
   {{ $reusablePages := sort $reusablePages ".Params.weight" }}
   {{ range $reusablePages }}
+  {{ if not .Params.draft }}
   <div
     id="{{ .Params.Anchor }}"
     class="strip {{ if .Params.backgroundSize  }}strip-{{ .Params.backgroundSize }}{{ else }}strip-contain{{ end }}"
     style="background-image: {{ if .Params.background }} url('{{ .Params.background }}') {{ else }} unset {{ end }}"
   >
-    <div class="container py-5 mx-0" {{ if .Params.max_width }} style="max-width: {{.Params.max_width}}%" {{ end }}>
-      <div class="row py-5">
+    <div class="container mx-0" {{ if .Params.max_width }} style="max-width: {{.Params.max_width}}%" {{ end }}>
+      <div class="row {{ if .Params.RowArgs }} {{ .Params.RowArgs }} {{ else }} py-5 {{ end}}">
+        {{ if not .Params.HideContent }}
         <div
-          class="col offset-sm-{{ .Params.offset }} {{ if .Params.col }} col-{{.Params.col}} {{end}} {{ if .Params.col_md }} col-md-{{.Params.col_md}} {{end}}"
+          class="col offset-sm-{{ .Params.offset }} {{ if .Params.col }} col-{{.Params.col}} {{end}} {{ if .Params.col_md }} col-md-{{.Params.col_md}} {{end}} {{ with .Params.text_align }} text-{{ . }} {{ end }}"
         >
           <h1 class="text-capitalize">{{ .Title }}</h1>
           <p>{{ .Content }}</p>
           {{ if .Params.button }}
           <a class="button" href="{{ .Params.buttonLink }}" target="_blank">
-            <button type="button" class="btn btn-light">
+            <button type="button" class="btn btn-outline-primary btn-lg">
               {{ .Params.button }}
             </button>
           </a>
           {{ end }}
         </div>
+      {{ end }}
 
-      {{ if .Params.signup }}
-      {{ partial "email_signup.html" . }}
+      {{ if .Params.chopin }}
+      {{ partial "chopin-app.html"}}
+      {{ end }}
+
+      {{ if .Params.goldfish }}
+      {{ partial "goldfish-app.html"}}
+      {{ end }}
+
+      {{ if .Params.features }}
+      {{ partial "features.html" . }}
       {{ end }}
 
       {{ if .Params.pricing }}
       {{ partial "pricing.html" . }}
       {{ end }}
 
-
-      {{ if .Params.product }}
-      {{ partial "product.html" . }}
-      {{ end }}
-
       </div>
     </div>
   </div>
+  {{ end }}
   {{ end }}
   </div>
 </div>

@@ -1,5 +1,5 @@
 baseURL = "https://apiobuild.com"
-title = "apio: microservices platform to create custom business softwares easily"
+title = "apio | Low Code SaaS Platform"
 languageCode = "en-us"
 themesDir = "themes"
 theme = "custom-theme"
@@ -7,9 +7,10 @@ relativeURLs = true
 googleAnalytics = "UA-71133003-2"
 disqusShortname = "apiobuild-com"
 enableRobotsTXT = true
+assetDir = "static"
 
 [params]
-  footer = "Made by Lulu with ❤️ and 🍵 in 🗽"
+  footer = "Made by 🦌 and 🐟 with ❤️ and 🍵 in 🗽"
   image = "/images/logo_square.png"
   email = "apiobuild@gmail.com"
   facebook = "https://www.facebook.com/apiobuild"
@@ -20,7 +21,7 @@ enableRobotsTXT = true
   tag = "tags"
 
 [params.meta]
-  meta_description = "apio's portfolio microservices enable businesses to build secure, scalable, and cost-effective custom softwares to support your business needs, so you can focus on delivering business values to your customers. Our platform allows users to integrate various APIs with simple configuration with or without code. Our pay-as-you-use pricing model allows you to try out ideas without worrying about the costs. We believe quality softwares should be accessible to everyone, we pride ourselves in connecting developers and businesses to build impactful software solutions of any size."
+  meta_description = "At apio, we want to enable developers to focus on building high quality and long-lasting software; customers to combine and customize pieces of software to their own needs without technical background."
   meta_og_type = "website"
   meta_twitter_card = "summary"
   meta_twitter_site = "@l1990790120"
@@ -31,34 +32,34 @@ enableRobotsTXT = true
   priority = 0.5
 
 [[menu.main]]
-	name = "product"
-	url = "#product"
-    weight = 1
-
-[[menu.main]]
 	name = "pricing"
-	url = "#pricing"
+	url = "/#pricing"
     weight = 2
 
-[[menu.main]]
-	name = "why us"
-	url = "#why-us"
-    weight = 3
+# [[menu.main]]
+# 	name = "why us"
+# 	url = "#why-us"
+#     weight = 3
 
 [[menu.main]]
     name = "sign up"
-    url = "#sign-up"
+    url = "/#sign-up"
     weight = 4
 
 [[menu.main]]
     name = "team"
-    url = "#team"
+    url = "/#team"
     weight = 5
+
+[[menu.main]]
+  name = "docs"
+  url = "/docs/"
+  weight = 6
 
 [[menu.main]]
     name = "Blog"
     url = "blog"
-    weight = 6
+    weight = 7
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
