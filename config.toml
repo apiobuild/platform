@@ -41,10 +41,10 @@ assetDir = "static"
 # 	url = "#why-us"
 #     weight = 3
 
-[[menu.main]]
-    name = "sign up"
-    url = "/#sign-up"
-    weight = 4
+# [[menu.main]]
+#     name = "sign up"
+#     url = "/#sign-up"
+#     weight = 4
 
 [[menu.main]]
     name = "team"
