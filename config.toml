@@ -32,34 +32,36 @@ assetDir = "static"
   priority = 0.5
 
 [[menu.main]]
-	name = "pricing"
-	url = "/#pricing"
-    weight = 2
+	name = "features"
+	url = "/#features"
+  weight = 1
 
-# [[menu.main]]
-# 	name = "why us"
-# 	url = "#why-us"
-#     weight = 3
-
-# [[menu.main]]
-#     name = "sign up"
-#     url = "/#sign-up"
-#     weight = 4
 
 [[menu.main]]
-    name = "team"
-    url = "/#team"
-    weight = 5
+	name = "products"
+	url = "/#products"
+  weight = 2
+
+
+[[menu.main]]
+	name = "pricing"
+	url = "/#pricing"
+  weight = 3
+
+[[menu.main]]
+  name = "team"
+  url = "/#team"
+  weight = 4
 
 [[menu.main]]
   name = "docs"
   url = "/docs/"
-  weight = 6
+  weight = 101
 
 [[menu.main]]
-    name = "Blog"
-    url = "blog"
-    weight = 7
+  name = "Blog"
+  url = "blog"
+  weight = 102
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

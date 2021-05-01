@@ -11,7 +11,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
+        {{ $menu := sort .Site.Menus.main ".Params.weight" }}
+        {{ range $menu }}
         <li
           class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
           <a class="nav-link text-capitalize" href="{{ .URL | relURL }}">{{ .Name }}</a>

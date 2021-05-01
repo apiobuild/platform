@@ -1,0 +1,8 @@
+{{ if lt .Weight 100 }}
+
+<a class="anchor" id="{{ .Name }}"></a>
+<div class="container-fluid px-0 py-5">
+  {{ $partial := printf "landing_page/%s" .Name }} {{ partial $partial . }}
+</div>
+
+{{ end }}

@@ -1,8 +1,9 @@
 ---
 title: Lulu Cheng
 weight: 1
-profile_img: images/lulu.png
-description: Software Developer with too much time on her hand.
+image: /images/lulu.png
 linkedin: https://www.linkedin.com/in/luluchengengineeratheart/
 github: https://github.com/l1990790120
 ---
+
+Software Developer with too much time on her hand
