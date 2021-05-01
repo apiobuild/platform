@@ -7,13 +7,13 @@
   <a class="px-1" href="{{ .Params.Github }}" target="_blank">
     <i class="fab fa-github fa-lg" color="black"></i>
   </a>
-  {{ end }} {{ if .Params.Facebook }}
-  <a class="px-1" href="{{ .Params.Facebook }}" target="_blank">
-    <i class="fab fa-facebook-square fa-lg" color="white"></i>
-  </a>
   {{ end }} {{ if .Params.Email }}
   <a class="px-1" href="mailto:{{ .Params.Email }}">
     <i class="fas fa-envelope fa-lg" color="white"></i>
+  </a>
+  {{ end }} {{ if .Params.Facebook }}
+  <a class="px-1" href="{{ .Params.Facebook }}" target="_blank">
+    <i class="fab fa-facebook-square fa-lg" color="white"></i>
   </a>
   {{ end }} {{ if .Params.LinkedInFooter }}
   <a class="px-1" href="{{ .Params.linkedinfooter }}" target="_blank">
