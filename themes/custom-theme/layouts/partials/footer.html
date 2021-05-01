@@ -5,19 +5,8 @@
     </div>
     <div class="container text-light font-weight-light">
       <div class="row no-gutters w-100 justify-content-center py-4">
-        <div class="col w-100 text-center footer-socials">
-          {{ partial "social.html" (dict "Params" .Site.Params) . }}
-        </div>
-      </div>
-      <div class="row no-gutters w-100 justify-content-center py-4">
         <div class="col w-100 text-center">
           {{ .Site.Params.footer }}
-        </div>
-    </div>
-    <div class="row no-gutters w-100">
-      <div class="col-12 text-center">
-          <a class="text-light" href="{{ "/privacy-policy" | relURL }}">Privacy Policy</a> &
-          <a class="text-light" href="{{ "/terms-of-service" | relURL }}">Terms of Service</a>
         </div>
     </div>
   </nav>

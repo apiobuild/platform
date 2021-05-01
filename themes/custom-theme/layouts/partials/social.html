@@ -1,33 +1,40 @@
-{{ if .Params.LinkedIn }}
-<a class="px-1" href="{{ .Params.LinkedIn }}" target="_blank">
-  <i class="fab fa-linkedin fa-lg" color="DodgerBlue"></i>
-</a>
-{{ end }} {{ if .Params.Github }}
-<a class="px-1" href="{{ .Params.Github }}" target="_blank">
-  <i class="fab fa-github fa-lg" color="black"></i>
-</a>
-{{ end }} {{ if .Params.Facebook }}
-<a class="px-1" href="{{ .Params.Facebook }}" target="_blank">
-  <i class="fab fa-facebook-square fa-lg" color="white"></i>
-</a>
-{{ end }} {{ if .Params.Email }}
-<a class="px-1" href="mailto:{{ .Params.Email }}">
-  <i class="fas fa-envelope fa-lg" color="white"></i>
-</a>
-{{ end }} {{ if .Params.LinkedInFooter }}
-<a class="px-1" href="{{ .Params.linkedinfooter }}" target="_blank">
-  <i class="fab fa-linkedin fa-lg" color="white"></i>
-</a>
-{{ end }} {{ if .Params.Instagram }}
-<a class="px-1" href="{{ .Params.Instagram }}" target="_blank">
-  <i class="fab fa-instagram fa-lg" color="white"></i>
-</a>
-{{ end }} {{ if .Params.YouTube }}
-<a class="px-1" href="{{ .Params.YouTube }}" target="_blank">
-  <i class="fab fa-youtube fa-lg" color="white"></i>
-</a>
-{{ end }} {{ if .Params.website }}
-<a class="px-1" href="{{ .Params.website }}" target="_blank">
-  <i class="fas fa-link fa-lg" color="black"></i>
-</a>
-{{ end }}
+<div class="socials">
+  {{ if .Params.LinkedIn }}
+  <a class="px-1" href="{{ .Params.LinkedIn }}" target="_blank">
+    <i class="fab fa-linkedin fa-lg" color="DodgerBlue"></i>
+  </a>
+  {{ end }} {{ if .Params.Github }}
+  <a class="px-1" href="{{ .Params.Github }}" target="_blank">
+    <i class="fab fa-github fa-lg" color="black"></i>
+  </a>
+  {{ end }} {{ if .Params.Facebook }}
+  <a class="px-1" href="{{ .Params.Facebook }}" target="_blank">
+    <i class="fab fa-facebook-square fa-lg" color="white"></i>
+  </a>
+  {{ end }} {{ if .Params.Email }}
+  <a class="px-1" href="mailto:{{ .Params.Email }}">
+    <i class="fas fa-envelope fa-lg" color="white"></i>
+  </a>
+  {{ end }} {{ if .Params.LinkedInFooter }}
+  <a class="px-1" href="{{ .Params.linkedinfooter }}" target="_blank">
+    <i class="fab fa-linkedin fa-lg" color="white"></i>
+  </a>
+  {{ end }} {{ if .Params.Instagram }}
+  <a class="px-1" href="{{ .Params.Instagram }}" target="_blank">
+    <i class="fab fa-instagram fa-lg" color="white"></i>
+  </a>
+  {{ end }} {{ if .Params.YouTube }}
+  <a class="px-1" href="{{ .Params.YouTube }}" target="_blank">
+    <i class="fab fa-youtube fa-lg" color="white"></i>
+  </a>
+  {{ end }} {{ if .Params.website }}
+  <a class="px-1" href="{{ .Params.website }}" target="_blank">
+    <i class="fas fa-link fa-lg" color="black"></i>
+  </a>
+  {{ end }}
+</div>
+<style>
+  .socials a {
+    text-decoration: none;
+  }
+</style>
