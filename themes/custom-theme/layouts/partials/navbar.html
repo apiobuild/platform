@@ -13,10 +13,12 @@
         {{ $currentPage := . }}
         {{ $menu := sort .Site.Menus.main ".Params.weight" }}
         {{ range $menu }}
+        {{ if gt .Weight 0 }}
         <li
-          class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+          class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}">
           <a class="nav-link text-capitalize" href="{{ .URL | relURL }}">{{ .Name }}</a>
         </li>
+        {{ end }}
         {{ end }}
       </ul>
     </div>

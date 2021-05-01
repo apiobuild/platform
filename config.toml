@@ -34,13 +34,13 @@ assetDir = "static"
 [[menu.main]]
 	name = "features"
 	url = "/#features"
-  weight = 1
+  weight = -3
 
 
 [[menu.main]]
 	name = "products"
 	url = "/#products"
-  weight = 2
+  weight = -2
 
 
 [[menu.main]]
