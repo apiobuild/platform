@@ -1,4 +1,0 @@
----
-pricing: true
-hidecontent: true
----

@@ -1,13 +1,12 @@
 {{ define "banner" }}
-{{ partial "banner.html" . }}
+{{ partial "landing_page/banner.html" . }}
 {{ end }}
 
 {{ define "main" }}
 
-{{ partial "content_rows.html" (dict "Site" .Site "contentName" "product") . }}
-{{ partial "content_rows.html" (dict "Site" .Site "contentName" "pricing") . }}
-{{/*  {{ partial "content_rows.html" (dict "Site" .Site "contentName" "why-us") . }}  */}}
-{{ partial "content_rows.html" (dict "Site" .Site "contentName" "sign-up") . }}
-{{ partial "team" .}}
+{{ $menu := sort .Site.Menus.main ".Params.Weight" }}
+{{ range $menu }}
+    {{ partial "landing_page/landing_page_section.html" . }}
+{{ end }}
 
 {{ end }}
