@@ -1,0 +1,33 @@
+
+<div class="col col-12 col-sm-6 py-5">
+  <h5>Keep in Touch</h5>
+  {{ partial "email_signup.html" (dict "Text" "Sign Up" "Color" "secondary" "SuccessColor" "dark" "id" "footer-email-signup")}}
+
+  <h5>Stay Connected</h5>
+  <div class="col px-0 footer-socials" style="font-size: 1.2rem">
+    {{ partial "social.html" (dict "Params" site.Params) . }}
+  </div>
+</div>
+<div class="col col-12 col-sm-6 py-5">
+  <div class="row">
+    <div class="col col-6 col-sm-4">
+      <b>Get Started</b> <br/>
+      <a class="text-light" href="/docs/">Docs</a> <br/>
+      <a class="text-light" href="https://telescope.apiobuild.com/" target="_blank">Telescope</a> <br/>
+      <a class="text-light" href="/#features">Feature</a> <br/>
+      <a class="text-light" href="/#products">Products</a> <br/>
+      <a class="text-light" href="/#pricing">Pricing</a> <br/>
+    </div>
+    <div class="col col-6 col-sm-4">
+      <b>About</b> <br/>
+      Our Story <br/>
+      <a class="text-light" href="/#team">Team</a> <br/>
+      <a class="text-light" href="/blog">Blog</a> <br/>
+    </div>
+    <div class="col col-6 col-sm-4">
+      <b class="pt-1">Legal</b> <br/>
+      <a class="text-light" href="{{ "/privacy-policy" | relURL }}">Privacy Policy</a> <br/>
+      <a class="text-light" href="{{ "/terms-of-service" | relURL }}">Terms of Use</a> <br/>
+    </div>
+  </div>
+</div>
