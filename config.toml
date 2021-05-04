@@ -15,7 +15,7 @@ assetDir = "static"
   email = "apiobuild@gmail.com"
   facebook = "https://www.facebook.com/apiobuild"
   linkedinfooter = "https://www.linkedin.com/company/apiobuild/"
-  instagram = "https://instagram.com/apiobuild/"
+  instagramfooter = "https://instagram.com/apiobuild/"
   youtube = "https://www.youtube.com/channel/UC3qHVynCMuS4Y7regZRbrtA/"
 [taxonomies]
   tag = "tags"
@@ -32,16 +32,15 @@ assetDir = "static"
   priority = 0.5
 
 [[menu.main]]
-	name = "features"
-	url = "/#features"
-  weight = -3
+	name = "product"
+	url = "#chopin-app"
+    weight = 2
 
 
 [[menu.main]]
-	name = "products"
-	url = "/#products"
-  weight = -2
-
+	name = "pricing"
+	url = "/#pricing"
+    weight = 3
 
 [[menu.main]]
 	name = "pricing"
