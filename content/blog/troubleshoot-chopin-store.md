@@ -113,7 +113,7 @@ On the other hand, [PayPal Business](https://www.paypal.com/us/business/website-
 
 ### How can I shrink my store URL?
 
-🙋 Try URL shortener services, like [Bitly](https://bitly.com/)  to make your store link easier to share. You can also upgrade to [Basic Plan](https://apiobuild.com/#pricing) to own a custom apio-branded URL (`YOURNAME.apiobuild.com`) with only $5 per month. Feel free to contact us if you want to reroute your Chopin to your domain, if you already have one.
+🙋 Try URL shortener services, like [Bitly](https://bitly.com/)  to make your store link easier to share. You can also upgrade to [Basic Plan](https://apiobuild.com/#pricing) to own a custom apio-branded URL (`chopin.apiobuild.com/YOURNAME`) with only $10 per month. Feel free to contact us if you want to reroute your Chopin to your domain, if you already have one.
 
 ### How to retrieve LINE URL?
 

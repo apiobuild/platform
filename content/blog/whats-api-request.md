@@ -5,7 +5,9 @@ date: 2020-09-30
 tags: ["documentation", "pricing", "engineering"]
 ---
 
-apio as a software platform, we provide various APIs for business automation and toolings. You can think of API as outsourcing a simple task from you or your customer to our platform. Anything you don't want to do: either manually or pay someone to do it, you make a call to apio platform and we'll do it automatically for you. In this post, you can find simple explanation of API request and estimate your monthly cost per our [pricing plan](https://apiobuild.com/#pricing).
+apio, as a software platform, provides various APIs for business automation and toolings. You can think API as outsourcing a simple task from you or your customer to our platform. Anything you don't want to do: either manually or pay someone to do it, you make a call to apio platform and we'll do it automatically for you. In this post, you can find simple explanation of API request and estimate your monthly cost per our [pricing plan](https://apiobuild.com/#pricing).
+
+[🤝 Join apio basic tier for just $10/month!](https://telescope.apiobuild.com/settings/billing)
 
 ## An API Request Example
 
@@ -139,7 +141,7 @@ const calculate = () => {
   const visits = parseInt($("#visits-val").text());
   const trans = parseInt($("#transactions-val").text());
   const requests = (visits - trans) * 4 + trans * 8;
-  const cost = Math.max(5, Math.floor(requests / 1000));
+  const cost = Math.max(10, Math.floor(requests / 1000));
   $("#monthly-requests").html(requests);
   $("#monthly-cost").html("$" + cost);
 };
@@ -147,6 +149,8 @@ const calculate = () => {
 slide();
 </script>
 {{< /rawhtml >}}
+
+</br>
 
 ## Scenarios: Cost Estimation
 
@@ -158,7 +162,7 @@ Let's do a quick comparison given different scenarios so you could get an idea o
 | Transactions    | 10           | 50                                  | 100                 |
 | Conversion Rate | 2%           | 3.33%                               | 2.5%                |
 | Total Requests  | 2040         | 6200                                | 10400               |
-| Total Cost (mo) | $5           | $6                                  | $10                 |
+| Total Cost (mo) | $10          | $11                                 | $15                 |
 
 {{< rawhtml >}}
 <style>
@@ -175,22 +179,24 @@ Let's do a quick comparison given different scenarios so you could get an idea o
 </style>
 {{< /rawhtml >}}
 
+</br>
+
 ### Hobbyist
 
-We offer [a forever free tier](https://apiobuild.com/#pricing) for you to test the water. You can enjoy up to 5000 requests per month and Amazon product recommendation displayed on your Chopin store.
+We offer [a forever free tier](https://apiobuild.com/#pricing) for you to test the water. You can enjoy up to 5000 requests per month (which is more than enough!). Product recommendations from our affiliated partners will be displayed on your Chopin store.
 
 ### Starting Out
 
-You just started a new business and built your customer base from scratch. You probably would have 500 visitors and 10 transactions each month (2% conversion).
+You just started a new business and built your customer base from scratch. You probably would have 500 visitors and 10 transactions each month (2% conversion). Our basic tier offers a more optimized experience with unlimited product listings, no affiliated product recommendations, and a custom online store URL.
 
 It'll be a total of 2040 requests consisted of:
 
 - impressions: 4 * 490 = 1960 requests
 - purchases: 8 * 10 = 80 requests
 
-**In our [basic pricing plan](https://apiobuild.com/#pricing), monthly cost will be a total of $5**
+**In our [basic pricing plan](https://apiobuild.com/#pricing), monthly cost will be a total of $10**
 
-- fixed: $5 (with 5000 requests included)
+- fixed: $10 (with 5000 requests included)
 
 ### Growing Audience (Most Common)
 
@@ -201,10 +207,10 @@ It'll be a total of 6200 requests consisted of:
 - impressions: 4 * 1450 = 5800 requests
 - purchases: 8 * 50 = 400 requests
 
-**In our [basic pricing plan](https://apiobuild.com/#pricing), monthly cost will be a total of $6**
+**In our [basic pricing plan](https://apiobuild.com/#pricing), monthly cost will be a total of $11**
 
-- fixed: $5 (with 5000 requests included)
-- volume: $5 for 1200 requests ($1 per 1000 requests)
+- fixed: $10 (with 5000 requests included)
+- volume: $1 for 1200 requests ($1 per 1000 requests)
 
 ### Recurring Customers
 
@@ -215,13 +221,12 @@ It'll be a total of 10400 requests consisted of:
 - impressions: 4 * 2400 = 9600 requests
 - purchases: 8 * 100 = 800 requests
 
-**In our [basic pricing plan](https://apiobuild.com/#pricing), monthly cost will be a total of $10**
+**In our [basic pricing plan](https://apiobuild.com/#pricing), monthly cost will be a total of $15**
 
-- fixed: $5 (with 5000 requests included)
+- fixed: $10 (with 5000 requests included)
 - volume: $5 for 5400 requests ($1 per 1000 requests)
 
 *Feel free to contact our sales team via <a href="milto:apiobuild@gmail.com">email</a> or [Facebook Messenger](https://m.me/apiobuild) if you're still not sure about the cost!*
-
 
 ## Summary
 
