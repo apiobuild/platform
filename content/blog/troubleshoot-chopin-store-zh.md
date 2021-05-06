@@ -111,7 +111,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 ### 如何縮網址？
 
-🙋可以使用縮網址服務，像是 [Bitly](https://bitly.com/)。亦可升級每月$5的 [Basic Plan](https://apiobuild.com/#pricing) ，即可擁有一個 apio 的短網址（`YOURNAME.apiobuild.com`)。如果你已經有自己的 domain，我們也可以幫你轉移。
+🙋可以使用縮網址服務，像是 [Bitly](https://bitly.com/)。亦可升級每月$10的 [Basic Plan](https://apiobuild.com/#pricing) ，即可擁有一個 apio 的短網址（`chopin.apiobuild.com/YOURNAME`)。如果你已經有自己的 domain，我們也可以幫你轉移。
 
 ### 如何取得 LINE 網址？
 

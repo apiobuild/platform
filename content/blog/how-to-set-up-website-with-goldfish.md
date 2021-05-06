@@ -193,7 +193,7 @@ We're incorporating apio's very first app - [Waitress](https://apiobuild.com/blo
 
 ### How much does it cost?
 
-🙋 Your first Goldfish website is always free of charge (yay!). If you'd like to have multiple Goldfish sites, you can upgrade to our [Basic Plan](https://apiobuild.com/#pricing) with only $5 per month. Bonus point with the Basic plan is to have a apio-branded shorten URL.
+🙋 Your first Goldfish website is always free of charge (yay!). If you'd like to have multiple Goldfish sites, you can upgrade to our [Basic Plan](https://apiobuild.com/#pricing) with only $10 per month. Bonus point with the Basic plan is to have a apio-branded shorten URL.
 
 ### Can I connect my Chopin store to Goldfish site?
 

@@ -72,7 +72,7 @@ As much as we want to provide great user experiences for store owners, we also w
 
 #### Free and Flexible
 
-At [apio](https://apiobuild.com/), we believe that good technology should be accessible and shareable. **Chopin is a FREE solution for small business owners.** We operate on revenue from ads that appeared on your store. If you’re looking for an ad-free store with more powerful features, [you're welcome to upgrade to our Basic Plan](https://apiobuild.com/#pricing) for as low as $5 per month.
+At [apio](https://apiobuild.com/), we believe that good technology should be accessible and shareable. **Chopin is a FREE solution for small business owners.** We operate on revenue from ads that appeared on your store. If you’re looking for an ad-free store with more powerful features, [you're welcome to upgrade to our Basic Plan](https://apiobuild.com/#pricing) for as low as $10 per month.
 
 We also welcome third-party integrations and don’t want to tie you down with only the services we offer. While we offer various microservices and APIs through [Telescope](https://telescope.apiobuild.com/), we’re more than happy to help you integrate other APIs to your store based on your use cases.
 

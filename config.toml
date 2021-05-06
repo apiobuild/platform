@@ -15,7 +15,7 @@ assetDir = "static"
   email = "apiobuild@gmail.com"
   facebook = "https://www.facebook.com/apiobuild"
   linkedinfooter = "https://www.linkedin.com/company/apiobuild/"
-  instagram = "https://instagram.com/apiobuild/"
+  instagramfooter = "https://instagram.com/apiobuild/"
   youtube = "https://www.youtube.com/channel/UC3qHVynCMuS4Y7regZRbrtA/"
 [taxonomies]
   tag = "tags"
