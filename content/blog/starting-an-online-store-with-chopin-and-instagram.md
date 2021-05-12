@@ -7,20 +7,20 @@ tags: ["ecommerce", "website", "small-business", "chopin", "google-sheet", "inst
 
 The first step to start an online business is to create a website. This involves getting a domain, hiring developers, creating contents and more. That’s a lot of work and investment before you can even put your products online. Many small business owners turn to social media (mostly [Facebook](https://www.facebook.com/) and [Instagram](https://www.instagram.com/)) to build up their brand. It’s free, easy, and most people are already familiar with these platforms. **Our online store creator [Chopin](https://telescope.apiobuild.com/app/chopin) shares these benefits and can join forces with Instagram to help you create an online store with your Instagram posts.**
 
-🛍️[Read more: why you don\'t need to hire developers now.](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
+🛍️[Why you don\'t need to hire developers now?](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
 
 ## Why choose Chopin?
 
-[Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a lightweight static online store generator. You can create and manage your store with just google sheets.
+[Chopin by apio](https://telescope.apiobuild.com/app/chopin) is a lightweight static online store generator. You can create and manage your online store with just Google Sheets.
 
-- Use the interface you’re familiar - google sheet
-- Real-time update for product and order
+- Use the interface you’re familiar - Google Sheets and Gmail
+- Real-time update for products and orders
 - No need to upload images, just use URLs
 - It’s completely free! (Do we need to say more?)
 
-🛍️[Read more: more awesome features you can add to your Chopin site!](https://apiobuild.com/blog/create-an-online-store-for-free/#introducing-chopin)
+🛍️[More awesome features you can add to your Chopin site!](https://apiobuild.com/docs/docs/apps/chopin/introduction/)
 
-🛍️[Read more: follow this guide and create your store today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
+🛍️[Follow this guide and create your store today!](https://apiobuild.com/docs/docs/apps/chopin/create-new-store/)
 
 ## Use Case: Atelier EHOI
 
@@ -30,7 +30,9 @@ The first step to start an online business is to create a website. This involves
 
 > The website is very convenient for our customers to place orders. After taking a while to set it up, it is very easy to manage the website. We like the fact that we can change contents like basic setting, product description and picture anytime we want. And I believe the website will benefit our business.
 
-<footer class="blockquote-footer">Jeff from <cite><a href="https://tinyurl.com/Atelier-EHOI" target="_blank">Atelier EHOI</cite></footer>
+<footer class="blockquote-footer">Jeff from <cite><a href="https://chopin.apiobuild.com/atelierehoi" target="_blank">Atelier EHOI</a></cite></footer>
+
+</br>
 
 #### Google Sheet and Instagram
 
@@ -60,7 +62,7 @@ No more manual calculation. With Chopin, all customers’ orders are summed and 
 
 Atelier EHOI is a perfect example of how simple tool integration can smooth online business operations. The onboarding process took only a couple days. There's no need to learn a monstrous platform or different tools. Just plug in Instagram contents that you've already created to start an online store.
 
-Are you still using google form, email, or DM to collect orders? [Try Chopin for free today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
+Are you still using google form, email, or DM to collect orders? [Try Chopin for free today!](https://telescope.apiobuild.com/flow/chopin-stores)
 
 Happy Selling! 💰
 

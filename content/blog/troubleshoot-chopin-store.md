@@ -9,15 +9,17 @@ We try our best to design a fool-proof onboarding process, but things happen, if
 
 We also feature some commonly asked questions regarding [images](#image), [google sheets](#google-sheets), [payment methods](#payment-method), and [many more](#and-more).
 
+[📚 We stop maintaining this troubleshooting guide. Read full content in docs →](https://apiobuild.com/docs/docs/apps/chopin/troubleshoot/)
+
 <!--more-->
 
-This is a growing list. Contact us (aka your favorite developer) via <a href="mailto:apiobuild@gmail.com">email</a> or [Facebook Messenger](https://m.me/apiobuild) if you don't find answers here! Bug reports and feebacks are welcomed too!
+Feel free to contact us (aka your favorite developer) via <a href="mailto:apiobuild@gmail.com">email</a> or [Facebook Messenger](https://m.me/apiobuild) if you don't find answers here! Bug reports and feebacks are welcomed too!
 
 <img src="/images/blog/chopin-error.png" class="post-img">
 
-🛍️ [Doesn\'t have a Chopin store yet? Create one today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
+🛍️ [Doesn\'t have a Chopin store yet? Create one today!](https://apiobuild.com/docs/docs/apps/chopin/create-new-store/)
 
-🛍️ [Read more: how to configure your Chopin store?](https://apiobuild.com/blog/how-to-configure-chopin-store/)
+🛍️ [How to configure your Chopin store?](https://apiobuild.com/docs/docs/apps/chopin/product-configuration/)
 
 ## Checklist
 
@@ -40,13 +42,11 @@ We suggest you check the followings first to find and fix any technical issue.
 
 - Pop-up blocker might disrupt the google sheet authorization process. Disable the plug-in, and try [authorize google sheets](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-2-add-catalog-google-sheet) again.
 
-<br>
-
 ## Image
 
 ### How can I obtain image url?
 
-🙋 Try image hosting services, like [Imgbb](https://imgbb.com/) or [img.onl](https://img.onl/). After uploading an image to those websites, you will get a **direct link** or **image url** that points directly to a specific image.
+🙋 Try image hosting services, like [Imgbb](https://imgbb.com/). After uploading an image to those websites, you will get a **direct link** or **image url** that points directly to a specific image.
 
 <img src="/images/blog/faq-image-link.png" class="post-img">
 
@@ -78,17 +78,15 @@ Note, `order_number` has always to be the first column and cannot be hidden.
 
 ### What should I do if I don't want to see certain data?
 
-🙋 We don't recommend deleting any real data (actual transactions, retiring products, etc), as they're valuable for future analysis. Instead, feel free to hide the rows you don't need (Select row(s) > Right Click > Click `Hide row`) or hide the products that no longer available (see [instruction](https://apiobuild.com/blog/how-to-configure-chopin-store/#update-catalog-sheet)). 
+🙋 We don't recommend deleting any real data (actual transactions, retiring products, etc), as they're valuable for future analysis. Instead, feel free to hide the rows you don't need (Select row(s) > Right Click > Click `Hide row`) or hide the products that no longer available (see [instruction](https://apiobuild.com/blog/how-to-configure-chopin-store/#update-catalog-sheet)).
 
 Note, `order_number` has always to be the first column and cannot be hidden.
-
-<br>
 
 ## Payment Method
 
 ### Difference between Stripe and PayPal Business?
 
-🙋 While [Stripe](https://stripe.com/payments) and [PayPal Business](https://www.paypal.com/us/business/website-payments) both accept credit card payments and support real-time transaction verification with Chopin, **we recommend using Stripe** over PayPal Business. 
+🙋 While [Stripe](https://stripe.com/payments) and [PayPal Business](https://www.paypal.com/us/business/website-payments) both accept credit card payments and support real-time transaction verification with Chopin, **we recommend using Stripe** over PayPal Business.
 
 With Stripe, customers can enter their credit card information directly on the Chopin store. But PayPal requires customers sign in or enter credit card information in a pop-up window, which can result to more abandoned carts.
 
@@ -107,9 +105,7 @@ On the other hand, [PayPal Business](https://www.paypal.com/us/business/website-
 3. Choose your unique URL. It looks like this: PayPal.Me/YourBrand.
 4. You can also customize your profile in the [PayPal.Me settings](https://www.paypal.com/paypalme/my/settings), including profile photo, cover photo, and personal message.
 
-<br>
-
-## And More...
+## And More
 
 ### How can I shrink my store URL?
 
@@ -118,12 +114,14 @@ On the other hand, [PayPal Business](https://www.paypal.com/us/business/website-
 ### How to retrieve LINE URL?
 
 🙋 Personal Account
+
 1. Open your LINE app, click <i class="fas fa-user-plus"></i> (Add friends symbol) on `Home` tab.
 2. Click `Invite` and select `Invite friend by text message`.
 3. Randomly select a friend and click `Invite` (Don't worry! Line will not send text automatically).
 4. You will be brought to your texting app and have a draft message with your LINE URL. It will look like this: line.me/ti/p/XXXX
 
 🙋 Group
+
 1. Click <i class="fas fa-bars"></i> in your LINE group chat and select `Invite`.
 2. Click `Invite Link` and you will see the option to `Copy invite link`. It will look like this: line.me/R/ti/g/XXXX
 

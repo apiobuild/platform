@@ -5,11 +5,11 @@ date: 2020-09-15
 tags: ["telescope", "chopin", "tutorial", "product-variants", "ecommerce", "google-sheet","product-updates", "documentation"]
 ---
 
-Are you selling products with multiple size and color options? We bring to you an advanced Chopin store that can showcase several product variations. We promise there won't be complex configuration. Just the [same catalog google sheet](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-2-add-catalog-google-sheet) with some more columns, you will be able to sell clothes with different style and size, handmade craft with various patterns, cupcakes with multiple flavors, etc. In this tutorial, we will show you how to set up your catalog google sheet to add multiple options to your products. 
+Are you selling products with multiple size and color options? We bring to you an advanced Chopin store that can showcase several product variations. We promise there won't be complex configuration. Just the [same catalog google sheet](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-2-add-catalog-google-sheet) with few more columns, you will be able to sell clothes with different style and size, handmade craft with various patterns, or cupcakes with multiple flavors, etc. In this tutorial, we will show you how to set up your catalog google sheet to add multiple options to your products.
 
-🛍️ [Create your online store for free today!](https://telescope.apiobuild.com/flow/chopin-stores)
+[📚 Explore documentation and guide to configure Chopin!](https://apiobuild.com/docs/docs/apps/chopin/)
 
-🛍️ [Read more: quick introduction to Chopin\'s features](https://apiobuild.com/blog/create-an-online-store-for-free/)
+[🛍️ Create your online store for free today!](https://telescope.apiobuild.com/flow/chopin-stores)
 
 ## A Demo Clothing Store
 
@@ -19,7 +19,11 @@ Visit our [demo boutique shop](https://chopin.apiobuild.com/google-oauth2%7C1063
 <source src="/video/boutique-overview.mp4" type="video/mp4" />
 </video>
 
+</br></br>
+
 ## Tutorial
+
+[Read in docs →](https://apiobuild.com/docs/docs/apps/chopin/multi-option-product-configuration/)
 
 The catalog google sheet for multi-option products is just same as the catalog google sheet used in the basic Chopin store, but with some more columns. 
 
@@ -37,6 +41,8 @@ The catalog google sheet for multi-option products is just same as the catalog g
     </table>
   </div>
 </div>
+
+</br>
 
 ### Step 1: Choose Option Methods
 
@@ -83,6 +89,8 @@ There are two ways to indicate your product color, which will apprear in **circl
 
 2. Hex Code: Enter the 6-digit code with # sign. For example, #556B2F for olive.
 
+</br>
+
 ### Step 2: Group Same Products Together
 
 You also need one additional field to indicate which products should be grouped together.
@@ -92,6 +100,8 @@ You also need one additional field to indicate which products should be grouped 
 Group the same kind of products together by inputing the same value in this field. For example, a sun dress comes with two colors - white and yellow. The `option:name` fields for these two rows have to be the same, which are `dress`, so the system can identify these *two products* are actually *two options of the same product*.
 
 *Remember to follow the same rule of `name` field - unique name/id contains only dashes, underscores, and alphanumeric. No space is allowed.*
+
+</br>
 
 ## Example: A Clothing Store
 
@@ -107,7 +117,7 @@ For example, I'd like to sell this wool coat that comes with two *colors* (pink,
 - Blue Coat in L size
 
 <img src="/images/blog/coat.png" class="post-img">
-
+</br>
 
 #### name
 
@@ -149,9 +159,6 @@ Finally, continue to finish the other fields (`description`, `product_url`, `ima
 
 Now you can showcase different style and sizing for this wool coat!
 
-*Note: Given the product layouts for single option and multiple options look a little different, we suggest you organize all single-option products together and vice versa.*
-
-
 <video width="80%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/two-coat.mp4" type="video/mp4" />
 </video>
@@ -171,7 +178,7 @@ Let us troubleshoot together! Contact us (your favorite developer) via <a href="
 - `name`: there should not be any duplicate value. All `name` cells must be unique even when they share the same `option:name`.
 - `option:size` and `option:flavor`: these cells should not contain spaces.
 
-[Click here for more commonly asked questions](https://apiobuild.com/blog/troubleshoot-chopin-store/)
+[Click here for more commonly asked questions](https://apiobuild.com/docs/docs/apps/chopin/troubleshoot/)
 
 
 <style>

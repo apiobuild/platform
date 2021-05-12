@@ -5,13 +5,11 @@ date: 2020-07-09
 tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet", "google", "website", "documentation"]
 ---
 
-After creating your [Chopin](https://telescope.apiobuild.com/app/chopin) store, you now need to [1) update the catalog google sheet](#update-catalog-sheet) with your own product information; [2) finish setting up your store in Chopin app](#configure-your-store-in-chopin-app), including appearance, social accounts, discount rule, free shipping threshold, etc. In this article, we will breakdown all the google sheet fields as well as explain customization settings. Let us help you create a store tailored for your business needs!
+After creating your [Chopin](https://telescope.apiobuild.com/app/chopin) store, you now need to [1) update the catalog google sheet](https://apiobuild.com/docs/docs/apps/chopin/product-configuration/) with your own product information; [2) finish setting up your store in Chopin app](https://apiobuild.com/docs/docs/apps/chopin/store-configuration/), including appearance, social accounts, discount rule, free shipping threshold, etc. In this article, we will breakdown all the google sheet fields as well as explain customization settings. Let us help you create a store tailored for your business needs!
+
+[📚 We stop updating this guide. Read full content in docs →](https://apiobuild.com/docs/docs/apps/chopin/)
 
 <!--more-->
-
-🛍️ [Follow this step-by-step tutorial to create your online store for free today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
-
-🛍️ [Something wrong with your Chopin store? Check these frequently asked questions.](https://apiobuild.com/blog/troubleshoot-chopin-store/)
 
 🛍️ [中文設定教學](https://apiobuild.com/blog/how-to-configure-chopin-store-zh/)
 
@@ -46,14 +44,14 @@ After creating your [Chopin](https://telescope.apiobuild.com/app/chopin) store, 
 
 ## Update Catalog Sheet
 
-Your store would be look like [this](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) if you follow the [tutorial](https://apiobuild.com/blog/how-to-create-web-store-with-apio) and use the example data provided. But I'm pretty sure you're not selling Cool Cat and Funny Cat. Now it's time to update the catalog google sheet with your own product information.
+Your store would be look like [this](https://chopin.apiobuild.com/google-oauth2%7C106308532747537725517/3b99cc9c-6c28-45dd-9786-8521fe0a2e47) if you follow the [tutorial](https://apiobuild.com/docs/docs/apps/chopin/create-new-store/) and use the example data provided. But I'm pretty sure you're not selling Cool Cat and Funny Cat. Now it's time to update the catalog google sheet with your own product information.
 
 Fields are defined as the following:
 
 - name: Unique name/id starts with any alphabet and contains **only dashes (-), underscores (_), and alphanumeric are allowed** for each product. No spaces.
 - nickname: Item names that will appear on the store page, they can be **any language, symbol, and even emoji**.
 - description *(optional)*: More information about the product. [*Styling with Markdown is supported](https://www.markdownguide.org/cheat-sheet/)
-- image_url: URL of the product image(s). Multiple image urls can be separated by commas (,). [*What\'s image url?](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-can-i-obtain-image-url)
+- image_url: URL of the product image(s). Multiple image urls can be separated by commas (,). [*What\'s image url?](https://apiobuild.com/docs/docs/apps/chopin/troubleshoot/#how-can-i-create-image-url)
 - price: Product price, no need to enter "$" (dollar sign).
 - max_qty *(optional)*: Maximum quantity that *one customer* can buy. If max_qty = 0, it will show 'Coming Soon'
 - category *(optional)*: To allow customer to filter products. Multiple categories can be separated by commas (,).
@@ -65,7 +63,7 @@ Example:
 
 <br>
 
-If you want to [sell products with multiple options](https://apiobuild.com/blog/how-to-add-options-to-products/), you will need to add below columns manually:
+If you want to [sell products with multiple options](https://apiobuild.com/docs/docs/apps/chopin/multi-option-product-configuration/), you will need to add below columns manually:
 
 - option:name
 - option:size
@@ -76,10 +74,11 @@ Example:
 <img src="/images/blog/catalog_sheet_ex2.png" class="post-img">
 
 ⚠️ Important:
+
 1. There should not be any empty line(s) between rows.
 2. Only items with valid `name` and `price` will show on website.
 
-If you experience any errors, [follow these FAQs and troubleshoot yourself](https://apiobuild.com/blog/troubleshoot-chopin-store/) or [contact customer support](https://m.me/apiobuild)!
+If you experience any errors, [follow these FAQs and troubleshoot yourself](https://apiobuild.com/docs/docs/apps/chopin/troubleshoot/) or [contact customer support](https://m.me/apiobuild)!
 
 <br>
 
@@ -88,6 +87,7 @@ If you experience any errors, [follow these FAQs and troubleshoot yourself](http
 The next step is to customize your store in [Chopin](https://telescope.apiobuild.com/app/chopin) app, where you can change the layout of your online store or configure various functions. You can update this information anytime (except store name and waitress APIs) and the updates will be reflected in real-time.
 
 ⚠️ Editing Tips:
+
 - Click <i class="fas fa-save"></i> (save sign) to save your updates. Click <i class="fas fa-trash-alt"></i> (trash can sign) to delete the store completely.
 - Click <i class="fas fa-plus"></i> (plus sign) to add new information and click <i class="fas fa-minus"></i> (minus sign) to delete the information.
 - To modify, just select the same option and enter with the updated information. Then click <i class="fas fa-plus"></i> (plus sign) to update.
@@ -97,7 +97,7 @@ The next step is to customize your store in [Chopin](https://telescope.apiobuild
 ### Store Information
 
 - Store Name: You named your store when [creating the store](https://apiobuild.com/blog/how-to-create-web-store-with-apio/#step-1-create-a-store). It cannot be modified.
-- Logo url *(optional)*: Give your store a logo. [*What\'s image URL?](https://apiobuild.com/blog/troubleshoot-chopin-store/#how-can-i-obtain-image-url)
+- Logo url *(optional)*: Give your store a logo. [*What\'s image URL?](https://apiobuild.com/docs/docs/apps/chopin/troubleshoot/#how-can-i-create-image-url)
 - Store Description *(optional)*: Let your customers know what your store is about, brand story, shipping/return policy, or any information you'd like to include. Up to 1000 characters. [*Styling with Markdown is supported](https://www.markdownguide.org/cheat-sheet/)
 - Announcement *(optional)*: News to share with your customers.
 
@@ -202,8 +202,7 @@ We also support some popular manual payment options across North America. Howeve
 
 - Shipping Option: You can setup multiple options and the coresponding shipping cost. It will appear as a dropdown menu. You can also use this section to set pick-up dates/locations.
 - Free Shipping: Set a free shipping amount.
-- Delivery Zipcode: We can validate customers' addresses based on a list or lists of zipcodes provided, so you don't have to worry out-of-zone delivery. Use commas (,) to separate zipcodes. 
-   *Note: We currently only support US addresses.*
+- Delivery Zipcode: We can validate customers' addresses based on a list or lists of zipcodes provided, so you don't have to worry out-of-zone delivery. Use commas (,) to separate zipcodes.
 
 <img src="/images/blog/f_shipping.png" class="post-img">
 

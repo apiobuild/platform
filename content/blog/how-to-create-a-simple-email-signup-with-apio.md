@@ -7,7 +7,9 @@ tags: ["waitress", "telescope", "tutorial", "email", "marketing", "google", "she
 
 Are you struggling with finding a FREE service to collect emails? Are you overwhelmed by all those fancy features provided by email marketing solutions? In this post, we will show you how to collect email from your website visitors with google sheet. [Waitress](https://telescope.apiobuild.com/app/waitress) - apio's google sheet API microservice will help you to build relationship with users in **less than 10 minutes** and **without using email marketing platforms**.
 
-[Read more: Why you don’t need email marketing tools (yet) to collect emails?](https://apiobuild.com/blog/collect-email-addresses-without-email-marketing-tools/)
+[📭 See tutorial in docs](https://apiobuild.com/docs/docs/apps/waitress/email-signup/)
+
+[📭 Why you don’t need email marketing tools (yet) to collect emails?](https://apiobuild.com/blog/collect-email-addresses-without-email-marketing-tools/)
 
 ## Step 1: Create Email List Google Sheet
 
@@ -38,8 +40,8 @@ Go to **[Telescope(apio microservices platform)](https://telescope.apiobuild.com
 Then go to **[Waitress](https://telescope.apiobuild.com/app/waitress)** and follow the instruction in the **configure tab** to authorize your google sheet. This way, only you can access your sheet through our API.
 
 - Share editor permission with [Waitress](https://telescope.apiobuild.com/app/waitress/configure).
-- Copy and past the google sheet URL, hit Authorize
-- Copy the returned route URL 
+- Copy and past the Google Sheet URL, hit `Authorize`
+- Copy the returned route URL
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/authorize-email-google-sheet.mp4" type="video/mp4" />
@@ -66,7 +68,7 @@ Expand the token you just created, paste the **route URL from [Step 2](#step-2-a
 <source src="/video/token-post.mp4" type="video/mp4" />
 </video>
 
-If you forget to copy the returned route URL from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope), put the following address in the route field `waitress/gsheets/<your google sheet id>`. 
+If you forget to copy the returned route URL from [Step 2](#step-2-authorize-catalog-google-sheet-on-telescope), put the following address in the route field `waitress/gsheets/<your google sheet id>`.
 
 You can find your Google Sheet id in the url, which is the number after `spreadsheet/d/` and before `/edit`.
 

@@ -9,19 +9,19 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 <!--more-->
 
-🛍️ [Visit Demo Store](https://chopin.apiobuild.com/demo-store)
+[📚 We stop updating this guide. Read full content in docs →](https://apiobuild.com/docs/docs/apps/chopin/)
 
-🛍️ [Read more: How does Chopin compare to website builders and ecommerce services](https://apiobuild.com/blog/create-an-online-store-for-free/)
+🛍️ [Visit Demo Store](https://chopin.apiobuild.com/demo-store)
 
 🛍️ [中文版教學](https://apiobuild.com/blog/how-to-create-web-store-with-apio-ch/)
 
 ## TL; DR
 
-The set-up process is easy to follow. Click [here](https://telescope.apiobuild.com/flow/chopin-stores) to start creating your Chopin store. Then check this article to see what to include in your catalog google sheet and [configure your store](https://apiobuild.com/blog/how-to-configure-chopin-store/) .
+The set-up process is easy to follow. Click [here](https://telescope.apiobuild.com/flow/chopin-stores) to start creating your Chopin store. Then check this article to see what to include in your [catalog google sheet](https://apiobuild.com/docs/docs/apps/chopin/product-configuration/) and [configure your store](https://apiobuild.com/docs/docs/apps/chopin/store-configuration/) .
 
-Troubleshooting? Check these [frequently asked questions](https://apiobuild.com/blog/troubleshoot-chopin-store/).
+Troubleshooting? Check these [frequently asked questions](https://apiobuild.com/docs/docs/apps/chopin/troubleshoot/).
 
-Prefer to learn from videos? Watch this [three-minute tutorial video](https://youtu.be/BWYpITLKzXI) to get started!
+Prefer to learn from videos? Watch this [tutorial video](https://youtu.be/fP28hxRr-FM?t=217) to get started!
 
 ## Step 1: Create a Store
 
@@ -44,7 +44,7 @@ You will need two google sheets (one served as **product catalog**, another one 
 3. Share: Click the email address to copy it. Go to your google sheet, the click `Share` at the top right corner. Add the copied email address as Editor.
 4. Authorize: Copy this google sheet URL and paste it in the Google Sheet URL field. Then click <i class="fas fa-unlock"></i> (unlock sign) to authorize. After authorization, only you can access your sheet through our API.
 
-*You can replace example data with your own later. See this [article](https://apiobuild.com/blog/how-to-configure-chopin-store/) for more information.*
+*You can replace example data with your own later. See this [article](https://apiobuild.com/docs/docs/apps/chopin/product-configuration/) for more information.*
 
 <video width="100%" controls style="align: center">
 <source src="/video/create-catalog-sheet.mp4" type="video/mp4" />

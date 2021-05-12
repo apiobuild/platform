@@ -9,17 +9,19 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 
 <!--more-->
 
+[📚 此篇教學將不再更新，請至 docs 瀏覽最新教學 →](https://apiobuild.com/docs/docs/apps/chopin/)
+
 🛍️ [示範商店馬上逛](https://chopin.apiobuild.com/demo-store)
 
-🛍️ [延伸閱讀：Chopin 與其他電商平台比較](https://apiobuild.com/blog/create-an-online-store-for-free/)
-
-🛍️ [English Tutorial](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
+🛍️ [English Tutorial](https://apiobuild.com/docs/docs/apps/chopin/create-new-store/)
 
 ## TL; DR
 
-我們簡化了商店設立流程，點擊[這裡](https://telescope.apiobuild.com/flow/chopin-stores)開始建立你的 Chopin 商店!
+我們簡化了商店設立流程，點擊[這裡](https://telescope.apiobuild.com/flow/chopin-stores)開始建立你的 Chopin 商店! 商店建立完成後，可以參考[這篇文章](https://apiobuild.com/blog/how-to-configure-chopin-store-zh/)，內文有詳細說明各項設定。遇到技術問題時，可以參考這篇[「常見問題」](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/)。
 
-商店建立完成後，可以參考[這篇文章](https://apiobuild.com/blog/how-to-configure-chopin-store-zh/)，內文有詳細說明各項設定。遇到技術問題時，可以參考這篇[「常見問題」](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/)。
+[🎬 觀看教學影片](https://youtu.be/fP28hxRr-FM?t=217)
+
+🛍️ [延伸閱讀：Chopin 與其他電商平台比較](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
 ## Step 1: 建立新商店
 
@@ -73,7 +75,7 @@ tags: ["chopin", " waitress ", "telescope", "tutorial", "ecommerce", "google-she
 
 點擊 <i class="fas fa-plus"></i>(加號) 把你希望用來寄送訂單確認信的 Gmail 帳號加入，請在彈出視窗選擇同意給予 apio 以你的名義寄送電子郵件。
 
-*如果不打算寄送確認信，或是想要稍後再添加此功能，可以之後再從 [Post-it app](https://telescope.apiobuild.com/app/post-it) 添加。*
+*如果現在不打算寄送確認信可略過，或是想要稍後再添加此功能，可以之後再從 [Post-it app](https://telescope.apiobuild.com/app/post-it) 添加。*
 
 <video width="100%" controls style="align: center">
 <source src="/video/authorize-email.mp4" type="video/mp4"/>

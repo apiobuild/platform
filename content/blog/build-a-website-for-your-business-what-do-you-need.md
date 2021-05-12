@@ -7,9 +7,9 @@ tags: ["ecommerce", "website", "application", "blog", "custom-solution", "small-
 
 If you are starting a business in 2020, your first step is almost always to create a website. Though some websites are easier to create than another, an intro-page is as much a website as [Facebook](https://www.facebook.com/). While one couldn't possibly create Facebook with [SquareSpace](https://www.squarespace.com/), it's possible to create something simpler that represents your brand on [Wix](https://wix.com/) , [Wordpress](https://wordpress.com/), and many other website builders. Why are people still hire developers when there are website builders?
 
-🛍️[Read more: how Chopin by apio compare to other ecommerce website builders?](https://apiobuild.com/blog/create-an-online-store-for-free/) 
+[🛍️ Why we built apio, a small-business-friendly platform](https://apiobuild.com/blog/why-do-we-create-apio/)
 
-🛍️[Read more: a step-by-step guide on how to setup online store with Chopin](https://apiobuild.com/blog/how-to-create-web-store-with-apio)
+[🛍️ How Chopin compares to other ecommerce website builders](https://apiobuild.com/blog/create-an-online-store-for-free/)
 
 ## What does a website consist of?
 
@@ -17,11 +17,11 @@ What makes one website more complicated to build than another? If you look at Ne
 
 **In the software engineering world, we separate these two parts as frontend and backend.** You can think of frontend as the clothes we wear everyday and backend as the actual organs to keep us alive. It's not too hard to picture, for a very complex application, frontend is probably 5% of the work and backend is what makes software product valuable.
 
-<img src="/images/blog/frontend-backend.png" class="post-img">
+<img src="/images/blog/frontend-backend.png" class="post-img"></img>
 
 ## Backend is hard
 
-Facebook generates $70b revenue by building a world class backend. It's able to create $70b because it captures your attention as much as it possibly can and it's annoyingly addictive. The fontend feed layout can look as good as it could be, but without backend algorithms constantly crunching out the most relevant posts to display, no one would stick to it. 
+Facebook generates $70b revenue by building a world class backend. It's able to create $70b because it captures your attention as much as it possibly can and it's annoyingly addictive. The fontend feed layout can look as good as it could be, but without backend algorithms constantly crunching out the most relevant posts to display, no one would stick to it.
 
 What's even more difficult, it's one thing to have several users, but when you have billions of users, you need to put together billions of optimized feeds for each of them constantly - that's coordination of tons of computers just to think about it!
 
@@ -30,9 +30,10 @@ What's even more difficult, it's one thing to have several users, but when you h
 Let's not compare our relatively "simple" website to Facebook. Let's take a moderately simple, common yet not so straightforward website case - **an online store**.
 
 When you think of a store, you'd need:
+
 1. Product catalog: a list of products you want to sell, how much to sell them, description of the product.
 2. Order intake: recording orders that customer submitted, who they are, what did they want, where to ship to?
-3. Payment: passing order amount to payment processor and payment status back to store order system. It generally involves API integration.
+3. Payment gateway: passing order amount to payment processor and payment status back to store order system. It generally involves API integration.
 
 **These integrations are almost complicated enough to prevent non-technical business owners from building on their own online stores.** It's so complicated that even [Shopify](https://www.shopify.com/), [Woocommerce](https://woocommerce.com/), [Wordpress](https://wordpress.com/) have provided tons of plugin features, you'd still have to hire another developer to create and maintain it.
 
@@ -44,8 +45,11 @@ We keep asking? Why does this have to be the case? This goes back to the above, 
 
 But now two simple spreadsheets are stored in a database and hidden in layers of application codes. It's not possible for a non-developer to understand how everything works.
 
+It does not have to be that way. If people understand spreadsheet and want to sell online, that's enough. **Why don't we create a way for people to run their online store with spreadsheets?**
 
-It does not have to be that way. If people understand spreadsheet and want to sell online, that's enough. **Why don't we create a way for people to run their online store with spreadsheets?** We couldn't bear the thought that there's an easier way for people to create an online store and actually understand how everything is connected. At [apio](https://apiobuild.com/), we want to make your first step to enter the e-commerce world as easy as possible, before going for monstrous solutions.
+[🎬 Check out this 10-min demo on Chopin - Google-sheets-powered online store creator](https://youtu.be/fP28hxRr-FM)
+
+We couldn't bear the thought that there's an easier way for people to create an online store and actually understand how everything is connected. At [apio](https://apiobuild.com/), we want to make your first step to enter the e-commerce world as easy as possible, before going for monstrous solutions.
 
 <img src="/images/blog/chopin-architecture.png"  class="post-img">
 
@@ -63,8 +67,3 @@ Happy Selling! 💰
     max-width: 100%;
 }
 </style>
-
-
-
-
-
