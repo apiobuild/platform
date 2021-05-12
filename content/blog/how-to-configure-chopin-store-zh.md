@@ -9,6 +9,8 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 <!--more-->
 
+[📚 此篇教學將不再更新，請至 docs 瀏覽最新教學 →](https://apiobuild.com/docs/docs/apps/chopin/)
+
 🛍️ [還沒有 Chopin Store? 跟著這篇教學建立商店](https://apiobuild.com/blog/create-an-online-store-for-free-ch/)
 
 🛍️ [參考常見問題](https://apiobuild.com/blog/troubleshoot-chopin-store-zh/)
@@ -198,7 +200,7 @@ tags: ["chopin", "waitress", "telescope", "tutorial", "ecommerce", "google-sheet
 
 - Shipping Option: 可以設立不同的運費選項，也可以用此設定不同的取貨安排（日期、地點）。
 - Free Shiping: 可設定免運金額標準。
-- Delivery Zipcode: 如果你只配送到某些區域，可在此輸入該區域 zipcode 串並以逗號 (,) 分開。顧客填寫地址時，若 zipcode 不在這些範圍時即無法成立訂單。目前只支援美國地址。
+- Delivery Zipcode: 如果你只配送到某些區域，可在此輸入該區域 zipcode 串並以逗號 (,) 分開。顧客填寫地址時，若 zipcode 不在這些範圍時即無法成立訂單。
 
 <img src="/images/blog/f_shipping.png" class="post-img">
 

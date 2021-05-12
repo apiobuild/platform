@@ -5,7 +5,9 @@ date: 2020-08-16
 tags: ["email-automation", "email", "chopin", "online-shop", "post-it", "tutorial", "use-case","order-confirmation", "product-updates"]
 ---
 
-Announcing our new service: **[Post-it](https://telescope.apiobuild.com/app/post-it)** - a communication automation service. We wrap various communication APIs in one place. You can send pre-templated messages from your own email address and other social accounts over API (we currently support **Gmail**) with simple configuration. In this post, we will show you how you can use Post-it with Chopin (apio\'s online store creator) to send automated order confirmation. 
+Announcing our new service: **[Post-it](https://telescope.apiobuild.com/app/post-it)** - a communication automation service. We wrap various communication APIs in one place. You can send pre-templated messages from your own email address and other social accounts over API (we currently support **Gmail**) with simple configuration. In this post, we will show you how you can use Post-it with [Chopin](https://apiobuild.com/docs/docs/apps/chopin/introduction/) (apio\'s online store creator) to send automated order confirmation.
+
+[📚 Explore apio docs](https://apiobuild.com/docs/)
 
 ## Use Case: Automated Order Confirmation
 
@@ -13,40 +15,42 @@ Order confirmation is a great way to **signal customers that the store has recei
 
 The confirmation email can act as a conversation starter between merchants and customers. **You can keep all the customer communication in one place (your inbox) and manage order progress in email thread.**
 
-For example, if you provide manual payment methods (Zelle, Venmo), some customers might tell you they've paid through facebook messenger, some might use emails, some might not tell you. It's overwhelming to track customer communications when they're all over the place (email, text, Facebook, Instagram, etc.). With Post-it's email service, customers can reply that confirmation email simply by clicking the payment confirmation button. This email thread can be used to coodinate delivery instruction, shipping status, out-of-stock notifications and more. 
+For example, if you provide manual payment methods (Zelle, Venmo), some customers might tell you they've paid through facebook messenger, some might use emails, some might not tell you. It's overwhelming to track customer communications when they're all over the place (email, text, Facebook, Instagram, etc.). 
 
-🛍️ [Don\'t have an online store? Follow this step-by-step guide to create one with Chopin for free!](https://apiobuild.com/blog/how-to-create-web-store-with-apio)
+With Post-it's email service, customers can reply that confirmation email simply by clicking the payment confirmation button. This email thread can be used to coodinate delivery instruction, shipping status, out-of-stock notifications and more.
+
+🛍️ [Don\'t have an online store? Follow this step-by-step guide to create one with Chopin for free!](https://apiobuild.com/docs/docs/apps/chopin/create-new-store/)
+
+</br>
 
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/action-button-demo.mp4" type="video/mp4" />
 </video>
 
+</br></br>
+
 ### Email Template
 
 Let's take a closer look at our templated order confirmation email:
 
-**Sender:** It will show the email is sent from `your store name` with the gmail address provided. You will be able to find a copy in your gmail sent box. The customers can also directly reply the email to you rather than to a non-human email.
+**Sender:** It will show the email is sent from `your store name` with the Gmail address provided. You will be able to find a copy in your own Gmail sent box. The customers can also directly reply the email to you rather than to a non-human email.
 
-**Subject Line:** It will show "Your Order from `your store name` + `order confirmation number`"
+**Subject Line:** It will show "Your Order from `your store name` + `order confirmation number`" by default, but it's [customizable](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject)!
 
 <img src="/images/blog/email-subject.png" class="post-img">
 
 **Body:** It will include following order information:
-    
+
 - Customer's Name
-
 - Order Summary
-
 - Order Number and Order Placement Time
-
-- Payment Reminder (if applicable)
-
-- Store Logo and Social Plug-Ins (if applicable)
-
+- Payment Instruction/Reminder ([customizable!](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject))
+- Store Logo and Social Plug-Ins
 - Disclaimer: We don't want our customers to misunderstand these emails as spam, so we explained why they receive this message.
 
 <img src="/images/blog/order-email-template.png" class="post-img">
 
+</br>
 
 ### Action Button
 
@@ -66,6 +70,8 @@ In the latter scenario (Cancel Order), the owners will get instant notification 
 
 ### Tutorial
 
+[📚 Read in docs →](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/)
+
 Below we will show you how to automate the process of sending order notifications to your customers. In this example, we combine Post-it with [Chopin (apio\'s online store creator)](https://telescope.apiobuild.com/app/chopin/configure) to communicate with shoppers. 
 
 #### Step 1: Grant Gmail Access to Post-it
@@ -79,7 +85,7 @@ Go to [Post-it](https://telescope.apiobuild.com/app/post-it/configure) on Telesc
 
 #### Step 2: Turn on Email Confirmation Feature on Chopin
 
-Then, go to [Chopin](https://telescope.apiobuild.com/app/chopin/configure) to turn on the email confirmation feature. 
+Then, go to [Chopin](https://telescope.apiobuild.com/app/chopin/configure) to turn on the email confirmation feature.
 
 In the **Order Settings** section, check `Send Order Confirmation` box.
 
@@ -88,6 +94,15 @@ Now try place an order with your online store or [our demo store](https://chopin
 <video width="100%" loop="true" autoplay="true" controls style="align: center">
 <source src="/video/turn-on-post-it.mp4" type="video/mp4" />
 </video>
+
+</br></br>
+
+#### Step 3: Customize your message
+
+Our out-of-box email service still gives you some room for creativity! We currently support customization on the following areas, which can be configured in the **Order Settings** section of [Chopin](https://telescope.apiobuild.com/app/chopin) app.
+
+1. [Subject Line](https://apiobuild.com/docs/docs/apps/chopin/email-confirmation/#order-confirmation-email-subject)
+2. Payment Instruction: If you'd like to provide additional instruction other than our default message, you can add them here.
 
 ## Summary
 

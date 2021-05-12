@@ -11,11 +11,15 @@ We built this service after looking into other email marketing platforms ([MailC
 
 We've found a simple email sign-up form is actually ... quite complicated - but it doesn't have to be.
 
+[📭 See tutorial in docs](https://apiobuild.com/docs/docs/apps/waitress/email-signup/)
+
+[📭 Another Waitress usecase:  e-commerce website](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
+
 ## Introducing Waitress
 
 <img src="/images/blog/sheet.png" class="post-img">
 
-**[Waitress by apio](https://telescope.apiobuild.com/app/waitress)** is a lightweight API to use Google Sheet as data store for backend applications, sends subscribers’ data from sign-up form to Google Sheet.
+**[Waitress by apio](https://telescope.apiobuild.com/app/waitress)** is a lightweight API to use [Google Sheets](https://www.google.com/sheets/about/) as data store for backend applications, sends subscribers’ data from sign-up form to Google Sheets.
 
 It's a straight-forward tool for small businesses or new blogger to start collecting leads.
 
@@ -172,7 +176,7 @@ There will be no mistakenly deleted contacts anymore. You can also access your l
 
 ## Summary
 
-**[Waitress](https://telescope.apiobuild.com/app/waitress) helps you to connect sign-up form with google sheets through API, and makes email collection easier.** When you are not in need of a powerful email marketing tool, this is a perfect solution for you to collect emails. [Click here to follow the step-by-step guide and start collecting emails now!](https://apiobuild.com/blog/how-to-create-a-simple-email-signup-with-apio/)
+**[Waitress](https://telescope.apiobuild.com/app/waitress) helps you to connect sign-up form with google sheets through API, and makes email collection easier.** When you are not in need of a powerful email marketing tool, this is a perfect solution for you to collect emails. [Follow the step-by-step guide and start collecting emails now!](https://apiobuild.com/docs/docs/apps/waitress/email-signup/)
 
 Happy emailing. 📧
 

@@ -5,7 +5,7 @@ date: 2021-02-01
 tags: ["chopin", "telescope", "tutorial", "ecommerce", "google-sheet", "product-updates", "documentation"]
 ---
 
-As we see a greater number of [Chopin](https://telescope.apiobuild.com/app/chopin) sign-ups are from outside of the U.S., we are expanding our functionalities to better address their business needs.****
+As we see a greater number of [Chopin](https://telescope.apiobuild.com/app/chopin) sign-ups are from outside of the U.S., we are expanding our functionalities to better address their business needs.
 
 These exciting updates include:
 
@@ -16,6 +16,8 @@ These exciting updates include:
 <!--more-->
 
 [👀 See all product updates!](https://apiobuild.com/tags/product-updates/)
+
+[📚 Explore documentation and guide to configure Chopin!](https://apiobuild.com/docs/docs/apps/chopin/)
 
 ## Local Currency
 
@@ -41,7 +43,9 @@ Seeing products in their own currency helps customers to understand the pricing 
 3. In the `Store Currency` dropdown, choose your desired currency code.
 4. Click <i class="fas fa-save"></i> (save sign) to save your updates.
 
-<br>
+*[read docs →](https://apiobuild.com/docs/docs/apps/chopin/order-settings/#currency-new)*
+
+</br>
 
 ## Twitter and WhatsApp
 
@@ -75,6 +79,8 @@ Let's take this scenario to global comparison.  WhatsApp is an instant messaging
 4. Click <i class="fas fa-plus"></i> (plus sign) to add new information.
 5. Click <i class="fas fa-save"></i> (save sign) to save your updates.
 
+*[read docs →](https://apiobuild.com/docs/docs/apps/chopin/contact-information/)*
+
 <br>
 
 ## Collect on Delivery
@@ -90,11 +96,13 @@ Now it's available as one of the [payment options](https://apiobuild.com/blog/ho
 3. Check `Collect on Delivery` box.
 4. Click <i class="fas fa-save"></i> (save sign) to save your updates.
 
+*[read docs →](https://apiobuild.com/docs/docs/apps/chopin/payments/)*
+
 <br>
 
 ## More Features
 
-Consumers respond better to a personailzed approach. Let apio help you build an online store that's customized to your customers tastes.
+Consumers respond better to a personailzed approach. Let apio help you build an online store that's customized to your customers tastes. Learn more about what apio offers in [docs](https://apiobuild.com/docs/).
 
 We are always happy to work with our users to make apio a better platform. Feel free to send us feature requests through <a href="mailto:apiobuild@gmail.com">email</a> or [facebook messenger](https://m.me/apiobuild)!
 

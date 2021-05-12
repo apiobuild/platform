@@ -7,9 +7,9 @@ tags: ["chopin", "waitress", "telescope", "announcement", "ecommerce", "online-s
 
 Are you looking for a free and easy way to create your online store? We have a solution for you - introducing [Chopin by apio](https://telescope.apiobuild.com/app/chopin): a simple online store creator that allows you to configure your online store with google sheet. It’s a FREE tool with flexibility to customize and integrate with third-party API. No code required - Try now and start selling your products online!
 
-🛍️ [Read more: a step-by-step guide on how to setup online store with Chopin](https://apiobuild.com/blog/how-to-create-web-store-with-apio)
+🛍️ [Create your store with Chopin in 10mines](https://apiobuild.com/docs/docs/apps/chopin/create-new-store/)
 
-🛍️ [Read more: why you don\'t need developers to build a website?](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
+🛍️ [Why you don\'t need developers to build a website?](https://apiobuild.com/blog/build-a-website-for-your-business-what-do-you-need/)
 
 ## Current Solutions for Online Store
 
@@ -51,6 +51,8 @@ Whether you are [small business owners](https://apiobuild.com/blog/starting-an-o
 In the [demo store](https://chopin.apiobuild.com/demo-store), we've configured one google sheet to be catalog and another one to store order.
 
 You can easily update products to the catalog on google sheet and the store will update in real-time. When user submits an order, you will immediately see google sheet updated with order details. [Check out the store yourself now](https://chopin.apiobuild.com/demo-store).
+
+[Watch this 10-min demo video](https://youtu.be/fP28hxRr-FM)
 
 <video width="100%" autoplay="true" controls style="display: block;
 margin: 0 auto"><source src="/video/gsheet-to-store.mp4" type="video/mp4" />

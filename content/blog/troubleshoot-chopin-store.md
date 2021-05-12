@@ -9,15 +9,17 @@ We try our best to design a fool-proof onboarding process, but things happen, if
 
 We also feature some commonly asked questions regarding [images](#image), [google sheets](#google-sheets), [payment methods](#payment-method), and [many more](#and-more).
 
+[📚 We stop maintaining this troubleshooting guide. Read full content in docs →](https://apiobuild.com/docs/docs/apps/chopin/troubleshoot/)
+
 <!--more-->
 
-This is a growing list. Contact us (aka your favorite developer) via <a href="mailto:apiobuild@gmail.com">email</a> or [Facebook Messenger](https://m.me/apiobuild) if you don't find answers here! Bug reports and feebacks are welcomed too!
+Feel free to contact us (aka your favorite developer) via <a href="mailto:apiobuild@gmail.com">email</a> or [Facebook Messenger](https://m.me/apiobuild) if you don't find answers here! Bug reports and feebacks are welcomed too!
 
 <img src="/images/blog/chopin-error.png" class="post-img">
 
-🛍️ [Doesn\'t have a Chopin store yet? Create one today!](https://apiobuild.com/blog/how-to-create-web-store-with-apio/)
+🛍️ [Doesn\'t have a Chopin store yet? Create one today!](https://apiobuild.com/docs/docs/apps/chopin/create-new-store/)
 
-🛍️ [Read more: how to configure your Chopin store?](https://apiobuild.com/blog/how-to-configure-chopin-store/)
+🛍️ [How to configure your Chopin store?](https://apiobuild.com/docs/docs/apps/chopin/product-configuration/)
 
 ## Checklist
 
@@ -46,7 +48,7 @@ We suggest you check the followings first to find and fix any technical issue.
 
 ### How can I obtain image url?
 
-🙋 Try image hosting services, like [Imgbb](https://imgbb.com/) or [img.onl](https://img.onl/). After uploading an image to those websites, you will get a **direct link** or **image url** that points directly to a specific image.
+🙋 Try image hosting services, like [Imgbb](https://imgbb.com/). After uploading an image to those websites, you will get a **direct link** or **image url** that points directly to a specific image.
 
 <img src="/images/blog/faq-image-link.png" class="post-img">
 
@@ -82,7 +84,7 @@ Note, `order_number` has always to be the first column and cannot be hidden.
 
 Note, `order_number` has always to be the first column and cannot be hidden.
 
-<br>
+</br>
 
 ## Payment Method
 
@@ -107,7 +109,7 @@ On the other hand, [PayPal Business](https://www.paypal.com/us/business/website-
 3. Choose your unique URL. It looks like this: PayPal.Me/YourBrand.
 4. You can also customize your profile in the [PayPal.Me settings](https://www.paypal.com/paypalme/my/settings), including profile photo, cover photo, and personal message.
 
-<br>
+</br>
 
 ## And More...
 
