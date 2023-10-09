@@ -5,23 +5,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - run: |
-        git config --global user.email "${GITHUB_EMAIL}"
-        git config --global user.name "${GITHUB_USER}"
-        git fetch --unshallow
-        rm -rf public
-        echo "checkout to master as worktree"
-        git worktree prune && git worktree add -B master public origin/master
-        
-        echo "run npm install"        
-        cd themes/custom-theme
-        npm install
-        cd ../..
+      - uses: actions/checkout@v4
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.119.0"
+          # extended: true
+      - name: Build
+        run: hugo --minify
 
-        echo "generate static content in public"
-        docker run --rm -v $(pwd):/site -v $(pwd)/public:/site/public \
-          l1990790120/hugo:v0.89.4-b -b 'https://apiobuild.com/' --gc --minify
-      env:
-        GITHUB_EMAIL: ${{ secrets.GITHUBEMAIL }}
-        GITHUB_USER: ${{ secrets.GITHUBUSER }}  
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

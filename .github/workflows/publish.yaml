@@ -23,7 +23,7 @@ jobs:
 
         echo "generate static content in public"
         docker run --rm -v $(pwd):/src -v $(pwd)/public:/src/public \
-          peaceiris/hugo:v0.89.3-full -b 'https://apiobuild.com/' --gc --minify
+          peaceiris/hugo:v2.6.0 -b 'https://apiobuild.com/' --gc --minify
         echo "push public to master"
         cd public
         git add --all
