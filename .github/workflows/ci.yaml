@@ -24,9 +24,9 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
-        dir: themes/custom-theme
+        working-directory: themes/custom-theme
       - run: npm run build
-        dir: themes/custom-theme
+        working-directory: themes/custom-theme
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
