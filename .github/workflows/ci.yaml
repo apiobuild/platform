@@ -23,9 +23,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm ci
-        working-directory: themes/custom-theme
-      - run: npm run build
+      - run: npm install
         working-directory: themes/custom-theme
 
       - name: Setup Hugo
