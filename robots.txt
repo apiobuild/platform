@@ -1,0 +1,134 @@
+User-agent: *
+
+
+Allow: /team/lulu/
+
+Allow: /team/yuchien/
+
+Allow: /team/andrew/
+
+Allow: /team/wanjou/
+
+Allow: /team/anni/
+
+Allow: /
+
+Allow: /tags/architecture/
+
+Allow: /tags/blog/
+
+Allow: /blog/
+
+Allow: /blog/why-do-we-create-apio/
+
+Allow: /tags/engineering/
+
+Allow: /tags/mission/
+
+Allow: /tags/
+
+Allow: /tags/tech/
+
+Allow: /tags/chopin/
+
+Allow: /tags/ecommerce/
+
+Allow: /blog/news-ui-updates/
+
+Allow: /tags/google-sheet/
+
+Allow: /tags/product-updates/
+
+Allow: /tags/telescope/
+
+Allow: /tags/tutorial/
+
+Allow: /tags/documentation/
+
+Allow: /blog/news-support-more-currencies/
+
+Allow: /tags/application/
+
+Allow: /tags/custom-solution/
+
+Allow: /blog/how-to-set-up-website-with-goldfish/
+
+Allow: /tags/one-page-website/
+
+Allow: /tags/small-business/
+
+Allow: /tags/website/
+
+Allow: /tags/pricing/
+
+Allow: /blog/whats-api-request/
+
+Allow: /blog/how-to-add-options-to-products/
+
+Allow: /tags/product-variants/
+
+Allow: /tags/email/
+
+Allow: /tags/email-automation/
+
+Allow: /blog/introducing-post-it-email-automation-service/
+
+Allow: /tags/online-shop/
+
+Allow: /tags/order-confirmation/
+
+Allow: /tags/post-it/
+
+Allow: /tags/use-case/
+
+Allow: /blog/troubleshoot-chopin-store-zh/
+
+Allow: /tags/google/
+
+Allow: /tags/waitress/
+
+Allow: /tags/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/
+
+Allow: /tags/%E6%95%99%E5%AD%B8/
+
+Allow: /tags/%E7%B6%B2%E8%B7%AF%E9%96%8B%E5%BA%97/
+
+Allow: /blog/how-to-configure-chopin-store-zh/
+
+Allow: /blog/how-to-create-web-store-with-apio-ch/
+
+Allow: /tags/chopin-use-case/
+
+Allow: /tags/facebook/
+
+Allow: /tags/instagram/
+
+Allow: /blog/starting-an-online-store-with-chopin-and-instagram/
+
+Allow: /blog/build-a-website-for-your-business-what-do-you-need/
+
+Allow: /blog/troubleshoot-chopin-store/
+
+Allow: /blog/how-to-configure-chopin-store/
+
+Allow: /blog/how-to-create-web-store-with-apio/
+
+Allow: /tags/announcement/
+
+Allow: /blog/create-an-online-store-for-free/
+
+Allow: /tags/online-store/
+
+Allow: /tags/sheets/
+
+Allow: /blog/how-to-create-a-simple-email-signup-with-apio/
+
+Allow: /tags/marketing/
+
+Allow: /blog/collect-email-addresses-without-email-marketing-tools/
+
+Allow: /privacy-policy/
+
+Allow: /team/
+
+Allow: /terms-of-service/
