@@ -13,6 +13,6 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "Devices.css": "github:marvelapp/devices.css",
-    "node-sass": "^6.0.1"
+    "node-sass": "^9.0.0"
   }
 }
