@@ -1,3 +1,3 @@
 ---
-background: "/images/new-hero.png"
+background: "/platform/images/new-hero.png"
 ---
