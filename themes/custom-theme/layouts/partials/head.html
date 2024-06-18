@@ -28,7 +28,7 @@
 -->
 <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme.css" /> -->
 
-{{ $style := resources.Get "css/theme.scss" | resources.ToCSS (dict "outputStyle" "compressed") }}
+{{ $style := resources.Get "/css/theme.scss" | resources.ToCSS (dict "outputStyle" "compressed") }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/custom.css" />
 <script defer src="{{ .Site.BaseURL }}/js/fontawesome/all.js"></script>
