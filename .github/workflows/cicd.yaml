@@ -26,7 +26,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm install
+      - run: npm install --lockfile-version 3 --package-lock-only
         working-directory: themes/custom-theme
 
       - name: Setup Hugo
