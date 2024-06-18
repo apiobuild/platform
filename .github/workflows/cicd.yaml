@@ -29,7 +29,7 @@ jobs:
       - run: npm install --lockfile-version 3
         working-directory: themes/custom-theme
 
-      - run: ls themes/custom-theme
+      - run: ls themes/custom-theme/node_modules
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
