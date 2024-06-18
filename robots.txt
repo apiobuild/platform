@@ -1,138 +1,138 @@
 User-agent: *
 
 
-Allow: /team/lulu/
+Allow: /platform/team/lulu/
 
-Allow: /team/yuchien/
+Allow: /platform/team/yuchien/
 
-Allow: /team/andrew/
+Allow: /platform/team/andrew/
 
-Allow: /team/wanjou/
+Allow: /platform/team/wanjou/
 
-Allow: /team/anni/
+Allow: /platform/team/anni/
 
-Allow: /
+Allow: /platform/
 
-Allow: /tags/architecture/
+Allow: /platform/tags/architecture/
 
-Allow: /tags/blog/
+Allow: /platform/tags/blog/
 
-Allow: /blog/
+Allow: /platform/blog/
 
-Allow: /blog/why-do-we-create-apio/
+Allow: /platform/blog/why-do-we-create-apio/
 
-Allow: /tags/engineering/
+Allow: /platform/tags/engineering/
 
-Allow: /tags/mission/
+Allow: /platform/tags/mission/
 
-Allow: /tags/
+Allow: /platform/tags/
 
-Allow: /tags/tech/
+Allow: /platform/tags/tech/
 
-Allow: /tags/chopin/
+Allow: /platform/tags/chopin/
 
-Allow: /tags/ecommerce/
+Allow: /platform/tags/ecommerce/
 
-Allow: /blog/news-ui-updates/
+Allow: /platform/blog/news-ui-updates/
 
-Allow: /tags/google-sheet/
+Allow: /platform/tags/google-sheet/
 
-Allow: /tags/product-updates/
+Allow: /platform/tags/product-updates/
 
-Allow: /tags/telescope/
+Allow: /platform/tags/telescope/
 
-Allow: /tags/tutorial/
+Allow: /platform/tags/tutorial/
 
-Allow: /tags/documentation/
+Allow: /platform/tags/documentation/
 
-Allow: /blog/news-support-more-currencies/
+Allow: /platform/blog/news-support-more-currencies/
 
-Allow: /tags/application/
+Allow: /platform/tags/application/
 
-Allow: /tags/custom-solution/
+Allow: /platform/tags/custom-solution/
 
-Allow: /tags/documentation/
+Allow: /platform/tags/documentation/
 
-Allow: /blog/how-to-set-up-website-with-goldfish/
+Allow: /platform/blog/how-to-set-up-website-with-goldfish/
 
-Allow: /tags/one-page-website/
+Allow: /platform/tags/one-page-website/
 
-Allow: /tags/small-business/
+Allow: /platform/tags/small-business/
 
-Allow: /tags/website/
+Allow: /platform/tags/website/
 
-Allow: /tags/pricing/
+Allow: /platform/tags/pricing/
 
-Allow: /blog/whats-api-request/
+Allow: /platform/blog/whats-api-request/
 
-Allow: /blog/how-to-add-options-to-products/
+Allow: /platform/blog/how-to-add-options-to-products/
 
-Allow: /tags/product-variants/
+Allow: /platform/tags/product-variants/
 
-Allow: /tags/email/
+Allow: /platform/tags/email/
 
-Allow: /tags/email-automation/
+Allow: /platform/tags/email-automation/
 
-Allow: /blog/introducing-post-it-email-automation-service/
+Allow: /platform/blog/introducing-post-it-email-automation-service/
 
-Allow: /tags/online-shop/
+Allow: /platform/tags/online-shop/
 
-Allow: /tags/order-confirmation/
+Allow: /platform/tags/order-confirmation/
 
-Allow: /tags/post-it/
+Allow: /platform/tags/post-it/
 
-Allow: /tags/use-case/
+Allow: /platform/tags/use-case/
 
-Allow: /blog/troubleshoot-chopin-store-zh/
+Allow: /platform/blog/troubleshoot-chopin-store-zh/
 
-Allow: /tags/google/
+Allow: /platform/tags/google/
 
-Allow: /tags/waitress/
+Allow: /platform/tags/waitress/
 
-Allow: /tags/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/
+Allow: /platform/tags/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C/
 
-Allow: /tags/%E6%95%99%E5%AD%B8/
+Allow: /platform/tags/%E6%95%99%E5%AD%B8/
 
-Allow: /tags/%E7%B6%B2%E8%B7%AF%E9%96%8B%E5%BA%97/
+Allow: /platform/tags/%E7%B6%B2%E8%B7%AF%E9%96%8B%E5%BA%97/
 
-Allow: /blog/how-to-configure-chopin-store-zh/
+Allow: /platform/blog/how-to-configure-chopin-store-zh/
 
-Allow: /tags/-waitress-/
+Allow: /platform/tags/-waitress-/
 
-Allow: /blog/how-to-create-web-store-with-apio-ch/
+Allow: /platform/blog/how-to-create-web-store-with-apio-ch/
 
-Allow: /tags/chopin-use-case/
+Allow: /platform/tags/chopin-use-case/
 
-Allow: /tags/facebook/
+Allow: /platform/tags/facebook/
 
-Allow: /tags/instagram/
+Allow: /platform/tags/instagram/
 
-Allow: /blog/starting-an-online-store-with-chopin-and-instagram/
+Allow: /platform/blog/starting-an-online-store-with-chopin-and-instagram/
 
-Allow: /blog/build-a-website-for-your-business-what-do-you-need/
+Allow: /platform/blog/build-a-website-for-your-business-what-do-you-need/
 
-Allow: /blog/troubleshoot-chopin-store/
+Allow: /platform/blog/troubleshoot-chopin-store/
 
-Allow: /blog/how-to-configure-chopin-store/
+Allow: /platform/blog/how-to-configure-chopin-store/
 
-Allow: /blog/how-to-create-web-store-with-apio/
+Allow: /platform/blog/how-to-create-web-store-with-apio/
 
-Allow: /tags/announcement/
+Allow: /platform/tags/announcement/
 
-Allow: /blog/create-an-online-store-for-free/
+Allow: /platform/blog/create-an-online-store-for-free/
 
-Allow: /tags/online-store/
+Allow: /platform/tags/online-store/
 
-Allow: /tags/sheets/
+Allow: /platform/tags/sheets/
 
-Allow: /blog/how-to-create-a-simple-email-signup-with-apio/
+Allow: /platform/blog/how-to-create-a-simple-email-signup-with-apio/
 
-Allow: /tags/marketing/
+Allow: /platform/tags/marketing/
 
-Allow: /blog/collect-email-addresses-without-email-marketing-tools/
+Allow: /platform/blog/collect-email-addresses-without-email-marketing-tools/
 
-Allow: /privacy-policy/
+Allow: /platform/privacy-policy/
 
-Allow: /team/
+Allow: /platform/team/
 
-Allow: /terms-of-service/
+Allow: /platform/terms-of-service/
