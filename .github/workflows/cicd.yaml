@@ -29,6 +29,8 @@ jobs:
       - run: npm install --lockfile-version 3 --package-lock-only
         working-directory: themes/custom-theme
 
+      - run: ls platform
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
