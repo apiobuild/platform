@@ -51,6 +51,8 @@ Allow: /tags/application/
 
 Allow: /tags/custom-solution/
 
+Allow: /tags/documentation/
+
 Allow: /blog/how-to-set-up-website-with-goldfish/
 
 Allow: /tags/one-page-website/
@@ -94,6 +96,8 @@ Allow: /tags/%E6%95%99%E5%AD%B8/
 Allow: /tags/%E7%B6%B2%E8%B7%AF%E9%96%8B%E5%BA%97/
 
 Allow: /blog/how-to-configure-chopin-store-zh/
+
+Allow: /tags/-waitress-/
 
 Allow: /blog/how-to-create-web-store-with-apio-ch/
 
