@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass --include-path node_modules theme.scss static/css/theme.css",
-    "watch": "node-sass --watch --include-path node_modules theme.scss static/css/theme.css"
+    "build": "sass --no-source-map ../../static/css/theme.scss:../../static/css/theme.css --style compressed",
+    "watch": "sass --watch --no-source-map ../../static/css/theme.scss:../../static/css/theme.css --style compressed"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "Devices.css": "github:marvelapp/devices.css",
-    "node-sass": "^6.0.1"
+    "sass": "^1.77.6"
   }
 }

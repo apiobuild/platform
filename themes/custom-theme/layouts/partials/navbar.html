@@ -16,7 +16,7 @@
         {{ if gt .Weight 0 }}
         <li
           class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}">
-          <a class="nav-link text-capitalize" href="{{ .URL | relURL }}">{{ .Name }}</a>
+          <a class="nav-link text-capitalize" href="{{ .URL | absURL }}">{{ .Name }}</a>
         </li>
         {{ end }}
         {{ end }}

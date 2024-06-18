@@ -1,13 +1,17 @@
-baseURL = "https://apiobuild.com"
+baseURL = "/"
 title = "apio | Low Code SaaS Platform"
 languageCode = "en-us"
 themesDir = "themes"
 theme = "custom-theme"
 relativeURLs = true
-googleAnalytics = "G-K7JYQS9KVF"
-disqusShortname = "apiobuild-com"
 enableRobotsTXT = true
 assetDir = "static"
+
+[services]
+  [services.disqus]
+    shortname = "apiobuild-com"
+  [services.googleAnalytics]
+    id = "G-K7JYQS9KVF"
 
 [params]
   footer = "Made by 🦌 and 🐟 with ❤️ and 🍵 in 🗽"

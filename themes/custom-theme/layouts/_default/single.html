@@ -20,7 +20,7 @@
 
     {{ partial "headline-hash.html" .Content }}
   </div>
-  {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+  {{ if (not (eq .Site.Config.Services.Disqus.Shortname "")) | and (not .Params.disableComments) }}
     <div class="conatiner py-5">
       {{ template "_internal/disqus.html" . }}
     </div>
