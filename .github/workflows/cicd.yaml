@@ -26,7 +26,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm install --lockfile-version 3 --package-lock-only
+      - run: npm install --lockfile-version 3
         working-directory: themes/custom-theme
 
       - run: ls themes/custom-theme
